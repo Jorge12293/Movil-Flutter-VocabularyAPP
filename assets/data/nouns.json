@@ -1,0 +1,804 @@
+{
+    "nouns": [
+        {
+            "noun": "action",
+            "translation": "acción"
+        },
+        {
+            "noun": "age",
+            "translation": "edad"
+        },
+        {
+            "noun": "air",
+            "translation": "aire"
+        },
+        {
+            "noun": "animal",
+            "translation": "animal"
+        },
+        {
+            "noun": "answer",
+            "translation": "respuesta"
+        },
+        {
+            "noun": "apple",
+            "translation": "manzana"
+        },
+        {
+            "noun": "art",
+            "translation": "arte"
+        },
+        {
+            "noun": "baby",
+            "translation": "bebé"
+        },
+        {
+            "noun": "back",
+            "translation": "espalda"
+        },
+        {
+            "noun": "ball",
+            "translation": "bola, pelota"
+        },
+        {
+            "noun": "bank",
+            "translation": "banco"
+        },
+        {
+            "noun": "bed",
+            "translation": "cama"
+        },
+        {
+            "noun": "bill",
+            "translation": "factura"
+        },
+        {
+            "noun": "bird",
+            "translation": "pájaro"
+        },
+        {
+            "noun": "blood",
+            "translation": "sangre"
+        },
+        {
+            "noun": "boat",
+            "translation": "barco"
+        },
+        {
+            "noun": "body",
+            "translation": "cuerpo"
+        },
+        {
+            "noun": "bone",
+            "translation": "hueso"
+        },
+        {
+            "noun": "book",
+            "translation": "libro"
+        },
+        {
+            "noun": "bottom",
+            "translation": "fondo, parte bajo"
+        },
+        {
+            "noun": "box",
+            "translation": "caja"
+        },
+        {
+            "noun": "boy",
+            "translation": "niño (masculino)"
+        },
+        {
+            "noun": "brother",
+            "translation": "hermano"
+        },
+        {
+            "noun": "building",
+            "translation": "edificio"
+        },
+        {
+            "noun": "business",
+            "translation": "negocio"
+        },
+        {
+            "noun": "call",
+            "translation": "llamada"
+        },
+        {
+            "noun": "capital",
+            "translation": "capital"
+        },
+        {
+            "noun": "case",
+            "translation": "caso, estuche"
+        },
+        {
+            "noun": "cat",
+            "translation": "gato"
+        },
+        {
+            "noun": "cause",
+            "translation": "causa"
+        },
+        {
+            "noun": "cent",
+            "translation": "céntimo"
+        },
+        {
+            "noun": "center",
+            "translation": "centro"
+        },
+        {
+            "noun": "century",
+            "translation": "siglo"
+        },
+        {
+            "noun": "chance",
+            "translation": "oportunidad"
+        },
+        {
+            "noun": "change",
+            "translation": "cambio"
+        },
+        {
+            "noun": "check",
+            "translation": "cheque"
+        },
+        {
+            "noun": "child (pl children)",
+            "translation": "niño"
+        },
+        {
+            "noun": "church",
+            "translation": "iglesia"
+        },
+        {
+            "noun": "circle",
+            "translation": "círculo"
+        },
+        {
+            "noun": "city",
+            "translation": "ciudad"
+        },
+        {
+            "noun": "class",
+            "translation": "clase, curso"
+        },
+        {
+            "noun": "clothes",
+            "translation": "ropa"
+        },
+        {
+            "noun": "cloud",
+            "translation": "nube"
+        },
+        {
+            "noun": "coast",
+            "translation": "costa"
+        },
+        {
+            "noun": "color",
+            "translation": "color"
+        },
+        {
+            "noun": "company",
+            "translation": "empresa"
+        },
+        {
+            "noun": "consonant",
+            "translation": "consonante"
+        },
+        {
+            "noun": "copy",
+            "translation": "copia"
+        },
+        {
+            "noun": "corn",
+            "translation": "maíz"
+        },
+        {
+            "noun": "cotton",
+            "translation": "algodón"
+        },
+        {
+            "noun": "country",
+            "translation": "país, campo"
+        },
+        {
+            "noun": "course",
+            "translation": "curso"
+        },
+        {
+            "noun": "cow",
+            "translation": "vaca"
+        },
+        {
+            "noun": "crowd",
+            "translation": "multitud"
+        },
+        {
+            "noun": "day",
+            "translation": "día"
+        },
+        {
+            "noun": "dictionary",
+            "translation": "diccionario"
+        },
+        {
+            "noun": "direction",
+            "translation": "dirección"
+        },
+        {
+            "noun": "distance",
+            "translation": "distancia"
+        },
+        {
+            "noun": "doctor",
+            "translation": "médico"
+        },
+        {
+            "noun": "dollar",
+            "translation": "dólar"
+        },
+        {
+            "noun": "door",
+            "translation": "puerta"
+        },
+        {
+            "noun": "ear",
+            "translation": "oreja"
+        },
+        {
+            "noun": "earth",
+            "translation": "tierra"
+        },
+        {
+            "noun": "egg",
+            "translation": "huevo"
+        },
+        {
+            "noun": "energy",
+            "translation": "energía"
+        },
+        {
+            "noun": "example",
+            "translation": "ejemplo"
+        },
+        {
+            "noun": "experience",
+            "translation": "experiencia"
+        },
+        {
+            "noun": "eye",
+            "translation": "ojo"
+        },
+        {
+            "noun": "game",
+            "translation": "juego, partido"
+        },
+        {
+            "noun": "garden",
+            "translation": "jardín"
+        },
+        {
+            "noun": "gas",
+            "translation": "carburante"
+        },
+        {
+            "noun": "girl",
+            "translation": "chica, niña"
+        },
+        {
+            "noun": "glass",
+            "translation": "vidrio, vaso"
+        },
+        {
+            "noun": "gold",
+            "translation": "oro"
+        },
+        {
+            "noun": "government",
+            "translation": "gobierno"
+        },
+        {
+            "noun": "grass",
+            "translation": "hierba, césped"
+        },
+        {
+            "noun": "group",
+            "translation": "grupo"
+        },
+        {
+            "noun": "hair",
+            "translation": "pelo"
+        },
+        {
+            "noun": "hand",
+            "translation": "mano"
+        },
+        {
+            "noun": "hat",
+            "translation": "sombrero"
+        },
+        {
+            "noun": "head",
+            "translation": "cabeza"
+        },
+        {
+            "noun": "heart",
+            "translation": "corazón"
+        },
+        {
+            "noun": "heat",
+            "translation": "calor, calefacción"
+        },
+        {
+            "noun": "history",
+            "translation": "historia"
+        },
+        {
+            "noun": "hole",
+            "translation": "agujero, hueco"
+        },
+        {
+            "noun": "home",
+            "translation": "casa, hogar"
+        },
+        {
+            "noun": "horse",
+            "translation": "caballo"
+        },
+        {
+            "noun": "hour",
+            "translation": "hora"
+        },
+        {
+            "noun": "house",
+            "translation": "casa"
+        },
+        {
+            "noun": "ice",
+            "translation": "hielo"
+        },
+        {
+            "noun": "idea",
+            "translation": "idea"
+        },
+        {
+            "noun": "inch",
+            "translation": "pulgada"
+        },
+        {
+            "noun": "industry",
+            "translation": "industria"
+        },
+        {
+            "noun": "information",
+            "translation": "información"
+        },
+        {
+            "noun": "insect",
+            "translation": "insecto"
+        },
+        {
+            "noun": "interest",
+            "translation": "interés"
+        },
+        {
+            "noun": "iron",
+            "translation": "hierro, plancha"
+        },
+        {
+            "noun": "island",
+            "translation": "isla"
+        },
+        {
+            "noun": "job",
+            "translation": "puesto de trabajo"
+        },
+        {
+            "noun": "key",
+            "translation": "llave"
+        },
+        {
+            "noun": "lake",
+            "translation": "lago"
+        },
+        {
+            "noun": "land",
+            "translation": "tierra"
+        },
+        {
+            "noun": "language",
+            "translation": "idioma"
+        },
+        {
+            "noun": "law",
+            "translation": "ley"
+        },
+        {
+            "noun": "leg",
+            "translation": "pierna"
+        },
+        {
+            "noun": "level",
+            "translation": "nivel"
+        },
+        {
+            "noun": "lie",
+            "translation": "mentira"
+        },
+        {
+            "noun": "life",
+            "translation": "vida"
+        },
+        {
+            "noun": "light",
+            "translation": "luz"
+        },
+        {
+            "noun": "line",
+            "translation": "línea"
+        },
+        {
+            "noun": "list",
+            "translation": "lista"
+        },
+        {
+            "noun": "machine",
+            "translation": "máquina"
+        },
+        {
+            "noun": "man (pl men)",
+            "translation": "hombre"
+        },
+        {
+            "noun": "map",
+            "translation": "mapa"
+        },
+        {
+            "noun": "material",
+            "translation": "material"
+        },
+        {
+            "noun": "meat",
+            "translation": "carne"
+        },
+        {
+            "noun": "middle",
+            "translation": "medio"
+        },
+        {
+            "noun": "mile",
+            "translation": "milla"
+        },
+        {
+            "noun": "milk",
+            "translation": "leche"
+        },
+        {
+            "noun": "mind",
+            "translation": "mente"
+        },
+        {
+            "noun": "minute",
+            "translation": "minuto"
+        },
+        {
+            "noun": "money",
+            "translation": "dinero"
+        },
+        {
+            "noun": "month",
+            "translation": "mes"
+        },
+        {
+            "noun": "moon",
+            "translation": "luna"
+        },
+        {
+            "noun": "mouth",
+            "translation": "boca"
+        },
+        {
+            "noun": "music",
+            "translation": "música"
+        },
+        {
+            "noun": "nation",
+            "translation": "nación"
+        },
+        {
+            "noun": "night",
+            "translation": "noche"
+        },
+        {
+            "noun": "nose",
+            "translation": "nariz"
+        },
+        {
+            "noun": "note",
+            "translation": "nota"
+        },
+        {
+            "noun": "number",
+            "translation": "número"
+        },
+        {
+            "noun": "object",
+            "translation": "objeto"
+        },
+        {
+            "noun": "ocean",
+            "translation": "océano"
+        },
+        {
+            "noun": "office",
+            "translation": "oficina"
+        },
+        {
+            "noun": "oil",
+            "translation": "aceite, petróleo"
+        },
+        {
+            "noun": "page",
+            "translation": "página"
+        },
+        {
+            "noun": "pair",
+            "translation": "par"
+        },
+        {
+            "noun": "paper",
+            "translation": "papel"
+        },
+        {
+            "noun": "paragraph",
+            "translation": "párrafo"
+        },
+        {
+            "noun": "park",
+            "translation": "parque"
+        },
+        {
+            "noun": "part",
+            "translation": "parte"
+        },
+        {
+            "noun": "party",
+            "translation": "fiesta, partido"
+        },
+        {
+            "noun": "past",
+            "translation": "pasado"
+        },
+        {
+            "noun": "person (pl people)",
+            "translation": "persona, gente"
+        },
+        {
+            "noun": "pound",
+            "translation": "libra"
+        },
+        {
+            "noun": "president",
+            "translation": "presidente"
+        },
+        {
+            "noun": "problem",
+            "translation": "problema"
+        },
+        {
+            "noun": "product",
+            "translation": "producto"
+        },
+        {
+            "noun": "property",
+            "translation": "propiedad"
+        },
+        {
+            "noun": "question",
+            "translation": "pregunta"
+        },
+        {
+            "noun": "race",
+            "translation": "carrera"
+        },
+        {
+            "noun": "radio",
+            "translation": "radio"
+        },
+        {
+            "noun": "rain",
+            "translation": "lluvia"
+        },
+        {
+            "noun": "reason",
+            "translation": "razón"
+        },
+        {
+            "noun": "record",
+            "translation": "récord"
+        },
+        {
+            "noun": "region",
+            "translation": "región"
+        },
+        {
+            "noun": "ring",
+            "translation": "anillo"
+        },
+        {
+            "noun": "river",
+            "translation": "río"
+        },
+        {
+            "noun": "road",
+            "translation": "camino"
+        },
+        {
+            "noun": "rock",
+            "translation": "roca"
+        },
+        {
+            "noun": "row",
+            "translation": "fila"
+        },
+        {
+            "noun": "rule",
+            "translation": "regla"
+        },
+        {
+            "noun": "sand",
+            "translation": "arena"
+        },
+        {
+            "noun": "school",
+            "translation": "escuela"
+        },
+        {
+            "noun": "science",
+            "translation": "ciencia"
+        },
+        {
+            "noun": "sea",
+            "translation": "mar"
+        },
+        {
+            "noun": "seat",
+            "translation": "asiento"
+        },
+        {
+            "noun": "second",
+            "translation": "segundo"
+        },
+        {
+            "noun": "sentence",
+            "translation": "frase"
+        },
+        {
+            "noun": "set",
+            "translation": "set, serie"
+        },
+        {
+            "noun": "side",
+            "translation": "lado"
+        },
+        {
+            "noun": "sign",
+            "translation": "señal, signo"
+        },
+        {
+            "noun": "sister",
+            "translation": "hermana"
+        },
+        {
+            "noun": "size",
+            "translation": "talla, tamaño"
+        },
+        {
+            "noun": "skin",
+            "translation": "piel"
+        },
+        {
+            "noun": "snow",
+            "translation": "nieve"
+        },
+        {
+            "noun": "soldier",
+            "translation": "soldado"
+        },
+        {
+            "noun": "solution",
+            "translation": "solución"
+        },
+        {
+            "noun": "son",
+            "translation": "hijo (masculino)"
+        },
+        {
+            "noun": "spring",
+            "translation": "primavera"
+        },
+        {
+            "noun": "square",
+            "translation": "cuadrado, plaza"
+        },
+        {
+            "noun": "star",
+            "translation": "estrella"
+        },
+        {
+            "noun": "state",
+            "translation": "estado"
+        },
+        {
+            "noun": "stop",
+            "translation": "parada"
+        },
+        {
+            "noun": "street",
+            "translation": "calle"
+        },
+        {
+            "noun": "student",
+            "translation": "estudiante"
+        },
+        {
+            "noun": "sugar",
+            "translation": "azúcar"
+        },
+        {
+            "noun": "sun",
+            "translation": "sol"
+        },
+        {
+            "noun": "village",
+            "translation": "pueblo"
+        },
+        {
+            "noun": "vowel",
+            "translation": "vocal (a, e, i, o, u)"
+        },
+        {
+            "noun": "war",
+            "translation": "guerra"
+        },
+        {
+            "noun": "weather",
+            "translation": "tiempo (clima)"
+        },
+        {
+            "noun": "weight",
+            "translation": "peso"
+        },
+        {
+            "noun": "wife",
+            "translation": "esposa"
+        },
+        {
+            "noun": "window",
+            "translation": "ventana"
+        },
+        {
+            "noun": "winter",
+            "translation": "invierno"
+        },
+        {
+            "noun": "woman (pl women)",
+            "translation": "mujer"
+        },
+        {
+            "noun": "word",
+            "translation": "palabra"
+        },
+        {
+            "noun": "world",
+            "translation": "mundo"
+        },
+        {
+            "noun": "year",
+            "translation": "año"
+        }
+    ]
+}
