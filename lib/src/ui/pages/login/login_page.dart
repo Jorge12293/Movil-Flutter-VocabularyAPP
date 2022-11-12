@@ -55,8 +55,8 @@ class _LoginPageState extends State<LoginPage> {
             children: [
                 Column(
                   children: const [
-                    Icon(Icons.account_circle,size:50,color: appPrimaryColor),
-                    Text('Basic Vocabulary',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30,color: appPrimaryColor)),
+                    Icon(Icons.computer_sharp,size:50,color: appPrimaryColor),
+                    Text('Riyary Vocabulary',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30,color: appPrimaryColor)),
                   ],
                 ),
                 btnLogin('START'),

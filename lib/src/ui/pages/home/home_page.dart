@@ -60,13 +60,11 @@ class _HomePageState extends State<HomePage> {
     ),
     );
   }
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Basic Vocabulary'.toUpperCase(),style: const TextStyle(fontWeight: FontWeight.bold)),
+        title: Text('Riyary Vocabulary'.toUpperCase(),style: const TextStyle(fontWeight: FontWeight.bold)),
       ),
       body: Center(
         child: Column(
