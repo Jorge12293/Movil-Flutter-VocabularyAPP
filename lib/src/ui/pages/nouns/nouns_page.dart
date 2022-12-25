@@ -1,6 +1,7 @@
 // ignore_for_file: must_be_immutable
 import 'package:appbasicvocabulary/src/data/local/local_json.dart';
 import 'package:appbasicvocabulary/src/domain/class/nouns_class.dart';
+import 'package:appbasicvocabulary/src/helpers/utils/colors.dart';
 import 'package:flutter/material.dart';
 
 class NounsPage extends StatefulWidget {
@@ -14,11 +15,12 @@ class NounsPage extends StatefulWidget {
 
 class _NounsPageState extends State<NounsPage> {
   bool loadingData = false;
-  double anchoPantalla=0;
+  double withScreen=0;
 
   List<Noun> listNouns     = [];
   List<Noun> listNounsData = [];
   List<DataRow> listDataRow = [];
+  List<Widget> listDataNoun= [];
 
   final searchController = TextEditingController();
   final verticalScrollController = ScrollController();
@@ -35,6 +37,8 @@ class _NounsPageState extends State<NounsPage> {
     searchController.dispose();
     super.dispose();
   }
+
+
 
   void onChange(){
     String textToSearch=searchController.text;
@@ -59,13 +63,24 @@ class _NounsPageState extends State<NounsPage> {
   loadData() async {
     loadingData = true;
     setState(() {});
-    listNouns     = await LocalJson.getListNouns();
-    listNounsData = await LocalJson.getListNouns();
+    listNouns     = await LocalJson.getListNouns(widget.id);
+    listNounsData = await LocalJson.getListNouns(widget.id);
     loadingData = false;
     setState(() {});
   }
 
+  generateRowsData(List<Noun> listNouns){
+    listNouns.sort((a, b) => a.noun.toString().compareTo(b.noun.toString()));
+    listDataNoun.clear();
+    for(var i=0;i<listNouns.length;i++){
+      listDataNoun.add(containerItem(listNouns[i].noun.toString(),listNouns[i].translation.toString(),i));
+   
+    }
+    return listDataNoun;
+  }
+
   List<DataRow> generateRow() {
+    listNouns.sort((a, b) => a.noun.toString().compareTo(b.noun.toString()));
     listDataRow.clear();
     int count =0;
     for (var element in listNouns) {
@@ -81,7 +96,10 @@ class _NounsPageState extends State<NounsPage> {
         }),
         cells: <DataCell>[
           DataCell(
-            Text('  ${element.noun}'),
+            Container(
+              width: 150,
+              child: Text('  ${element.noun}'),
+            ),
           ),
           DataCell(
             Text(element.translation.toString(),
@@ -93,9 +111,60 @@ class _NounsPageState extends State<NounsPage> {
     return listDataRow;
   }
 
+  Widget containerHeader(String noun, String traduction){
+    return Container(
+      margin: EdgeInsets.only(left: 10,right: 5),
+      child: Card(
+        child: Padding(
+          padding: EdgeInsets.only(bottom: 10,top: 10),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: [
+              Text(noun.toUpperCase(),
+              style: TextStyle(fontWeight:FontWeight.bold)),
+              Text(traduction.toUpperCase(),
+              style: TextStyle(fontWeight:FontWeight.bold)),
+            ],
+          )
+        )
+      ),
+    );
+  }
+
+  Widget containerItem(String noun, String traduction,int index){
+    return Container(
+      margin: EdgeInsets.only(left: 10,right: 5),
+      child: Card(
+        color: (index % 2)==0 
+               ? Color.fromARGB(255, 177, 242, 210)
+               : Colors.white,
+        elevation: 5,
+        child: Padding(
+          padding: EdgeInsets.only(bottom: 10,top: 10),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: [
+              Container(
+                width: 120,
+                child: Text(noun,textAlign: TextAlign.start),
+              ),
+              Container(
+                width: 120,
+                child: Text(traduction,
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                  textAlign: TextAlign.start),
+              ),
+              
+            ],
+          )
+        )
+      ),
+    );
+  }
+  
   @override
   Widget build(BuildContext context) {
-    anchoPantalla = MediaQuery.of(context).size.width;
+    withScreen = MediaQuery.of(context).size.width;
     return Scaffold(
       appBar: AppBar(title: Text(widget.title)),
       body: (loadingData)
@@ -103,7 +172,7 @@ class _NounsPageState extends State<NounsPage> {
         : Column(
           children: [
             Container(
-                width: anchoPantalla/1.05,
+                width: withScreen/1.05,
                 height: 40,
                 margin: const EdgeInsets.only(top: 10,bottom: 10),
                 child: TextField(
@@ -116,7 +185,19 @@ class _NounsPageState extends State<NounsPage> {
                   ),
                 )
             ),
-            Expanded(child: SingleChildScrollView(
+            containerHeader('${widget.title}','Traducción'),
+            Expanded(
+              child: SingleChildScrollView(
+                controller: verticalScrollController,
+                scrollDirection: Axis.vertical,
+                child: Column( children: generateRowsData(listNouns))
+              )
+            )
+            
+            //Expanded(child: Column( children: generateRowsData(listNouns)))
+            /*
+            Expanded(
+              child: SingleChildScrollView(
             controller: verticalScrollController,
             scrollDirection: Axis.vertical,
             child: Padding(
@@ -132,19 +213,21 @@ class _NounsPageState extends State<NounsPage> {
                           left: Divider.createBorderSide(context, width: 5.0)
                       ), 
                   ),
-                  columns: const [
+                  columns:  [
                     DataColumn(
-                      label: Text('  Noun'),
+                      label: Text('${widget.title}'),
                     ),
                     DataColumn(
-                      label: Text('Translation'),
+                      label: Text('Traducción'),
                     ),
                   ],
                   rows: generateRow(),
                 ),
                 )
               )
-            ))
+            )
+            )
+            */
           ],
       )
     );

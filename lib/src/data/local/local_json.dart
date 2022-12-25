@@ -10,17 +10,25 @@ class LocalJson {
     String responseJson = '';
     if(id==1){
       responseJson = await rootBundle.loadString('assets/data/regular_verbs.json');
-    }else{
+    }
+    if (id==2){
       responseJson = await rootBundle.loadString('assets/data/irregular_verbs.json');
     }
+    
     ApiVerbs apiVerbs = apiVerbsFromJson(responseJson);
     listVerb = apiVerbs.verbs ?? [];
     return listVerb;
   }
 
-  static Future<List<Noun>> getListNouns() async {
+  static Future<List<Noun>> getListNouns(int id) async {
     List<Noun> listNouns = [];
-    String responseJson = await rootBundle.loadString('assets/data/nouns.json');
+    String responseJson =''; 
+    if(id==3){
+      responseJson = await rootBundle.loadString('assets/data/nouns.json');
+    }
+    if(id==4){
+      responseJson = await rootBundle.loadString('assets/data/adjectives.json');
+    }
     ApiNouns apiNouns = apiNounsFromJson(responseJson);
     listNouns = apiNouns.nouns ?? [];
     return listNouns;

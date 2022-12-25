@@ -36,6 +36,16 @@ class _VerbsPageState extends State<VerbsPage> {
     super.dispose();
   }
 
+  loadData() async {
+    loadingData = true;
+    setState(() {});
+    listVerbs     = await LocalJson.getListVerbs(widget.id);
+    listVerbsData = await LocalJson.getListVerbs(widget.id);
+    loadingData = false;
+    setState(() {});
+  }
+
+
   void onChange(){
     String textToSearch=searchController.text;
     List<Verb> listVerbAux = <Verb>[];
@@ -57,14 +67,6 @@ class _VerbsPageState extends State<VerbsPage> {
     setState(() {});
   }
 
-  loadData() async {
-    loadingData = true;
-    setState(() {});
-    listVerbs     = await LocalJson.getListVerbs(widget.id);
-    listVerbsData = await LocalJson.getListVerbs(widget.id);
-    loadingData = false;
-    setState(() {});
-  }
 
   List<DataRow> generateRow() {
     
@@ -144,16 +146,16 @@ class _VerbsPageState extends State<VerbsPage> {
                     ),
                     columns: const [
                       DataColumn(
-                        label: Text(' Infinitive'),
+                        label: Text('Infinitivo'),
                       ),
                       DataColumn(
-                        label: Text('Past'),
+                        label: Text('Pasado'),
                       ),
                       DataColumn(
-                        label: Text('Participle'),
+                        label: Text('Participio'),
                       ),
                       DataColumn(
-                        label: Text('Translation'),
+                        label: Text('Traducción'),
                       ),
                     ],
                     rows: generateRow(),

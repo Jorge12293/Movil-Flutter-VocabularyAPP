@@ -1,6 +1,7 @@
 import 'package:appbasicvocabulary/src/helpers/utils/colors.dart';
 import 'package:appbasicvocabulary/src/ui/pages/home/home_page.dart';
 import 'package:flutter/material.dart';
+import 'package:package_info_plus/package_info_plus.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -10,7 +11,21 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
+  
+  String versionName='';
 
+  @override
+  void initState() {
+    loadDataInit();
+    super.initState();
+  }
+
+  loadDataInit() async{
+    final info = await PackageInfo.fromPlatform();
+    versionName = info.version;
+    setState(() {});
+  }
+  
   Widget btnLogin(String textBtn){
     return Padding(
       padding: const EdgeInsets.only(top: 10,bottom: 10),
@@ -55,30 +70,42 @@ class _LoginPageState extends State<LoginPage> {
             children: [
                 Column(
                   children: const [
-                    Icon(Icons.computer_sharp,size:50,color: appPrimaryColor),
-                    Text('Riyary Vocabulary',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30,color: appPrimaryColor)),
+                    Icon(Icons.book_sharp,size:50,color: appPrimaryColor),
+                    SizedBox(height: 6), 
+                    Text('INGLES GRAMÁTICA BÁSICA',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(fontWeight: FontWeight.bold,
+                      fontSize: 30,color: appPrimaryColor)),
+                    
+
                   ],
                 ),
-                btnLogin('START'),
+                btnLogin('Empezar'),
+                (versionName != '')
+                ? Text('Versión: $versionName',
+                  style: TextStyle(
+                    color: appPrimaryColor,
+                    fontWeight: FontWeight.bold))
+                : Container(),
               ],
             ),
           ),
           const Positioned(
             top: 30,
             left: 30,
-            child: Icon(Icons.book,color:appPrimaryColor,size: 50)),
+            child: Icon(Icons.star_purple500,color:appPrimaryColor,size: 50)),
           const Positioned(
             top: 30,
             right: 30,
-            child: Icon(Icons.book,color:appPrimaryColor,size: 50)),
+            child: Icon(Icons.star_purple500,color:appPrimaryColor,size: 50)),
           const Positioned(
             bottom: 30,
             left: 30,
-            child: Icon(Icons.book,color:appPrimaryColor,size: 50)),
+            child: Icon(Icons.star_purple500,color:appPrimaryColor,size: 50)),
           const Positioned(
             bottom: 30,
             right: 30,
-            child: Icon(Icons.book,color:appPrimaryColor,size: 50)),
+            child: Icon(Icons.star_purple500,color:appPrimaryColor,size: 50)),
         ],
       ),
     );

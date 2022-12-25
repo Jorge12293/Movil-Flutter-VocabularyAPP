@@ -12,23 +12,17 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
 
     functionMenu(String title,int id){
-    if(id==1){
-        Navigator.push(
-          context,
-          MaterialPageRoute(builder: (context) => VerbsPage(id: id, title:title)),
-        );
+    if(id==1 || id==2){
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => VerbsPage(id: id, title:title)),
+      );
     }
-    if(id==2){
-        Navigator.push(
-          context,
-          MaterialPageRoute(builder: (context) => VerbsPage(id: id, title:title)),
-        );
-    }
-    if(id==3){
-        Navigator.push(
-          context,
-          MaterialPageRoute(builder: (context) => NounsPage(id: id, title:title)),
-        );
+    if(id==3 || id==4 ){
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => NounsPage(id: id, title:title)),
+      );
     }
   }
 
@@ -40,8 +34,8 @@ class _HomePageState extends State<HomePage> {
         functionMenu(textBtn,id);
       },
       style: ElevatedButton.styleFrom(
-        maximumSize: const Size(250, 60), 
-        minimumSize: const Size(250, 60), 
+        maximumSize: const Size(270, 80), 
+        minimumSize: const Size(270, 80), 
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(30.0),
         )
@@ -51,8 +45,13 @@ class _HomePageState extends State<HomePage> {
         child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Text(textBtn,style: const TextStyle(fontWeight: FontWeight.bold,fontSize: 20)),
-          const SizedBox(width: 5),
+          Container(
+            width: 140,
+            child:Text(textBtn,
+            textAlign: TextAlign.center,
+            style: const TextStyle(fontWeight: FontWeight.bold,fontSize: 20)),
+          ),
+          const SizedBox(width: 2),
           const Icon(Icons.book,size: 30)
         ],
       ),
@@ -60,19 +59,21 @@ class _HomePageState extends State<HomePage> {
     ),
     );
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Riyary Vocabulary'.toUpperCase(),style: const TextStyle(fontWeight: FontWeight.bold)),
+        title: Text('INGLES GRAMÁTICA'.toUpperCase(),style: const TextStyle(fontWeight: FontWeight.bold)),
       ),
       body: Center(
         child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          btnOptionMenu('Regular Verbs',1),
-          btnOptionMenu('Irregular Verbs',2),
-          btnOptionMenu('Nouns',3),     
+          btnOptionMenu('Verbos Regulares',1),
+          btnOptionMenu('Verbos Irregulares',2),
+          btnOptionMenu('Sustantivos',3),   
+          btnOptionMenu('Adjetivos',4),     
         ],
       ),
       ),

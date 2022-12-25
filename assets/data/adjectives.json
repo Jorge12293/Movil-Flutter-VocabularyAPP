@@ -1,0 +1,420 @@
+{
+    "nouns": [
+        {
+            "noun": "Angry",
+            "translation": "Enojado"
+        },
+        {
+            "noun": "Excited",
+            "translation": "Emocionado"
+        },
+        {
+            "noun": "Attractive",
+            "translation": "Atractivo"
+        },
+        {
+            "noun": "Awake",
+            "translation": "Despierto"
+        },
+        {
+            "noun": "Asleep",
+            "translation": "Dormido"
+        },
+        {
+            "noun": "Beautiful",
+            "translation": "Hermoso"
+        },
+        {
+            "noun": "Ugly",
+            "translation": "Feo"
+        },
+        {
+            "noun": "Big",
+            "translation": "Grande"
+        },
+        {
+            "noun": "Small",
+            "translation": "Pequeño"
+        },
+        {
+            "noun": "Bitter",
+            "translation": "Amargo"
+        },
+        {
+            "noun": "Sweet",
+            "translation": "Dulce"
+        },
+        {
+            "noun": "Chubby",
+            "translation": "Obeso"
+        },
+        {
+            "noun": "Slim",
+            "translation": "Delgado"
+        },
+        {
+            "noun": "Cold",
+            "translation": "Frío"
+        },
+        {
+            "noun": "Hot",
+            "translation": "Caliente"
+        },
+        {
+            "noun": "Warm",
+            "translation": "Cálido"
+        },
+        {
+            "noun": "Cool",
+            "translation": "Fresco"
+        },
+        {
+            "noun": "Clean",
+            "translation": "Limpio"
+        },
+        {
+            "noun": "Dirty",
+            "translation": "Sucio"
+        },
+        {
+            "noun": "Dead",
+            "translation": "Muerto"
+        },
+        {
+            "noun": "Alive",
+            "translation": "Vivo"
+        },
+        {
+            "noun": "Fast",
+            "translation": "Rápido"
+        },
+        {
+            "noun": "Slow",
+            "translation": "Despacio"
+        },
+        {
+            "noun": "Ambitious",
+            "translation": "Ambicioso"
+        },
+        {
+            "noun": "Atento",
+            "translation": "Attentive"
+        },
+        {
+            "noun": "Aventurero",
+            "translation": "Adventurous"
+        },
+        {
+            "noun": "Generous",
+            "translation": "Generoso"
+        },
+        {
+            "noun": "Selfish",
+            "translation": "Egoísta"
+        },
+        {
+            "noun": "Calm",
+            "translation": "Calmado"
+        },
+        {
+            "noun": "Nervous",
+            "translation": "Nervioso"
+        },
+        {
+            "noun": "Fat",
+            "translation": "Gordo"
+        },
+        {
+            "noun": "Thin",
+            "translation": "Delgado"
+        },
+        {
+            "noun": "Full",
+            "translation": "Lleno"
+        },
+        {
+            "noun": "Empty",
+            "translation": "Vacío"
+        },
+        {
+            "noun": "Funny",
+            "translation": "Divertido"
+        },
+        {
+            "noun": "Boring",
+            "translation": "Aburrido"
+        },
+        {
+            "noun": "Extrovert",
+            "translation": "Extrovertido"
+        },
+        {
+            "noun": "Shy",
+            "translation": "Tímido"
+        },
+        {
+            "noun": "Good",
+            "translation": "Bueno"
+        },
+        {
+            "noun": "Bad",
+            "translation": "Malo"
+        },
+        {
+            "noun": "Expensive",
+            "translation": "Caro"
+        },
+        {
+            "noun": "Cheap",
+            "translation": "Barato"
+        },
+        {
+            "noun": "Easy",
+            "translation": "Fácil"
+        },
+        {
+            "noun": "Difficult",
+            "translation": "Difícil"
+        },
+        {
+            "noun": "Happy",
+            "translation": "Feliz"
+        },
+        {
+            "noun": "Sad",
+            "translation": "Triste"
+        },
+        {
+            "noun": "Hard",
+            "translation": "Duro"
+        },
+        {
+            "noun": "Soft",
+            "translation": "Suave"
+        },
+        {
+            "noun": "Rich",
+            "translation": "Rico"
+        },
+        {
+            "noun": "Poor",
+            "translation": "Pobre"
+        },
+        {
+            "noun": "Right",
+            "translation": "Derecha"
+        },
+        {
+            "noun": "Left",
+            "translation": "Izquierda"
+        },
+        {
+            "noun": "Safe",
+            "translation": "Seguro"
+        },
+        {
+            "noun": "Dangerous",
+            "translation": "Peligroso"
+        },
+        {
+            "noun": "Simple",
+            "translation": "Simple"
+        },
+        {
+            "noun": "Complex",
+            "translation": "Complejo"
+        },
+        {
+            "noun": "Heavy",
+            "translation": "Pesado"
+        },
+        {
+            "noun": "Light",
+            "translation": "Liviano"
+        },
+        {
+            "noun": "High",
+            "translation": "Alto"
+        },
+        {
+            "noun": "Low",
+            "translation": "Bajo"
+        },
+        {
+            "noun": "Single",
+            "translation": "Soltero"
+        },
+        {
+            "noun": "Married",
+            "translation": "Casado"
+        },
+        {
+            "noun": "Square",
+            "translation": "Cuadrado"
+        },
+        {
+            "noun": "Round",
+            "translation": "Redondo"
+        },
+        {
+            "noun": "Huge",
+            "translation": "Enorme"
+        },
+        {
+            "noun": "Tiny",
+            "translation": "Diminuto"
+        },
+        {
+            "noun": "Kind",
+            "translation": "Amable"
+        },
+        {
+            "noun": "Unpleasant",
+            "translation": "Desagradable"
+        },
+        {
+            "noun": "Light",
+            "translation": "Claro"
+        },
+        {
+            "noun": "Dark",
+            "translation": "Oscuro"
+        },
+        {
+            "noun": "Strong",
+            "translation": "Fuerte"
+        },
+        {
+            "noun": "Weak",
+            "translation": "Débil"
+        },
+        {
+            "noun": "Tall",
+            "translation": "Alto"
+        },
+        {
+            "noun": "Short",
+            "translation": "Corto"
+        },
+        {
+            "noun": "Long",
+            "translation": "Largo"
+        },
+        {
+            "noun": "New",
+            "translation": "Nuevo"
+        },
+        {
+            "noun": "Old",
+            "translation": "Viejo"
+        },
+        {
+            "noun": "Tidy",
+            "translation": "Ordenado"
+        },
+        {
+            "noun": "Messy",
+            "translation": "Desordenado"
+        },
+        {
+            "noun": "True",
+            "translation": "Verdadero"
+        },
+        {
+            "noun": "False",
+            "translation": "Falso"
+        },
+        {
+            "noun": "Open",
+            "translation": "Abierto"
+        },
+        {
+            "noun": "Close",
+            "translation": "Cerrado"
+        },
+        {
+            "noun": "Polite",
+            "translation": "Educado"
+        },
+        {
+            "noun": "Rude",
+            "translation": "Grosero"
+        },
+        {
+            "noun": "Useful",
+            "translation": "Útil"
+        },
+        {
+            "noun": "Useless",
+            "translation": "Inútil"
+        },
+        {
+            "noun": "Wet",
+            "translation": "Mojado"
+        },
+        {
+            "noun": "Dry",
+            "translation": "Seco"
+        },
+        {
+            "noun": "Precise",
+            "translation": "Preciso"
+        },
+        {
+            "noun": "Imprecise",
+            "translation": "Impreciso"
+        },
+        {
+            "noun": "Quiet",
+            "translation": "Tranquilo"
+        },
+        {
+            "noun": "Restless",
+            "translation": "Inquieto"
+        },
+        {
+            "noun": "Wide",
+            "translation": "Ancho"
+        },
+        {
+            "noun": "Narrow",
+            "translation": "Estrecho"
+        },
+        {
+            "noun": "Jealous",
+            "translation": "Celoso"
+        },
+        {
+            "noun": "Coherent",
+            "translation": "Coherente"
+        },
+        {
+            "noun": "Careful",
+            "translation": "Cuidadoso"
+        },
+        {
+            "noun": "Easy-Going",
+            "translation": "Fácil De Llevar"
+        },
+        {
+            "noun": "Charming",
+            "translation": "Encantador"
+        },
+        {
+            "noun": "Balanced",
+            "translation": "Equilibrado"
+        },
+        {
+            "noun": "Picky",
+            "translation": "Exigente"
+        },
+        {
+            "noun": "Naive",
+            "translation": "Ingenuo"
+        },
+        {
+            "noun": "Clever",
+            "translation": "Inteligente"
+        }
+    ]
+}
