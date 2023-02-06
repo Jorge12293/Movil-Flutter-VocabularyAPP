@@ -1,5 +1,6 @@
 //import 'package:flutter/material.dart';
 import 'package:appbasicvocabulary/src/domain/class/nouns_class.dart';
+import 'package:appbasicvocabulary/src/domain/class/questions_class.dart';
 import 'package:appbasicvocabulary/src/domain/class/verbs_class.dart';
 import 'package:flutter/services.dart';
 
@@ -32,5 +33,12 @@ class LocalJson {
     ApiNouns apiNouns = apiNounsFromJson(responseJson);
     listNouns = apiNouns.nouns ?? [];
     return listNouns;
+  }
+
+  static Future<List<Questions>> getListQuestions() async {
+    List<Questions> listQuestions = [];
+    String responseJson = await rootBundle.loadString('assets/data/questions.json');
+    listQuestions = questionsFromJson(responseJson);
+    return listQuestions;
   }
 }

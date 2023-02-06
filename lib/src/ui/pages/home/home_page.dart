@@ -1,4 +1,5 @@
 import 'package:appbasicvocabulary/src/ui/pages/nouns/nouns_page.dart';
+import 'package:appbasicvocabulary/src/ui/pages/questions/questions_page.dart';
 import 'package:appbasicvocabulary/src/ui/pages/verbs/verbs_page.dart';
 import 'package:flutter/material.dart';
 
@@ -22,6 +23,12 @@ class _HomePageState extends State<HomePage> {
       Navigator.push(
         context,
         MaterialPageRoute(builder: (context) => NounsPage(id: id, title:title)),
+      );
+    }
+    if(id==5){
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => QuestionsPage(title:title)),
       );
     }
   }
@@ -66,16 +73,18 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: Text('INGLES GRAMÁTICA'.toUpperCase(),style: const TextStyle(fontWeight: FontWeight.bold)),
       ),
-      body: Center(
-        child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          btnOptionMenu('Verbos Regulares',1),
-          btnOptionMenu('Verbos Irregulares',2),
-          btnOptionMenu('Sustantivos',3),   
-          btnOptionMenu('Adjetivos',4),     
-        ],
-      ),
+      body:SingleChildScrollView(
+        child: Center(
+          child: Column(
+            children: [
+              btnOptionMenu('Verbos Regulares',1),
+              btnOptionMenu('Verbos Irregulares',2),
+              btnOptionMenu('Sustantivos',3),   
+              btnOptionMenu('Adjetivos',4),   
+              btnOptionMenu('Preguntas',5),   
+            ],
+          )
+        )
       ),
     );
   }

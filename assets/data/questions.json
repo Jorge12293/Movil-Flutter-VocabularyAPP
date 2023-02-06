@@ -1,0 +1,134 @@
+[
+  {
+    "interrogative_pronoun": "WHAT",
+    "meaning": "Qué – pidiendo información sobre algo.",
+    "example": [
+      "A : What is this?",
+      "B:  It’s a pencil case."
+    ],
+    "example_traduction": [
+       "A: ¿Qué es esto?",
+       "B: Es una caja de lápices"
+    ]
+  },
+  {
+    "interrogative_pronoun": "WHEN",
+    "meaning": "Cuando – preguntando sobre tiempo.",
+    "example": [
+      "A: When does you school start?",
+      "B: It starts at 8 o’clock."
+    ],
+    "example_traduction": [
+        "A: ¿Cuándo empieza la escuela?",
+         "B: Comienza a las 8 en punto"
+      ]
+  },
+  {
+    "interrogative_pronoun": "WHERE",
+    "meaning": "Donde – preguntando en que lugar o posición.",
+    "example": [
+      "A: Where do you live?",
+      "B: I live in London."
+    ],
+    "example_traduction": [
+        "A: ¿Dónde vives?",
+         "B: Vivo en Londres"
+      ]
+  },
+  {
+    "interrogative_pronoun": "WHO",
+    "meaning": "Quien – preguntando por una persona o personas (sujeto).",
+    "example": [
+      "A: Who works in a hospital?",
+      "B: A nurse works in a hospital."
+    ],
+    "example_traduction": [
+        "A: ¿Quién trabaja en un hospital?",
+        "B: Una enfermera trabaja en un hospital"
+      ]
+  },
+  {
+    "interrogative_pronoun": "WHY",
+    "meaning": "Por que – Preguntando por una razón.",
+    "example": [
+      "A: Why does she want to learn English?",
+      "B: Because she wants to live in England."
+    ],
+    "example_traduction": [
+        "A: ¿Por qué quiere aprender inglés?",
+         "B: Porque quiere vivir en Inglaterra"
+      ]
+  },
+  {
+    "interrogative_pronoun": "WHICH",
+    "meaning": "Cual – preguntando por una elección.",
+    "example": [
+      "A: Which colour do you want?",
+      "B: I want the blue one."
+    ],
+    "example_traduction": [
+        "A: ¿Qué color quieres?",
+         "B: Quiero el azul"
+      ]
+  },
+  {
+    "interrogative_pronoun": "HOW",
+    "meaning": "Como – como o de que manera.",
+    "example": [
+      "A: How are you?",
+      "B: I’m fine."
+    ],
+    "example_traduction": [
+        "A: ¿Cómo estás?",
+        "B: Estoy bien"
+      ]
+  },
+  {
+    "interrogative_pronoun": "HOW LONG",
+    "meaning": "Cuánto tarda/Cuánto lleva/Cuánto dura – preguntando por la duración de algo.",
+    "example": [
+      "A: How long does it take you to get from Valencia to Barcelona?",
+      "B: I take about 4 hours."
+    ],
+    "example_traduction": [
+        "A: ¿Cuánto tardas en llegar de Valencia a Barcelona?",
+       "B: Tardo unas 4 horas"
+      ]
+  },
+  {
+    "interrogative_pronoun": "HOW MANY",
+    "meaning": "Cuantos – preguntamos por el numero de cosas (contables)",
+    "example": [
+      "A: How many people were at the meeting?",
+      "B: There were 100 people."
+    ],
+    "example_traduction": [
+        "A: ¿Cuántas personas había en la reunión?",
+         "B: Había 100 personas"
+      ]
+  },
+  {
+    "interrogative_pronoun": "HOW MUCH",
+    "meaning": "Cuanto – se usa con precios y incontables.",
+    "example": [
+      "A: How much does a ticket to the cinema cost?",
+      "B: It costs 3.90€"
+    ],
+    "example_traduction": [
+        "A: ¿Cuánto cuesta una entrada al cine?",
+         "B: Cuesta 3,90€"
+    ]
+  },
+  {
+    "interrogative_pronoun": "HOW OFTEN",
+    "meaning": "Con que frequencia – cuantas veces se hace algo.",
+    "example": [
+      "A: How often do you go to the gym?",
+      "B: I go to the gym three time a week."
+    ],
+    "example_traduction": [
+        "A: ¿Con qué frecuencia vas al gimnasio?",
+        "B: Voy al gimnasio tres veces a la semana"
+      ]
+  }
+]

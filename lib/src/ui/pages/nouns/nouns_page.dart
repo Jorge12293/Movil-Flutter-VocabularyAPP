@@ -1,7 +1,6 @@
 // ignore_for_file: must_be_immutable
 import 'package:appbasicvocabulary/src/data/local/local_json.dart';
 import 'package:appbasicvocabulary/src/domain/class/nouns_class.dart';
-import 'package:appbasicvocabulary/src/helpers/utils/colors.dart';
 import 'package:flutter/material.dart';
 
 class NounsPage extends StatefulWidget {
@@ -79,37 +78,6 @@ class _NounsPageState extends State<NounsPage> {
     return listDataNoun;
   }
 
-  List<DataRow> generateRow() {
-    listNouns.sort((a, b) => a.noun.toString().compareTo(b.noun.toString()));
-    listDataRow.clear();
-    int count =0;
-    for (var element in listNouns) {
-      count ++;
-      listDataRow.add(
-        DataRow(
-        selected: (count % 2)==0 ? false : true,  
-        color: MaterialStateProperty.resolveWith<Color?>((Set<MaterialState> states) {
-            if (states.contains(MaterialState.selected)) {
-              return Theme.of(context).colorScheme.primary.withOpacity(0.08);
-            }
-            return null;  // Use the default value.
-        }),
-        cells: <DataCell>[
-          DataCell(
-            Container(
-              width: 150,
-              child: Text('  ${element.noun}'),
-            ),
-          ),
-          DataCell(
-            Text(element.translation.toString(),
-                style: const TextStyle(fontWeight: FontWeight.bold)),
-          ),
-        ],
-      ));
-    }
-    return listDataRow;
-  }
 
   Widget containerHeader(String noun, String traduction){
     return Container(
@@ -136,7 +104,7 @@ class _NounsPageState extends State<NounsPage> {
       margin: EdgeInsets.only(left: 10,right: 5),
       child: Card(
         color: (index % 2)==0 
-               ? Color.fromARGB(255, 177, 242, 210)
+               ? Color.fromARGB(255, 217, 241, 229)
                : Colors.white,
         elevation: 5,
         child: Padding(
@@ -193,41 +161,6 @@ class _NounsPageState extends State<NounsPage> {
                 child: Column( children: generateRowsData(listNouns))
               )
             )
-            
-            //Expanded(child: Column( children: generateRowsData(listNouns)))
-            /*
-            Expanded(
-              child: SingleChildScrollView(
-            controller: verticalScrollController,
-            scrollDirection: Axis.vertical,
-            child: Padding(
-                padding: const EdgeInsets.only(
-                    top: 8.0, bottom: 8.0, left: 8.0, right: 8.0),
-                child: Center(
-                  child: DataTable(
-                  columnSpacing: 10,
-                  horizontalMargin: 2,
-                  decoration: BoxDecoration(
-                      border:Border(
-                          right: Divider.createBorderSide(context, width: 5.0),
-                          left: Divider.createBorderSide(context, width: 5.0)
-                      ), 
-                  ),
-                  columns:  [
-                    DataColumn(
-                      label: Text('${widget.title}'),
-                    ),
-                    DataColumn(
-                      label: Text('Traducción'),
-                    ),
-                  ],
-                  rows: generateRow(),
-                ),
-                )
-              )
-            )
-            )
-            */
           ],
       )
     );

@@ -3,8 +3,6 @@ import 'package:appbasicvocabulary/src/helpers/theme/theme.dart';
 import 'package:appbasicvocabulary/src/ui/pages/login/login_page.dart';
 import 'package:flutter/material.dart';
 
-
-
 void main() {
   runApp(const MyApp());
 }

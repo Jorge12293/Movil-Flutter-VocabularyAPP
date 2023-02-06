@@ -53,8 +53,8 @@ android {
         applicationId "com.riyarysoft.appbasicvocabulary"
         minSdkVersion 23
         targetSdkVersion 31
-        versionCode 13
-        versionName "1.0.1"
+        versionCode 14
+        versionName "1.0.2"
         //minSdkVersion flutter.minSdkVersion
         //targetSdkVersion flutter.targetSdkVersion
         //versionCode flutterVersionCode.toInteger()
