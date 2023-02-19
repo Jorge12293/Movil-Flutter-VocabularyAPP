@@ -38,6 +38,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   package_info_plus: ^3.0.2
   upgrader: ^5.0.0
+  percent_indicator: ^4.0.1
 
 dev_dependencies:
   flutter_test:

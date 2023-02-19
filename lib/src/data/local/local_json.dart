@@ -1,8 +1,12 @@
-//import 'package:flutter/material.dart';
-import 'package:appbasicvocabulary/src/domain/class/nouns_class.dart';
-import 'package:appbasicvocabulary/src/domain/class/questions_class.dart';
-import 'package:appbasicvocabulary/src/domain/class/verbs_class.dart';
+
+import '../../domain/class/nouns_class.dart';
+import '../../domain/class/questions_class.dart';
+import '../../domain/class/verbs_class.dart';
+import '../../domain/class/adverb_frequency.dart';
+
 import 'package:flutter/services.dart';
+
+
 
 class LocalJson {
 
@@ -40,5 +44,12 @@ class LocalJson {
     String responseJson = await rootBundle.loadString('assets/data/questions.json');
     listQuestions = questionsFromJson(responseJson);
     return listQuestions;
+  }
+
+  static Future<List<AdverbFrequency>> getListAdverbFrequency() async {
+    List<AdverbFrequency> listAdverbFrequency = [];
+    String responseJson = await rootBundle.loadString('assets/data/adverb_frequency.json');
+    listAdverbFrequency = apiAdverbFrequencyFromJson(responseJson).listAdverbFrequency;
+    return listAdverbFrequency;
   }
 }

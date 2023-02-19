@@ -3,6 +3,8 @@ import 'package:appbasicvocabulary/src/data/local/local_json.dart';
 import 'package:appbasicvocabulary/src/domain/class/nouns_class.dart';
 import 'package:flutter/material.dart';
 
+import '../../../helpers/utils/colors.dart';
+
 class NounsPage extends StatefulWidget {
   int id;
   String title;
@@ -16,10 +18,10 @@ class _NounsPageState extends State<NounsPage> {
   bool loadingData = false;
   double withScreen=0;
 
-  List<Noun> listNouns     = [];
-  List<Noun> listNounsData = [];
+  List<Noun> listNouns      = [];
+  List<Noun> listNounsData  = [];
   List<DataRow> listDataRow = [];
-  List<Widget> listDataNoun= [];
+  List<Widget> listDataNoun = [];
 
   final searchController = TextEditingController();
   final verticalScrollController = ScrollController();
@@ -104,8 +106,8 @@ class _NounsPageState extends State<NounsPage> {
       margin: EdgeInsets.only(left: 10,right: 5),
       child: Card(
         color: (index % 2)==0 
-               ? Color.fromARGB(255, 217, 241, 229)
-               : Colors.white,
+               ? appColorGreenOpacity
+               : appSecondaryColor,
         elevation: 5,
         child: Padding(
           padding: EdgeInsets.only(bottom: 10,top: 10),
@@ -122,7 +124,6 @@ class _NounsPageState extends State<NounsPage> {
                   style: TextStyle(fontWeight: FontWeight.bold),
                   textAlign: TextAlign.start),
               ),
-              
             ],
           )
         )
@@ -158,6 +159,7 @@ class _NounsPageState extends State<NounsPage> {
               child: SingleChildScrollView(
                 controller: verticalScrollController,
                 scrollDirection: Axis.vertical,
+                padding: EdgeInsets.only(bottom: 10),
                 child: Column( children: generateRowsData(listNouns))
               )
             )

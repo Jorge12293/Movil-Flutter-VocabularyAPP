@@ -1,0 +1,191 @@
+{
+    "adverbsFrequency": [
+      {
+        "percentage": "1",
+        "adverb": {
+          "en": "ETERNALLY",
+          "es": "ETERNAMENTE"
+        },
+        "example": {
+          "en": "I want to be your husband eternally.",
+          "es": "Quiero ser tu esposo eternamente."
+        }
+      },
+      {
+        "percentage": "1",
+        "adverb": {
+          "en": "ALWAYS",
+          "es": "SIEMPRE"
+        },
+        "example": {
+          "en": "He’s always very punctual. I’ll see if he’s here yet.",
+          "es": "Siempre es muy puntual. Voy a ver si ya está aquí."
+        }
+      },
+      {
+        "percentage": "0.90",
+        "adverb": {
+          "en": "USUALLY",
+          "es": "HABITUALMENTE"
+        },
+        "example": {
+          "en": "We usually go to the restaurant on Sundays.",
+          "es": "Solemos ir al restaurante los domingos."
+        }
+      },
+      {
+        "percentage": "0.90",
+        "adverb": {
+          "en": "ALMOST ALWAYS",
+          "es": "CASI SIEMPRE"
+        },
+        "example": {
+          "en": "I play soccer on Fridays almost always",
+          "es": "Juego futbol los viernes casi siempre"
+        }
+      },
+      {
+        "percentage": "0.85",
+        "adverb": {
+          "en": "VERY OFTEN",
+          "es": "MUY A MENUDO"
+        },
+        "example": {
+          "en": "We used to play very often",
+          "es": "Antes jugabamos muy a menudo."
+        }
+      },
+      {
+        "percentage": "0.80",
+        "adverb": {
+          "en": "GENERALLY",
+          "es": "GENERALMENTE"
+        },
+        "example": {
+          "en": "We generally go to the sea for our holidays.",
+          "es": "Generalmente vamos al mar para nuestras vacaciones."
+        }
+      },
+      {
+        "percentage": "0.75",
+        "adverb": {
+          "en": "CONSTANTLY",
+          "es": "CONSTANTEMENTE"
+        },
+        "example": {
+          "en": "She bothers me constantly.",
+          "es": "Ella me molesta constantemente."
+        }
+      },
+      {
+        "percentage": "0.70",
+        "adverb": {
+          "en": "OFTEN",
+          "es": "A MENUDO"
+        },
+        "example": {
+          "en": "They often went caroling at Christmas.",
+          "es": "A menudo iban a cantar villancicos en Navidad."
+        }
+      },
+      {
+        "percentage": "0.65",
+        "adverb": {
+          "en": "NORMALLY",
+          "es": "NORMALMENTE"
+        },
+        "example": {
+          "en": "I don't drink coffee normally.",
+          "es": "No tomo café normalmente."
+        }
+      },
+      {
+        "percentage": "0.65",
+        "adverb": {
+          "en": "REGULAR",
+          "es": "REGULAR"
+        },
+        "example": {
+          "en": "I regularly shower at night.",
+          "es": "Regularmente me ducho por la noche."
+        }
+      },
+      {
+        "percentage": "0.50",
+        "adverb": {
+          "en": "SOMETIMES",
+          "es": "A VECES"
+        },
+        "example": {
+          "en": "Sometimes, I just need someone to talk to.",
+          "es": "A veces, solo necesito alguien con quien hablar."
+        }
+      },
+      {
+        "percentage": "0.30",
+        "adverb": {
+          "en": "OCCASIONALLY",
+          "es": "OCASIONALMENTE"
+        },
+        "example": {
+          "en": "We occasionally meet for a drink after work.",
+          "es": "De vez en cuando nos reunimos para tomar una copa después del trabajo."
+        }
+      },
+      {
+        "percentage": "0.15",
+        "adverb": {
+          "en": "SELDOM",
+          "es": "RARAMENTE"
+        },
+        "example": {
+          "en": "I have seldom seen such brutality.",
+          "es": "Pocas veces he visto tanta brutalidad."
+        }
+      },
+      {
+        "percentage": "0.12",
+        "adverb": {
+          "en": "ALMOST NEVER",
+          "es": "CASI NUNCA"
+        },
+        "example": {
+          "en": "The essence of this war almost never changes.",
+          "es": "La esencia de esta guerra casi nunca cambia."
+        }
+      },
+      {
+        "percentage": "0.12",
+        "adverb": {
+          "en": "HARDLY EVER",
+          "es": "DIFICILMENTE"
+        },
+        "example": {
+          "en": "You will hardly ever be far from a beautiful beach in Panama.",
+          "es": "Difícilmente usted se encontrará lejos de una hermosa playa en Panamá."
+        }
+      },
+      {
+        "percentage": "0.05",
+        "adverb": {
+          "en": "RARELY",
+          "es": "RARAMENTE"
+        },
+        "example": {
+          "en": "She is old and rarely goes out.",
+          "es": "Ella es vieja y rara vez sale."
+        }
+      },
+      {
+        "percentage": "0",
+        "adverb": {
+          "en": "NEVER",
+          "es": "NUNCA"
+        },
+        "example": {
+          "en": "If you don’t aim high you will never hit high.",
+          "es": "si no apuntas alto, nunca acertarás alto"
+        }
+      }
+    ]
+}

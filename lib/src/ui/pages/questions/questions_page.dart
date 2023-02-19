@@ -4,6 +4,8 @@ import 'package:appbasicvocabulary/src/domain/class/nouns_class.dart';
 import 'package:appbasicvocabulary/src/domain/class/questions_class.dart';
 import 'package:flutter/material.dart';
 
+import '../../../helpers/utils/colors.dart';
+
 class QuestionsPage extends StatefulWidget {
   String title;
   QuestionsPage({required this.title,super.key});
@@ -13,6 +15,8 @@ class QuestionsPage extends StatefulWidget {
 }
 
 class _QuestionsPageState extends State<QuestionsPage> {
+  
+  
   bool loadingData = false;
   double withScreen=0;
 
@@ -54,8 +58,8 @@ class _QuestionsPageState extends State<QuestionsPage> {
       margin: EdgeInsets.only(left: 10,right: 10),
       child: Card(
         color: (index % 2)==0 
-               ? Color.fromARGB(255, 217, 241, 229)
-               : Colors.white,
+               ? appColorGreenOpacity
+               : appSecondaryColor,
         elevation: 5,
         child: Padding(
           padding: EdgeInsets.only(bottom: 10,top: 10,left: 10,right: 10),
@@ -71,7 +75,7 @@ class _QuestionsPageState extends State<QuestionsPage> {
               Container(
                 width: double.infinity,
                 child: Text('${question.meaning}',
-                  textAlign: TextAlign.center,style: TextStyle(color: Color.fromARGB(255, 61, 59, 59))),
+                  textAlign: TextAlign.center,style: TextStyle(color: appColorBlackOpacity)),
               ),
               Divider(),
               Row(
@@ -115,4 +119,6 @@ class _QuestionsPageState extends State<QuestionsPage> {
           )
     );
   }
+
+
 }

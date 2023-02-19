@@ -1,7 +1,10 @@
-import 'package:appbasicvocabulary/src/ui/pages/nouns/nouns_page.dart';
-import 'package:appbasicvocabulary/src/ui/pages/questions/questions_page.dart';
-import 'package:appbasicvocabulary/src/ui/pages/verbs/verbs_page.dart';
 import 'package:flutter/material.dart';
+
+import '../nouns/nouns_page.dart';
+import '../questions/questions_page.dart';
+import '../verbs/verbs_page.dart';
+import '../adverb_frequency/adverb_frequency_page.dart';
+import '../../widgets/buttons.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -12,7 +15,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
 
-    functionMenu(String title,int id){
+  functionMenu(String title,int id){
     if(id==1 || id==2){
       Navigator.push(
         context,
@@ -31,41 +34,14 @@ class _HomePageState extends State<HomePage> {
         MaterialPageRoute(builder: (context) => QuestionsPage(title:title)),
       );
     }
+    if(id==6){
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => AdverbFrequencyPage(title:title)),
+      );
+    }
   }
 
-  Widget btnOptionMenu(String textBtn,int id){
-    return Padding(
-      padding: const EdgeInsets.only(top: 15,bottom: 15),
-      child: ElevatedButton(
-      onPressed: () {
-        functionMenu(textBtn,id);
-      },
-      style: ElevatedButton.styleFrom(
-        maximumSize: const Size(270, 80), 
-        minimumSize: const Size(270, 80), 
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(30.0),
-        )
-      ), 
-      child: Padding(
-        padding: const EdgeInsets.only(top: 15,bottom: 15,left: 20,right: 20),
-        child: Row(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Container(
-            width: 140,
-            child:Text(textBtn,
-            textAlign: TextAlign.center,
-            style: const TextStyle(fontWeight: FontWeight.bold,fontSize: 20)),
-          ),
-          const SizedBox(width: 2),
-          const Icon(Icons.book,size: 30)
-        ],
-      ),
-      )
-    ),
-    );
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -77,11 +53,12 @@ class _HomePageState extends State<HomePage> {
         child: Center(
           child: Column(
             children: [
-              btnOptionMenu('Verbos Regulares',1),
-              btnOptionMenu('Verbos Irregulares',2),
-              btnOptionMenu('Sustantivos',3),   
-              btnOptionMenu('Adjetivos',4),   
-              btnOptionMenu('Preguntas',5),   
+              btnOptionMenu('Verbos Regulares',1,functionMenu),
+              btnOptionMenu('Verbos Irregulares',2,functionMenu),
+              btnOptionMenu('Sustantivos',3,functionMenu),   
+              btnOptionMenu('Adjetivos',4,functionMenu),   
+              btnOptionMenu('Preguntas',5,functionMenu),
+              btnOptionMenu('Adverbios de Frecuencia',6,functionMenu),   
             ],
           )
         )

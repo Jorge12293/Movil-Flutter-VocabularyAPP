@@ -53,8 +53,8 @@ android {
         applicationId "com.riyarysoft.appbasicvocabulary"
         minSdkVersion 23
         targetSdkVersion 31
-        versionCode 14
-        versionName "1.0.2"
+        versionCode 16
+        versionName "1.0.3"
         //minSdkVersion flutter.minSdkVersion
         //targetSdkVersion flutter.targetSdkVersion
         //versionCode flutterVersionCode.toInteger()
@@ -99,3 +99,4 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 }
 android.buildTypes.release.ndk.debugSymbolLevel = 'FULL'
+android.defaultConfig.ndk.debugSymbolLevel = 'FULL'
