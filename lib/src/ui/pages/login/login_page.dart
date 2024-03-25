@@ -46,8 +46,9 @@ class _LoginPageState extends State<LoginPage> {
         child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
+          SizedBox(height: 5),
           Text(textBtn,style: const TextStyle(fontWeight: FontWeight.bold,fontSize: 25,color: appSecondaryColor)),
-          const Icon(Icons.fingerprint,size:25,color: appSecondaryColor)
+          SizedBox(height: 5),
         ],
       ),
       )
@@ -90,22 +91,6 @@ class _LoginPageState extends State<LoginPage> {
               ],
             ),
           ),
-          const Positioned(
-            top: 30,
-            left: 30,
-            child: Icon(Icons.star_purple500,color:appPrimaryColor,size: 50)),
-          const Positioned(
-            top: 30,
-            right: 30,
-            child: Icon(Icons.star_purple500,color:appPrimaryColor,size: 50)),
-          const Positioned(
-            bottom: 30,
-            left: 30,
-            child: Icon(Icons.star_purple500,color:appPrimaryColor,size: 50)),
-          const Positioned(
-            bottom: 30,
-            right: 30,
-            child: Icon(Icons.star_purple500,color:appPrimaryColor,size: 50)),
         ],
       ),
     );

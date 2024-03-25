@@ -6,6 +6,7 @@ import '../../../data/local/local_json.dart';
 import '../../../domain/class/adverb_frequency.dart';
 import '../../../helpers/utils/colors.dart';
 
+
 class AdverbFrequencyPage extends StatefulWidget {
   String title;
   AdverbFrequencyPage({

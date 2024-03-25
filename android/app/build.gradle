@@ -32,7 +32,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    compileSdkVersion 33
+    compileSdkVersion 34
     //compileSdkVersion flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
 
@@ -52,9 +52,9 @@ android {
     defaultConfig {
         applicationId "com.riyarysoft.appbasicvocabulary"
         minSdkVersion 23
-        targetSdkVersion 31
-        versionCode 16
-        versionName "1.0.3"
+        targetSdkVersion 34
+        versionCode 17
+        versionName "1.0.4"
         //minSdkVersion flutter.minSdkVersion
         //targetSdkVersion flutter.targetSdkVersion
         //versionCode flutterVersionCode.toInteger()
