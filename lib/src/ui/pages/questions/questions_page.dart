@@ -1,13 +1,11 @@
-// ignore_for_file: must_be_immutable
 import 'package:appbasicvocabulary/src/data/local/local_json.dart';
-import 'package:appbasicvocabulary/src/domain/class/nouns_class.dart';
 import 'package:appbasicvocabulary/src/domain/class/questions_class.dart';
 import 'package:flutter/material.dart';
 
 import '../../../helpers/utils/colors.dart';
 
 class QuestionsPage extends StatefulWidget {
-  String title;
+  final String title;
   QuestionsPage({required this.title,super.key});
 
   @override

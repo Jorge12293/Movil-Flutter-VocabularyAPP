@@ -8,7 +8,7 @@ import '../../../helpers/utils/colors.dart';
 
 
 class AdverbFrequencyPage extends StatefulWidget {
-  String title;
+  final String title;
   AdverbFrequencyPage({
     required this.title
   });
