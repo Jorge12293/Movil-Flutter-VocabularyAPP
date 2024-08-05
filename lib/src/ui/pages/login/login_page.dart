@@ -46,9 +46,9 @@ class _LoginPageState extends State<LoginPage> {
         child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          SizedBox(height: 5),
+          SizedBox(height: 6),
           Text(textBtn,style: const TextStyle(fontWeight: FontWeight.bold,fontSize: 25,color: appSecondaryColor)),
-          SizedBox(height: 5),
+          SizedBox(height: 6),
         ],
       ),
       )
@@ -73,7 +73,7 @@ class _LoginPageState extends State<LoginPage> {
                   children: const [
                     Icon(Icons.book_sharp,size:50,color: appPrimaryColor),
                     SizedBox(height: 6), 
-                    Text('INGLES GRAMÁTICA BÁSICA',
+                    Text('INGLES GRAMÁTICA BÁSICA.',
                       textAlign: TextAlign.center,
                       style: TextStyle(fontWeight: FontWeight.bold,
                       fontSize: 30,color: appPrimaryColor)),
