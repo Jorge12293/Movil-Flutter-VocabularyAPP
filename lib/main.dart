@@ -1,5 +1,5 @@
-
 import 'package:appbasicvocabulary/src/helpers/theme/theme.dart';
+import 'package:appbasicvocabulary/src/helpers/theme/theme_manager.dart';
 import 'package:appbasicvocabulary/src/ui/pages/login/login_page.dart';
 import 'package:flutter/material.dart';
 
@@ -12,11 +12,18 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'GRAMÁTICA',
-      theme:buildAppTheme(),
-      debugShowCheckedModeBanner: false,
-      home:const LoginPage(),
+    return ValueListenableBuilder<ThemeMode>(
+      valueListenable: ThemeManager().themeMode,
+      builder: (context, themeMode, child) {
+        return MaterialApp(
+          title: 'GRAMÁTICA',
+          theme: buildLightTheme(),
+          darkTheme: buildDarkTheme(),
+          themeMode: themeMode,
+          debugShowCheckedModeBanner: false,
+          home: const LoginPage(),
+        );
+      },
     );
   }
 }

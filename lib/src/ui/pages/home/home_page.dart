@@ -1,10 +1,8 @@
+import 'package:appbasicvocabulary/src/helpers/theme/theme_manager.dart';
+import 'package:appbasicvocabulary/src/helpers/utils/colors.dart';
+import 'package:appbasicvocabulary/src/ui/widgets/home_drawer.dart';
+import 'package:appbasicvocabulary/src/ui/widgets/dashboard_widget.dart';
 import 'package:flutter/material.dart';
-
-import '../nouns/nouns_page.dart';
-import '../questions/questions_page.dart';
-import '../verbs/verbs_page.dart';
-import '../adverb_frequency/adverb_frequency_page.dart';
-import '../../widgets/buttons.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -15,53 +13,50 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
 
-  functionMenu(String title,int id){
-    if(id==1 || id==2){
-      Navigator.push(
-        context,
-        MaterialPageRoute(builder: (context) => VerbsPage(id: id, title:title)),
-      );
-    }
-    if(id==3 || id==4 ){
-      Navigator.push(
-        context,
-        MaterialPageRoute(builder: (context) => NounsPage(id: id, title:title)),
-      );
-    }
-    if(id==5){
-      Navigator.push(
-        context,
-        MaterialPageRoute(builder: (context) => QuestionsPage(title:title)),
-      );
-    }
-    if(id==6){
-      Navigator.push(
-        context,
-        MaterialPageRoute(builder: (context) => AdverbFrequencyPage(title:title)),
-      );
-    }
-  }
-
-
   @override
   Widget build(BuildContext context) {
+    // Access theme data
+    final theme = Theme.of(context);
+    final isDark = theme.brightness == Brightness.dark;
+
     return Scaffold(
+      backgroundColor: theme.scaffoldBackgroundColor,
       appBar: AppBar(
-        title: Text('INGLES GRAMÁTICA'.toUpperCase(),style: const TextStyle(fontWeight: FontWeight.bold)),
-      ),
-      body:SingleChildScrollView(
-        child: Center(
-          child: Column(
-            children: [
-              btnOptionMenu('Verbos Regulares',1,functionMenu),
-              btnOptionMenu('Verbos Irregulares',2,functionMenu),
-              btnOptionMenu('Sustantivos',3,functionMenu),   
-              btnOptionMenu('Adjetivos',4,functionMenu),   
-              btnOptionMenu('Preguntas',5,functionMenu),
-              btnOptionMenu('Adverbios de Frecuencia',6,functionMenu),   
-            ],
+        elevation: 0,
+        centerTitle: true,
+        iconTheme: theme.appBarTheme.iconTheme,
+        backgroundColor: theme.appBarTheme.backgroundColor,
+        title: Text(
+          'GRAMÁTICA',
+          style: theme.appBarTheme.titleTextStyle?.copyWith(letterSpacing: 1.5),
+        ),
+        actions: [
+          ValueListenableBuilder<ThemeMode>(
+            valueListenable: ThemeManager().themeMode,
+            builder: (context, themeMode, child) {
+              return IconButton(
+                icon: Icon(
+                  themeMode == ThemeMode.dark ? Icons.light_mode : Icons.dark_mode,
+                  color: isDark ? Colors.white : appColorGrey,
+                ),
+                onPressed: () {
+                  ThemeManager().toggleTheme();
+                },
+              );
+            },
           )
-        )
+        ],
+      ),
+      drawer: const HomeDrawer(),
+      body: SingleChildScrollView(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const SizedBox(height: 20),
+            const DashboardWidget(),
+          ],
+        ),
       ),
     );
   }
