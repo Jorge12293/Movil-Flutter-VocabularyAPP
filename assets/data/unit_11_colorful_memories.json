@@ -1,0 +1,275 @@
+{
+  "unit": {
+    "id": "unit_11_colorful_memories",
+    "title": { "en": "Colorful memories", "es": "Recuerdos coloridos" },
+    "overview": {
+      "themes": [
+        { "en": "Talking about the past with was/were", "es": "Hablar del pasado con was/were" },
+        { "en": "Describing memories with adjectives + colors", "es": "Describir recuerdos con adjetivos + colores" },
+        { "en": "Expressing uncertainty and taking time to think", "es": "Expresar incertidumbre y tomar tiempo para pensar" },
+        { "en": "Writing an email with clear paragraphs and topic sentences", "es": "Escribir un email con párrafos y oraciones temáticas" }
+      ]
+    },
+    "lessons": [
+      {
+        "id": "u11_l1",
+        "title": { "en": "Flashback Friday", "es": "Flashback Friday" },
+        "focus": { "vocabulary": ["describing_adjectives"], "grammar": ["was_were_statements"] },
+        "vocabulary": {
+          "describing_adjectives": [
+            { "en": "awful", "es": "horrible" },
+            { "en": "beautiful", "es": "hermoso/a" },
+            { "en": "cute", "es": "tierno/a" },
+            { "en": "exciting", "es": "emocionante" },
+            { "en": "fast", "es": "rápido/a" },
+            { "en": "new", "es": "nuevo/a" },
+            { "en": "noisy", "es": "ruidoso/a" },
+            { "en": "quiet", "es": "tranquilo/a / silencioso/a" },
+            { "en": "slow", "es": "lento/a" },
+            { "en": "wonderful", "es": "maravilloso/a" }
+          ],
+          "opposites": [
+            { "en": "wonderful ↔ awful", "es": "maravilloso ↔ horrible" },
+            { "en": "noisy ↔ quiet", "es": "ruidoso ↔ silencioso" },
+            { "en": "fast ↔ slow", "es": "rápido ↔ lento" }
+          ]
+        },
+        "grammar": {
+          "was_were_statements": {
+            "title": { "en": "Statements with was and were", "es": "Oraciones con was y were" },
+            "use": [
+              { "en": "Use was/were to talk about people, places, and things in the past.", "es": "Usa was/were para hablar del pasado." }
+            ],
+            "forms": {
+              "affirmative": {
+                "patterns": [
+                  "I / he / she / it + was ...",
+                  "you / we / they + were ..."
+                ],
+                "examples": [
+                  { "en": "I was eight.", "es": "Yo tenía ocho." },
+                  { "en": "We were on vacation.", "es": "Estábamos de vacaciones." }
+                ]
+              },
+              "negative": {
+                "patterns": [
+                  "I / he / she / it + wasn’t ...",
+                  "you / we / they + weren’t ..."
+                ],
+                "examples": [
+                  { "en": "My parents weren’t there.", "es": "Mis padres no estaban allí." },
+                  { "en": "It wasn’t old—it was new.", "es": "No era viejo—era nuevo." }
+                ]
+              }
+            },
+            "quick_rule": {
+              "en": "I/he/she/it → was / wasn’t | you/we/they → were / weren’t",
+              "es": "I/he/she/it → was / wasn’t | you/we/they → were / weren’t"
+            }
+          }
+        },
+        "mini_practice": [
+          {
+            "type": "write_5_sentences",
+            "prompt_en": "Write 5 true sentences about the past using was/weren’t and one adjective.",
+            "prompt_es": "Escribe 5 oraciones verdaderas sobre el pasado usando was/weren’t y un adjetivo.",
+            "example": [
+              { "en": "My hometown was beautiful.", "es": "Mi ciudad natal era hermosa." },
+              { "en": "My friends were wonderful.", "es": "Mis amigos eran maravillosos." }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u11_l2",
+        "title": { "en": "Our old phone was white", "es": "Nuestro teléfono viejo era blanco" },
+        "focus": { "vocabulary": ["colors"], "grammar": ["was_were_questions"] },
+        "vocabulary": {
+          "colors": [
+            { "en": "black", "es": "negro" },
+            { "en": "blue", "es": "azul" },
+            { "en": "brown", "es": "marrón / café" },
+            { "en": "gray", "es": "gris" },
+            { "en": "green", "es": "verde" },
+            { "en": "orange", "es": "naranja" },
+            { "en": "pink", "es": "rosado" },
+            { "en": "purple", "es": "morado" },
+            { "en": "red", "es": "rojo" },
+            { "en": "white", "es": "blanco" },
+            { "en": "yellow", "es": "amarillo" }
+          ]
+        },
+        "grammar": {
+          "was_were_questions": {
+            "title": { "en": "Questions with was and were", "es": "Preguntas con was y were" },
+            "yes_no_questions": {
+              "rule": {
+                "en": "Was/Were goes at the beginning.",
+                "es": "Was/Were va al inicio."
+              },
+              "patterns": [
+                "Was he/she/it ...?",
+                "Were you/we/they ...?"
+              ],
+              "examples": [
+                { "en": "Was he happy?", "es": "¿Él estaba feliz?" },
+                { "en": "Were you at the party?", "es": "¿Tú estabas en la fiesta?" }
+              ],
+              "short_answers": [
+                { "en": "Yes, he was. / No, he wasn’t.", "es": "Sí. / No." },
+                { "en": "Yes, they were. / No, they weren’t.", "es": "Sí. / No." }
+              ]
+            },
+            "information_questions": {
+              "rule": {
+                "en": "Question word + was/were + subject ...",
+                "es": "Pregunta + was/were + sujeto ..."
+              },
+              "examples": [
+                { "en": "Where were you?", "es": "¿Dónde estabas?" },
+                { "en": "How was your weekend?", "es": "¿Cómo estuvo tu fin de semana?" },
+                { "en": "What color were the walls?", "es": "¿De qué color eran las paredes?" },
+                { "en": "How old were you?", "es": "¿Cuántos años tenías?" }
+              ]
+            }
+          }
+        },
+        "mini_practice": [
+          {
+            "type": "qa_drill",
+            "items": [
+              { "q_en": "What color was your old phone?", "a_en": "It was black.", "q_es": "¿De qué color era tu teléfono viejo?", "a_es": "Era negro." },
+              { "q_en": "Were your bedroom walls blue?", "a_en": "Yes, they were.", "q_es": "¿Tus paredes eran azules?", "a_es": "Sí." },
+              { "q_en": "Where were you on your last birthday?", "a_en": "I was at home.", "q_es": "¿Dónde estabas en tu último cumpleaños?", "a_es": "Estaba en casa." }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u11_l3",
+        "title": { "en": "I have no idea", "es": "No tengo idea" },
+        "focus": {
+          "functional_language": ["expressing_uncertainty"],
+          "strategy": ["taking_time_to_think"],
+          "pronunciation": ["know_not_vowels"]
+        },
+        "functional_language": {
+          "expressing_uncertainty": {
+            "phrases": [
+              { "en": "I have no idea.", "es": "No tengo idea." },
+              { "en": "I’m not sure.", "es": "No estoy seguro/a." },
+              { "en": "Maybe.", "es": "Tal vez." },
+              { "en": "I don’t remember.", "es": "No me acuerdo." },
+              { "en": "I think it was …", "es": "Creo que era …" },
+              { "en": "I think they were …", "es": "Creo que eran …" }
+            ],
+            "examples": [
+              { "en": "How old were you? I’m not sure—maybe eight.", "es": "¿Cuántos años tenías? No estoy seguro—tal vez ocho." },
+              { "en": "What color was it? I have no idea.", "es": "¿De qué color era? No tengo idea." }
+            ]
+          }
+        },
+        "strategy": {
+          "taking_time_to_think": {
+            "phrases": [
+              { "en": "Let me think…", "es": "Déjame pensar…" },
+              { "en": "Hmm…", "es": "Mmm…" },
+              { "en": "One second…", "es": "Un segundo…" },
+              { "en": "I’m thinking…", "es": "Estoy pensando…" }
+            ],
+            "tip": {
+              "en": "Use a thinking phrase first, then answer with maybe / I think / I’m not sure.",
+              "es": "Usa una frase para pensar y luego responde con maybe / I think / I’m not sure."
+            }
+          }
+        },
+        "pronunciation": {
+          "know_not_vowels": {
+            "target": [
+              { "en": "know /noʊ/", "es": "know /noʊ/ (como “ou”) " },
+              { "en": "not /nɑt/ (or /nɒt/)", "es": "not /nɑt/ (o /nɒt/)" }
+            ],
+            "minimal_pairs_practice": [
+              { "en": "know / no", "es": "know / no" },
+              { "en": "I don’t know.", "es": "I don’t know." },
+              { "en": "No, it’s not.", "es": "No, it’s not." }
+            ]
+          }
+        }
+      },
+      {
+        "id": "u11_l4",
+        "title": { "en": "Things we keep", "es": "Cosas que guardamos" },
+        "focus": { "reading": ["keepsakes_article"], "writing": ["email"], "writing_skills": ["paragraphs_topic_sentences"] },
+        "reading_summary": {
+          "key_points": [
+            { "en": "People keep things from childhood (toy cars, books, games).", "es": "La gente guarda cosas de la infancia (carritos, libros, juegos)." },
+            { "en": "Parents often keep baby shoes or first clothes.", "es": "Los padres guardan zapatos de bebé o la primera ropa." },
+            { "en": "Some keepsakes are expensive or very special (comic books).", "es": "Algunos recuerdos son caros o muy especiales (cómics)." },
+            { "en": "Terry keeps photographs because they help her remember.", "es": "Terry guarda fotos porque le ayudan a recordar." }
+          ]
+        },
+        "writing_skills": {
+          "paragraphs_topic_sentences": {
+            "title": { "en": "Paragraphs and topic sentences", "es": "Párrafos y oraciones temáticas" },
+            "rules": [
+              { "en": "Start each paragraph with a topic sentence (main idea).", "es": "Empieza cada párrafo con una oración temática (idea principal)." },
+              { "en": "Add 2–4 supporting sentences with details (what, when, where, why).", "es": "Agrega 2–4 oraciones con detalles (qué, cuándo, dónde, por qué)." }
+            ],
+            "topic_sentence_starters": [
+              { "en": "One thing I keep from the past is…", "es": "Una cosa que guardo del pasado es…" },
+              { "en": "I keep it because…", "es": "Lo guardo porque…" },
+              { "en": "It was special to me because…", "es": "Fue especial para mí porque…" }
+            ]
+          }
+        },
+        "writing_task": {
+          "title": { "en": "Email: Things you keep from the past", "es": "Email: Cosas que guardas del pasado" },
+          "length": { "en": "80–120 words", "es": "80–120 palabras" },
+          "structure": [
+            { "en": "Greeting", "es": "Saludo" },
+            { "en": "Paragraph 1: topic sentence + what you keep + description", "es": "Párrafo 1: oración temática + qué guardas + descripción" },
+            { "en": "Paragraph 2: why you keep it + memory (was/were)", "es": "Párrafo 2: por qué lo guardas + recuerdo (was/were)" },
+            { "en": "Closing", "es": "Despedida" }
+          ],
+          "model_email": {
+            "en": "Hi ____ ,\n\nOne thing I keep from the past is my old guitar. It was a gift from my grandfather, and it was brown and black. It wasn’t very big, but it was a little noisy.\n\nI keep it because it reminds me of my childhood. When I was a child, I was very happy when I played with it. My family was together, and the days were wonderful. Now the guitar is old, but it’s still special to me.\n\nBest,\n____",
+            "es": "Hola ____ ,\n\nUna cosa que guardo del pasado es mi guitarra vieja. Fue un regalo de mi abuelo y era marrón y negra. No era muy grande, pero era un poco ruidosa.\n\nLa guardo porque me recuerda a mi infancia. Cuando era niño/a, yo era muy feliz cuando jugaba con ella. Mi familia estaba junta y los días eran maravillosos. Ahora la guitarra es vieja, pero sigue siendo muy especial para mí.\n\nSaludos,\n____"
+          }
+        }
+      }
+    ]
+  },
+  "ui_screens": [
+    {
+      "id": "screen_u11_adjectives",
+      "title": { "en": "Describing people, places, and things", "es": "Describir personas, lugares y cosas" },
+      "data_source_path": "unit.lessons[0].vocabulary",
+      "component_suggestion": "VocabularyCards"
+    },
+    {
+      "id": "screen_u11_was_were_statements",
+      "title": { "en": "Grammar: was/were (statements)", "es": "Gramática: was/were (oraciones)" },
+      "data_source_path": "unit.lessons[0].grammar.was_were_statements",
+      "component_suggestion": "RuleExamples"
+    },
+    {
+      "id": "screen_u11_colors_questions",
+      "title": { "en": "Colors + was/were questions", "es": "Colores + preguntas con was/were" },
+      "data_source_path": "unit.lessons[1]",
+      "component_suggestion": "QuizAndFlashcards"
+    },
+    {
+      "id": "screen_u11_uncertainty",
+      "title": { "en": "Uncertainty + thinking time", "es": "Incertidumbre + tiempo para pensar" },
+      "data_source_path": "unit.lessons[2]",
+      "component_suggestion": "ConversationPractice"
+    },
+    {
+      "id": "screen_u11_email_builder",
+      "title": { "en": "Email builder: Things we keep", "es": "Creador de email: Cosas que guardamos" },
+      "data_source_path": "unit.lessons[3].writing_task",
+      "component_suggestion": "WritingComposer"
+    }
+  ]
+}

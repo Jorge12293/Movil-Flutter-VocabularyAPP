@@ -415,6 +415,210 @@
         {
             "noun": "Clever",
             "translation": "Inteligente"
+        },
+        {
+            "noun": "Hungry",
+            "translation": "Hambriento"
+        },
+        {
+            "noun": "Thirsty",
+            "translation": "Sediento"
+        },
+        {
+            "noun": "Tired",
+            "translation": "Cansado"
+        },
+        {
+            "noun": "Sleepy",
+            "translation": "Somnoliento"
+        },
+        {
+            "noun": "Sick",
+            "translation": "Enfermo"
+        },
+        {
+            "noun": "Healthy",
+            "translation": "Saludable"
+        },
+        {
+            "noun": "Busy",
+            "translation": "Ocupado"
+        },
+        {
+            "noun": "Free",
+            "translation": "Libre"
+        },
+        {
+            "noun": "Ready",
+            "translation": "Listo"
+        },
+        {
+            "noun": "Late",
+            "translation": "Tarde"
+        },
+        {
+            "noun": "Early",
+            "translation": "Temprano"
+        },
+        {
+            "noun": "Friendly",
+            "translation": "Amigable"
+        },
+        {
+            "noun": "Honest",
+            "translation": "Honesto"
+        },
+        {
+            "noun": "Loyal",
+            "translation": "Leal"
+        },
+        {
+            "noun": "Patient",
+            "translation": "Paciente"
+        },
+        {
+            "noun": "Impatient",
+            "translation": "Impaciente"
+        },
+        {
+            "noun": "Confident",
+            "translation": "Seguro de sí mismo"
+        },
+        {
+            "noun": "Insecure",
+            "translation": "Inseguro"
+        },
+        {
+            "noun": "Brave",
+            "translation": "Valiente"
+        },
+        {
+            "noun": "Cowardly",
+            "translation": "Cobarde"
+        },
+        {
+            "noun": "Lazy",
+            "translation": "Perezoso"
+        },
+        {
+            "noun": "Hardworking",
+            "translation": "Trabajador"
+        },
+        {
+            "noun": "Serious",
+            "translation": "Serio"
+        },
+        {
+            "noun": "Creative",
+            "translation": "Creativo"
+        },
+        {
+            "noun": "Curious",
+            "translation": "Curioso"
+        },
+        {
+            "noun": "Stubborn",
+            "translation": "Terco"
+        },
+        {
+            "noun": "Surprised",
+            "translation": "Sorprendido"
+        },
+        {
+            "noun": "Proud",
+            "translation": "Orgulloso"
+        },
+        {
+            "noun": "Embarrassed",
+            "translation": "Avergonzado"
+        },
+        {
+            "noun": "Guilty",
+            "translation": "Culpable"
+        },
+        {
+            "noun": "Anxious",
+            "translation": "Ansioso"
+        },
+        {
+            "noun": "Relaxed",
+            "translation": "Relajado"
+        },
+        {
+            "noun": "Noisy",
+            "translation": "Ruidoso"
+        },
+        {
+            "noun": "Bright",
+            "translation": "Brillante"
+        },
+        {
+            "noun": "Dull",
+            "translation": "Opaco"
+        },
+        {
+            "noun": "Smooth",
+            "translation": "Liso"
+        },
+        {
+            "noun": "Rough",
+            "translation": "Áspero"
+        },
+        {
+            "noun": "Sharp",
+            "translation": "Afilado"
+        },
+        {
+            "noun": "Blunt",
+            "translation": "Desafilado"
+        },
+        {
+            "noun": "Deep",
+            "translation": "Profundo"
+        },
+        {
+            "noun": "Shallow",
+            "translation": "Poco profundo"
+        },
+        {
+            "noun": "Thick",
+            "translation": "Grueso"
+        },
+        {
+            "noun": "Thin (material)",
+            "translation": "Fino"
+        },
+        {
+            "noun": "Smart",
+            "translation": "Listo"
+        },
+        {
+            "noun": "Wise",
+            "translation": "Sabio"
+        },
+        {
+            "noun": "Silly",
+            "translation": "Tonto"
+        },
+        {
+            "noun": "Clumsy",
+            "translation": "Torpe"
+        },
+        {
+            "noun": "Local",
+            "translation": "Local"
+        },
+        {
+            "noun": "Foreign",
+            "translation": "Extranjero"
+        },
+        {
+            "noun": "Public",
+            "translation": "Público"
+        },
+        {
+            "noun": "Private",
+            "translation": "Privado"
         }
     ]
 }

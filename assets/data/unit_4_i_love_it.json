@@ -1,0 +1,346 @@
+{
+  "unit": {
+    "id": "unit_4_i_love_it",
+    "title": { "en": "I love it!", "es": "¡Me encanta!" },
+    "overview": {
+      "goals": [
+        { "en": "Talk about your favorite things.", "es": "Hablar de tus cosas favoritas." },
+        { "en": "Say how you use technology.", "es": "Decir cómo usas la tecnología." },
+        { "en": "Talk about how you communicate.", "es": "Hablar de cómo te comunicas." },
+        { "en": "Write a product review.", "es": "Escribir una reseña de producto." }
+      ],
+      "context_sentence": {
+        "en": "The people are waiting to buy a new phone, because they really love it.",
+        "es": "La gente está esperando para comprar un teléfono nuevo porque de verdad les encanta."
+      }
+    },
+    "lessons": [
+      {
+        "id": "u4_l1",
+        "title": { "en": "Favorite things", "es": "Cosas favoritas" },
+        "focus": {
+          "vocabulary": ["technology"],
+          "grammar": ["simple_present_statements_i_you_we"]
+        },
+        "vocabulary": {
+          "technology": [
+            { "en": "apps", "es": "apps / aplicaciones" },
+            { "en": "a camera", "es": "una cámara" },
+            { "en": "a cell phone", "es": "un celular / teléfono móvil" },
+            { "en": "earphones", "es": "audífonos" },
+            { "en": "a game", "es": "un juego" },
+            { "en": "a laptop", "es": "una laptop / portátil" },
+            { "en": "a smartwatch", "es": "un reloj inteligente" },
+            { "en": "a tablet", "es": "una tablet" }
+          ]
+        },
+        "grammar": {
+          "simple_present_statements_i_you_we": {
+            "title": {
+              "en": "Simple present statements with I, you, we",
+              "es": "Presente simple (afirmaciones) con I, you, we"
+            },
+            "rules": [
+              {
+                "en": "Use the simple present for things that are generally true.",
+                "es": "Usa presente simple para cosas que son generalmente verdad."
+              },
+              {
+                "en": "After I/you/we, use the base verb. Don't use am/is/are before a simple present verb.",
+                "es": "Después de I/you/we usa el verbo base. No uses am/is/are antes del verbo en presente simple."
+              },
+              {
+                "en": "Use don't before the verb for negatives with I/you/we.",
+                "es": "Usa don't antes del verbo para negativos con I/you/we."
+              }
+            ],
+            "formula": {
+              "affirmative": "Subject (I/you/we) + base verb",
+              "negative": "Subject (I/you/we) + don't + base verb"
+            },
+            "examples": {
+              "affirmative": [
+                { "en": "I work in a hotel.", "es": "Trabajo en un hotel." },
+                { "en": "You work in an office.", "es": "Trabajas en una oficina." },
+                { "en": "We work in a restaurant.", "es": "Trabajamos en un restaurante." }
+              ],
+              "negative": [
+                { "en": "I don't use a computer.", "es": "No uso una computadora." },
+                { "en": "You don't work in an office.", "es": "No trabajas en una oficina." },
+                { "en": "We don't work at the front of the hotel.", "es": "No trabajamos en la recepción del hotel." }
+              ]
+            }
+          }
+        },
+        "sentence_patterns": [
+          {
+            "id": "likes_have_want",
+            "label": { "en": "Likes / Have / Want", "es": "Gustos / Tener / Querer" },
+            "templates": [
+              { "en": "I like {noun}.", "es": "Me gusta {sustantivo}." },
+              { "en": "I don't like {noun}.", "es": "No me gusta {sustantivo}." },
+              { "en": "I have {noun}.", "es": "Tengo {sustantivo}." },
+              { "en": "I don't have {noun}.", "es": "No tengo {sustantivo}." },
+              { "en": "I want {noun}.", "es": "Quiero {sustantivo}." },
+              { "en": "I don't want {noun}.", "es": "No quiero {sustantivo}." }
+            ]
+          }
+        ],
+        "practice_prompts": [
+          {
+            "type": "writing",
+            "en": "Write two sentences about technology. Use I like… and I don't like…",
+            "es": "Escribe dos oraciones sobre tecnología. Usa I like… y I don't like…"
+          }
+        ],
+        "sample_answers": [
+          { "en": "I like my cell phone and my apps.", "es": "Me gusta mi celular y mis apps." },
+          { "en": "I don't like my laptop because it's very old.", "es": "No me gusta mi laptop porque es muy vieja." }
+        ]
+      },
+      {
+        "id": "u4_l2",
+        "title": { "en": "My phone is my world", "es": "Mi teléfono es mi mundo" },
+        "focus": {
+          "vocabulary": ["using_technology"],
+          "grammar": ["simple_present_yes_no_questions_i_you_we"]
+        },
+        "vocabulary": {
+          "using_technology": [
+            { "en": "call friends / family", "es": "llamar a amigos / familia" },
+            { "en": "chat with friends / family", "es": "chatear con amigos / familia" },
+            { "en": "listen to music", "es": "escuchar música" },
+            { "en": "play games", "es": "jugar juegos" },
+            { "en": "post photos / comments", "es": "publicar fotos / comentarios" },
+            { "en": "read emails / messages", "es": "leer correos / mensajes" },
+            { "en": "buy apps / games / music / movies", "es": "comprar apps / juegos / música / películas" },
+            { "en": "leave voice messages / comments", "es": "dejar mensajes de voz / comentarios" },
+            { "en": "send emails / text messages", "es": "enviar correos / mensajes de texto" },
+            { "en": "use apps / social media", "es": "usar apps / redes sociales" },
+            { "en": "watch movies / videos / TV", "es": "ver películas / videos / TV" }
+          ],
+          "prepositions_notes": [
+            {
+              "en": "chat with someone",
+              "es": "chat with alguien (chatear con alguien)"
+            },
+            {
+              "en": "listen to music",
+              "es": "listen to música (escuchar música)"
+            },
+            {
+              "en": "Don't use a preposition after call: I call my mom. (not: I call to my mom)",
+              "es": "No uses preposición con call: I call my mom. (no: I call to my mom)"
+            }
+          ],
+          "use_on_phrases": [
+            { "en": "... on my computer / laptop", "es": "... en mi computadora / laptop" },
+            { "en": "... on my cell phone / tablet", "es": "... en mi celular / tablet" },
+            { "en": "... on my smartwatch", "es": "... en mi reloj inteligente" },
+            { "en": "... on the internet", "es": "... en internet" },
+            { "en": "... online", "es": "... en línea" }
+          ]
+        },
+        "grammar": {
+          "simple_present_yes_no_questions_i_you_we": {
+            "title": {
+              "en": "Simple present yes/no questions with I, you, we",
+              "es": "Presente simple (preguntas sí/no) con I, you, we"
+            },
+            "rules": [
+              { "en": "To make questions, use do + subject + base verb.", "es": "Para preguntas usa do + sujeto + verbo base." },
+              { "en": "Short answers: Yes, I/you/we do. No, I/you/we don't.", "es": "Respuestas cortas: Yes, I/you/we do. No, I/you/we don't." }
+            ],
+            "formula": {
+              "question": "Do + subject (I/you/we) + base verb?",
+              "short_answers": "Yes, I/you/we do. / No, I/you/we don't."
+            },
+            "examples": [
+              { "en": "Do you use social media?", "es": "¿Usas redes sociales?" },
+              { "en": "Yes, I do.", "es": "Sí, uso." },
+              { "en": "Do you and your friends send emails?", "es": "¿Tú y tus amigos envían correos?" },
+              { "en": "No, we don't.", "es": "No, no enviamos." }
+            ]
+          }
+        },
+        "dialogue": {
+          "title": { "en": "Phone plan", "es": "Plan de teléfono" },
+          "lines": [
+            {
+              "speaker": "Clerk",
+              "en": "What do you do on your phone? Do you call your friends?",
+              "es": "¿Qué haces en tu teléfono? ¿Llamas a tus amigos?"
+            },
+            {
+              "speaker": "Olivia",
+              "en": "No. I chat with my friends, but I don't call them.",
+              "es": "No. Chateo con mis amigos, pero no los llamo."
+            }
+          ]
+        },
+        "practice_prompts": [
+          {
+            "type": "survey",
+            "en": "Write five survey questions about using technology. Then ask a friend or family member.",
+            "es": "Escribe cinco preguntas de encuesta sobre cómo usas la tecnología. Luego pregúntale a un amigo o familiar."
+          }
+        ],
+        "model_survey": [
+          {
+            "q": { "en": "Do you use social media every day?", "es": "¿Usas redes sociales todos los días?" },
+            "a": { "en": "Yes, I do. I use Facebook and Instagram every day.", "es": "Sí. Uso Facebook e Instagram todos los días." }
+          },
+          {
+            "q": { "en": "Do you play games on your phone?", "es": "¿Juegas en tu teléfono?" },
+            "a": { "en": "No, I don't. I only use my phone for messages and calls.", "es": "No. Solo uso mi teléfono para mensajes y llamadas." }
+          }
+        ]
+      },
+      {
+        "id": "u4_l3",
+        "title": { "en": "What about you?", "es": "¿Y tú?" },
+        "focus": {
+          "functional_language": ["new_topic", "ask_back", "listening_responses"],
+          "pronunciation": ["stressed_words"]
+        },
+        "functional_language": {
+          "asking_about_a_new_topic": [
+            { "en": "What about...?", "es": "¿Qué tal...?" },
+            { "en": "Do you...?", "es": "¿Tú...?" }
+          ],
+          "asking_back_same_question": [
+            { "en": "Do you ..., too?", "es": "¿Tú también...?" },
+            { "en": "How about you?", "es": "¿Y tú?" },
+            { "en": "What about you?", "es": "¿Y tú?" },
+            { "en": "And you?", "es": "¿Y tú?" }
+          ],
+          "showing_you_are_listening": [
+            { "en": "Right.", "es": "Ajá / Correcto." },
+            { "en": "Yeah.", "es": "Sí." },
+            { "en": "OK.", "es": "Ok." }
+          ]
+        },
+        "practice_prompts": [
+          {
+            "type": "conversation",
+            "en": "Ask about a new topic and then ask the same question back.",
+            "es": "Pregunta por un tema nuevo y luego devuelve la misma pregunta."
+          }
+        ]
+      },
+      {
+        "id": "u4_l4",
+        "title": { "en": "Great! Five stars", "es": "¡Genial! Cinco estrellas" },
+        "focus": {
+          "listening": ["product_reviews"],
+          "grammar": ["a_an", "adjectives_before_nouns"],
+          "writing_skills": ["but", "because"],
+          "writing": ["product_review"]
+        },
+        "grammar": {
+          "a_an": {
+            "title": { "en": "a / an", "es": "a / an" },
+            "rules": [
+              { "en": "Use a/an with a singular noun.", "es": "Usa a/an con sustantivos singulares." },
+              { "en": "Use an before a vowel sound.", "es": "Usa an antes de sonido vocal." },
+              { "en": "Use a before a consonant sound.", "es": "Usa a antes de sonido consonante." },
+              { "en": "Don't use a/an with plural nouns.", "es": "No uses a/an con sustantivos plurales." }
+            ],
+            "examples": [
+              { "en": "a laptop", "es": "una laptop" },
+              { "en": "an app", "es": "una app" }
+            ],
+            "dont_use_with": [
+              { "en": "plural nouns (You take photos.)", "es": "plurales (You take photos.)" },
+              { "en": "this/that before a noun (This tablet...)", "es": "this/that antes del sustantivo (This tablet...)" },
+              { "en": "numbers (I have two uncles.)", "es": "números (I have two uncles.)" },
+              { "en": "possessives (Our house is small.)", "es": "posesivos (Our house...)" }
+            ]
+          },
+          "adjectives_before_nouns": {
+            "title": { "en": "Adjectives before nouns", "es": "Adjetivos antes del sustantivo" },
+            "rules": [
+              { "en": "Adjectives go before the noun.", "es": "Los adjetivos van antes del sustantivo." },
+              { "en": "Don't add -s to adjectives with plural nouns.", "es": "No agregues -s a los adjetivos en plural." }
+            ],
+            "examples": [
+              { "en": "It's an expensive phone.", "es": "Es un teléfono caro." },
+              { "en": "These are expensive phones.", "es": "Estos son teléfonos caros." }
+            ]
+          }
+        },
+        "writing_skills": {
+          "but_because": {
+            "rules": [
+              { "en": "Use but to add a different idea.", "es": "Usa but para contrastar." },
+              { "en": "Use because to give a reason.", "es": "Usa because para dar una razón." }
+            ],
+            "examples": [
+              { "en": "My watch is old, but it's great.", "es": "Mi reloj es viejo, pero es genial." },
+              { "en": "I don't like it because it's small.", "es": "No me gusta porque es pequeño." }
+            ]
+          },
+          "stars_scale": [
+            { "stars": 1, "en": "really bad", "es": "muy malo" },
+            { "stars": 2, "en": "bad", "es": "malo" },
+            { "stars": 3, "en": "not bad, not good", "es": "ni malo ni bueno" },
+            { "stars": 4, "en": "good", "es": "bueno" },
+            { "stars": 5, "en": "great", "es": "excelente" }
+          ]
+        },
+        "review_template": {
+          "required_info": [
+            { "en": "What is the product?", "es": "¿Qué producto es?" },
+            { "en": "Is it good or bad? Why?", "es": "¿Es bueno o malo? ¿Por qué?" },
+            { "en": "How do you use it?", "es": "¿Cómo lo usas?" },
+            { "en": "Price: cheap or expensive?", "es": "Precio: ¿barato o caro?" },
+            { "en": "How many stars?", "es": "¿Cuántas estrellas?" }
+          ],
+          "word_count": { "min": 50, "max": 75 },
+          "model_review": {
+            "en": "I’m reviewing my tablet. It’s a good product because I can do many things with it. I watch videos and read books on it, and I also use it for work. It’s small and light, but the battery doesn’t last very long. It’s around 250 dollars, so it’s not very cheap. Still, I think it’s a really useful device! I give it four stars.",
+            "es": "Estoy reseñando mi tablet. Es un buen producto porque puedo hacer muchas cosas con ella. Veo videos y leo libros en ella, y también la uso para trabajar. Es pequeña y liviana, pero la batería no dura mucho. Cuesta alrededor de 250 dólares, así que no es muy barata. Aun así, creo que es un dispositivo muy útil. ¡Le doy cuatro estrellas!"
+          }
+        }
+      }
+    ]
+  },
+  "ui_screens": [
+    {
+      "id": "screen_u4_vocab_tech",
+      "title": { "en": "Technology", "es": "Tecnología" },
+      "data_source_path": "unit.lessons[0].vocabulary.technology",
+      "component_suggestion": "VocabularyList"
+    },
+    {
+      "id": "screen_u4_grammar_present_statements",
+      "title": { "en": "Simple present (statements)", "es": "Presente simple (afirmaciones)" },
+      "data_source_path": "unit.lessons[0].grammar.simple_present_statements_i_you_we",
+      "component_suggestion": "GrammarCards"
+    },
+    {
+      "id": "screen_u4_vocab_using_tech",
+      "title": { "en": "Using technology", "es": "Usar tecnología" },
+      "data_source_path": "unit.lessons[1].vocabulary.using_technology",
+      "component_suggestion": "PhraseList"
+    },
+    {
+      "id": "screen_u4_grammar_yesno_questions",
+      "title": { "en": "Yes/No questions", "es": "Preguntas Sí/No" },
+      "data_source_path": "unit.lessons[1].grammar.simple_present_yes_no_questions_i_you_we",
+      "component_suggestion": "GrammarCards"
+    },
+    {
+      "id": "screen_u4_functional_language",
+      "title": { "en": "What about you?", "es": "¿Y tú?" },
+      "data_source_path": "unit.lessons[2].functional_language",
+      "component_suggestion": "ChipsAndExamples"
+    },
+    {
+      "id": "screen_u4_review_writer",
+      "title": { "en": "Write a review", "es": "Escribe una reseña" },
+      "data_source_path": "unit.lessons[3].review_template",
+      "component_suggestion": "ReviewComposer"
+    }
+  ]
+}

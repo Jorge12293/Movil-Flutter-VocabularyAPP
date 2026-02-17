@@ -1,0 +1,334 @@
+{
+  "unit": {
+    "id": "unit_6_zoom_in_zoom_out",
+    "title": { "en": "Zoom in, zoom out", "es": "Acercar y alejar" },
+    "overview": {
+      "goals": [
+        { "en": "Talk about places in the city.", "es": "Hablar de lugares en la ciudad." },
+        { "en": "Talk about nature in your area.", "es": "Hablar de la naturaleza en tu zona." },
+        { "en": "Ask for and give directions.", "es": "Pedir y dar direcciones." },
+        { "en": "Write a fact sheet about a place in nature.", "es": "Escribir una ficha informativa sobre un lugar en la naturaleza." }
+      ]
+    },
+    "lessons": [
+      {
+        "id": "u6_l1",
+        "title": { "en": "Good places", "es": "Buenos lugares" },
+        "focus": {
+          "vocabulary": ["places_in_cities"],
+          "grammar": ["theres_there_are_quantifiers"]
+        },
+        "vocabulary": {
+          "places_in_cities": [
+            { "en": "bookstore", "es": "librería" },
+            { "en": "café", "es": "cafetería" },
+            { "en": "college", "es": "universidad / instituto" },
+            { "en": "hospital", "es": "hospital" },
+            { "en": "hotel", "es": "hotel" },
+            { "en": "mall", "es": "centro comercial" },
+            { "en": "movie theater", "es": "cine" },
+            { "en": "museum", "es": "museo" },
+            { "en": "park", "es": "parque" },
+            { "en": "restaurant", "es": "restaurante" },
+            { "en": "school", "es": "escuela / colegio" },
+            { "en": "store", "es": "tienda" },
+            { "en": "supermarket", "es": "supermercado" },
+            { "en": "zoo", "es": "zoológico" }
+          ]
+        },
+        "grammar": {
+          "theres_there_are_quantifiers": {
+            "title": {
+              "en": "There's / There are + a lot of / some / no",
+              "es": "There's / There are + a lot of / some / no"
+            },
+            "rules": [
+              {
+                "en": "Use There's a/an with singular count nouns.",
+                "es": "Usa There's a/an con sustantivos contables singulares."
+              },
+              {
+                "en": "Use There are with plural count nouns.",
+                "es": "Usa There are con sustantivos contables plurales."
+              },
+              {
+                "en": "Use a lot of for a large number/amount.",
+                "es": "Usa a lot of para una gran cantidad."
+              },
+              {
+                "en": "Use some for a small number/amount or when the number isn't important.",
+                "es": "Usa some para una cantidad pequeña o cuando no importa el número."
+              },
+              {
+                "en": "Use no to mean zero (negative).",
+                "es": "Usa no para decir cero (negativo)."
+              }
+            ],
+            "examples": [
+              { "en": "There's an art gallery near the beach.", "es": "Hay una galería de arte cerca de la playa." },
+              { "en": "There are some big parks.", "es": "Hay algunos parques grandes." },
+              { "en": "There are a lot of great restaurants in this neighborhood.", "es": "Hay muchos restaurantes geniales en este vecindario." },
+              { "en": "There's no café near the beach.", "es": "No hay cafetería cerca de la playa." },
+              { "en": "There are no good restaurants in the mall.", "es": "No hay buenos restaurantes en el centro comercial." }
+            ]
+          }
+        },
+        "sentence_patterns": [
+          {
+            "id": "city_places_describe",
+            "label": { "en": "Describing your neighborhood", "es": "Describir tu barrio" },
+            "templates": [
+              {
+                "en": "There's a/an {place} near my {location}.",
+                "es": "Hay un/una {place_es} cerca de {location_es}."
+              },
+              {
+                "en": "There are some {adjective} {places} in my neighborhood.",
+                "es": "Hay algunos/as {places_es} {adjective_es} en mi barrio."
+              },
+              {
+                "en": "There are a lot of {places} here.",
+                "es": "Hay muchos/as {places_es} aquí."
+              },
+              {
+                "en": "There's no {place} near here.",
+                "es": "No hay {place_es} cerca de aquí."
+              },
+              {
+                "en": "There are no {places} in my town.",
+                "es": "No hay {places_es} en mi ciudad/pueblo."
+              }
+            ]
+          }
+        ],
+        "practice_prompts": [
+          {
+            "type": "speaking",
+            "en": "Talk about 4–5 places in your neighborhood. Use There's/There are + some/a lot of/no.",
+            "es": "Habla de 4–5 lugares en tu barrio. Usa There's/There are + some/a lot of/no."
+          }
+        ]
+      },
+      {
+        "id": "u6_l2",
+        "title": { "en": "City life, wild life", "es": "Vida de ciudad, vida salvaje" },
+        "focus": {
+          "vocabulary": ["nature"],
+          "grammar": ["count_noncount_nouns"]
+        },
+        "vocabulary": {
+          "nature": {
+            "water": [
+              { "en": "lake", "es": "lago" },
+              { "en": "river", "es": "río" },
+              { "en": "ocean", "es": "océano" },
+              { "en": "snow", "es": "nieve" }
+            ],
+            "land": [
+              { "en": "desert", "es": "desierto" },
+              { "en": "beach", "es": "playa" },
+              { "en": "hills", "es": "colinas" },
+              { "en": "mountains", "es": "montañas" },
+              { "en": "island", "es": "isla" }
+            ],
+            "plants": [
+              { "en": "grass", "es": "césped / pasto" },
+              { "en": "tree", "es": "árbol" },
+              { "en": "forest", "es": "bosque" },
+              { "en": "flower", "es": "flor" },
+              { "en": "plants", "es": "plantas" }
+            ]
+          }
+        },
+        "grammar": {
+          "count_noncount_nouns": {
+            "title": { "en": "Count and non-count nouns", "es": "Sustantivos contables y no contables" },
+            "count_nouns": {
+              "definition": {
+                "en": "Count nouns have singular and plural forms.",
+                "es": "Los contables tienen singular y plural."
+              },
+              "examples": [
+                { "en": "tree → trees", "es": "árbol → árboles" },
+                { "en": "apple → apples", "es": "manzana → manzanas" }
+              ],
+              "use_with": [
+                { "en": "There's a/an + singular count noun", "es": "There's a/an + contable singular" },
+                { "en": "There are + plural count noun", "es": "There are + contable plural" },
+                { "en": "There are some/a lot of/no + plural count nouns", "es": "There are some/a lot of/no + contables plurales" }
+              ]
+            },
+            "noncount_nouns": {
+              "definition": {
+                "en": "Non-count nouns have no singular/plural form.",
+                "es": "Los no contables no tienen singular/plural."
+              },
+              "examples": [
+                { "en": "grass", "es": "césped / pasto" },
+                { "en": "rain", "es": "lluvia" },
+                { "en": "snow", "es": "nieve" },
+                { "en": "water", "es": "agua" }
+              ],
+              "use_with": [
+                { "en": "There's + non-count noun", "es": "There's + no contable" },
+                { "en": "There's some/a lot of/no + non-count noun", "es": "There's some/a lot of/no + no contable" }
+              ]
+            },
+            "examples": [
+              { "en": "There's a school.", "es": "Hay una escuela." },
+              { "en": "There are no lemons.", "es": "No hay limones." },
+              { "en": "There's no rain.", "es": "No hay lluvia." },
+              { "en": "There's some grass.", "es": "Hay algo de césped." },
+              { "en": "There's snow on the mountain.", "es": "Hay nieve en la montaña." }
+            ]
+          }
+        },
+        "reading_samples": [
+          {
+            "id": "email_marisa",
+            "type": "email",
+            "en_summary": "Marisa describes nature in her town: mountain, forest, trees, snow, lake.",
+            "es_summary": "Marisa describe la naturaleza en su ciudad: montaña, bosque, árboles, nieve, lago."
+          },
+          {
+            "id": "email_julia",
+            "type": "email",
+            "en_summary": "Julia describes a modern city: no snowy mountains, but parks and grass.",
+            "es_summary": "Julia describe una ciudad moderna: no hay montañas nevadas, pero sí parques y césped."
+          }
+        ]
+      },
+      {
+        "id": "u6_l3",
+        "title": { "en": "Is it near here?", "es": "¿Está cerca de aquí?" },
+        "focus": {
+          "functional_language": ["directions"],
+          "strategy": ["checking_information"],
+          "pronunciation": ["ir_er_sounds"]
+        },
+        "functional_language": {
+          "asking_directions": [
+            { "en": "Excuse me. Where is the {place}?", "es": "Disculpe. ¿Dónde está el/la {place_es}?" },
+            { "en": "Is it near here?", "es": "¿Está cerca de aquí?" },
+            { "en": "How do I get to the {place}?", "es": "¿Cómo llego al/la {place_es}?" }
+          ],
+          "giving_directions": [
+            { "en": "It's very near here.", "es": "Está muy cerca de aquí." },
+            { "en": "Go straight for {number} blocks.", "es": "Sigue recto por {number} cuadras." },
+            { "en": "It's next to the {place}.", "es": "Está junto al/la {place_es}." },
+            { "en": "It's on the left / on the right.", "es": "Está a la izquierda / a la derecha." }
+          ],
+          "checking_information": [
+            { "en": "So it's that way?", "es": "Entonces, ¿es por allá?" },
+            { "en": "On my map, there are two {places} near the park.", "es": "En mi mapa, hay dos {places_es} cerca del parque." },
+            { "en": "Yes, that's right.", "es": "Sí, eso es correcto." }
+          ]
+        }
+      },
+      {
+        "id": "u6_l4",
+        "title": { "en": "A forest in the city", "es": "Un bosque en la ciudad" },
+        "focus": {
+          "listening": ["podcast_place_in_nature"],
+          "writing_skill": ["order_of_adjectives"],
+          "writing": ["fact_sheet"]
+        },
+        "writing_skill": {
+          "order_of_adjectives": {
+            "rules": [
+              {
+                "en": "Some/a lot of/no go before opinion adjectives.",
+                "es": "Some/a lot of/no van antes de adjetivos de opinión."
+              },
+              {
+                "en": "Opinion adjectives go before size adjectives.",
+                "es": "Los adjetivos de opinión van antes que los de tamaño."
+              },
+              {
+                "en": "Use very in writing (really is more common in speaking).",
+                "es": "En escritura usa very (really es más común al hablar)."
+              }
+            ],
+            "examples": [
+              { "en": "There are some nice rivers and waterfalls.", "es": "Hay algunos ríos y cascadas bonitas." },
+              { "en": "It is a nice, big forest.", "es": "Es un bosque bonito y grande." },
+              { "en": "There is a wonderful, tall statue.", "es": "Hay una estatua maravillosa y alta." }
+            ]
+          }
+        },
+        "fact_sheet_templates": {
+          "structure": [
+            { "section": "Location", "en": "Where is it?", "es": "¿Dónde está?" },
+            { "section": "Size", "en": "How big is it?", "es": "¿Qué tan grande es?" },
+            { "section": "Nature", "en": "What nature is there?", "es": "¿Qué naturaleza hay?" },
+            { "section": "Famous thing", "en": "What is famous there?", "es": "¿Qué es famoso allí?" },
+            { "section": "Why visit", "en": "Why is it important / good to visit?", "es": "¿Por qué es importante / bueno visitarlo?" }
+          ],
+          "starter_sentences": [
+            { "en": "{Place} is in {city}, {country}.", "es": "{Place} está en {city}, {country}." },
+            { "en": "It is a {opinion}, {size} {type}.", "es": "Es un/una {type_es} {opinion_es} y {size_es}." },
+            { "en": "There are a lot of {plural_nature}.", "es": "Hay muchos/as {plural_nature_es}." },
+            { "en": "There is some {noncount_nature}.", "es": "Hay algo de {noncount_nature_es}." },
+            { "en": "There are no {plural_thing} near here.", "es": "No hay {plural_thing_es} cerca de aquí." }
+          ]
+        },
+        "fact_sheet_examples": [
+          {
+            "id": "tijuca_forest",
+            "title": { "en": "Fact sheet: Tijuca Forest", "es": "Ficha: Bosque de Tijuca" },
+            "content": {
+              "en": "Tijuca Forest is in Rio de Janeiro, Brazil. It is a nice, big forest. It is 39 square kilometers. There are a lot of plants and trees. It has rivers and waterfalls. It has a lot of interesting animals and birds. There are some mountains. One famous mountain is Corcovado Mountain. There is a tall statue on it: the Christ statue. Tijuca Forest is very important to Rio de Janeiro.",
+              "es": "El Bosque de Tijuca está en Río de Janeiro, Brasil. Es un bosque bonito y grande. Tiene 39 kilómetros cuadrados. Hay muchas plantas y árboles. Tiene ríos y cascadas. Hay muchos animales y aves interesantes. Hay algunas montañas. Una montaña famosa es el Corcovado. Hay una estatua alta allí: el Cristo. El Bosque de Tijuca es muy importante para Río de Janeiro."
+            }
+          },
+          {
+            "id": "joshua_tree",
+            "title": { "en": "Fact sheet: Joshua Tree National Park", "es": "Ficha: Parque Nacional Joshua Tree" },
+            "content": {
+              "en": "Joshua Tree National Park is in California. It is a beautiful, big park in the desert. It is 3,200 square kilometers. It is very hot, but there are some nice mountains. There are also a lot of interesting trees and plants. It is a good place to see the stars because the sky is very clear. About 2.8 million people visit every year.",
+              "es": "El Parque Nacional Joshua Tree está en California. Es un parque bonito y grande en el desierto. Tiene 3,200 kilómetros cuadrados. Hace mucho calor, pero hay algunas montañas bonitas. También hay muchos árboles y plantas interesantes. Es un buen lugar para ver estrellas porque el cielo está muy claro. Aproximadamente 2.8 millones de personas lo visitan cada año."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "ui_screens": [
+    {
+      "id": "screen_u6_places_city",
+      "title": { "en": "Places in cities", "es": "Lugares en la ciudad" },
+      "data_source_path": "unit.lessons[0].vocabulary.places_in_cities",
+      "component_suggestion": "VocabularyList"
+    },
+    {
+      "id": "screen_u6_grammar_there_be",
+      "title": { "en": "There's / There are", "es": "There's / There are" },
+      "data_source_path": "unit.lessons[0].grammar.theres_there_are_quantifiers",
+      "component_suggestion": "GrammarCards"
+    },
+    {
+      "id": "screen_u6_nature",
+      "title": { "en": "Nature", "es": "Naturaleza" },
+      "data_source_path": "unit.lessons[1].vocabulary.nature",
+      "component_suggestion": "TabbedVocabulary"
+    },
+    {
+      "id": "screen_u6_count_noncount",
+      "title": { "en": "Count vs non-count", "es": "Contables vs no contables" },
+      "data_source_path": "unit.lessons[1].grammar.count_noncount_nouns",
+      "component_suggestion": "GrammarCards"
+    },
+    {
+      "id": "screen_u6_directions",
+      "title": { "en": "Directions", "es": "Direcciones" },
+      "data_source_path": "unit.lessons[2].functional_language",
+      "component_suggestion": "DialogueBuilder"
+    },
+    {
+      "id": "screen_u6_fact_sheet",
+      "title": { "en": "Fact sheet builder", "es": "Creador de ficha" },
+      "data_source_path": "unit.lessons[3].fact_sheet_templates",
+      "component_suggestion": "FactSheetComposer"
+    }
+  ]
+}

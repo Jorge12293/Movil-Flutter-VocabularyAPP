@@ -45,7 +45,7 @@ class _AdverbFrequencyPageState extends State<AdverbFrequencyPage> {
   @override
   void dispose() {
     final duration = DateTime.now().difference(_startTime);
-    StatisticsManager().saveStudyTime(duration.inSeconds);
+    StatisticsManager().saveStudySession('Adverbs', duration.inSeconds);
     super.dispose();
   }
 

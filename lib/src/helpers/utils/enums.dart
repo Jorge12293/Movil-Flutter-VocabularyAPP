@@ -3,4 +3,5 @@ enum EvaluationType {
   noun,
   question,
   adverb,
+  mixed,
 }

@@ -1,0 +1,238 @@
+{
+  "unit": {
+    "id": "unit_9_places_to_go",
+    "title": { "en": "Places to go", "es": "Lugares para ir" },
+    "overview": {
+      "goals": [
+        { "en": "Talk about travel and places (city/country/town) using this/these.", "es": "Hablar de viajes y lugares (ciudad/campo/pueblo) usando this/these." },
+        { "en": "Talk about travel plans with like to / want to / need to / have to.", "es": "Hablar de planes de viaje con like to / want to / need to / have to." },
+        { "en": "Ask for and give information (prices) and ask someone to repeat.", "es": "Pedir y dar información (precios) y pedir que repitan." },
+        { "en": "Write a description/review of a place using imperative verbs (advice).", "es": "Escribir una descripción/reseña de un lugar usando imperativos (consejos)." }
+      ]
+    },
+    "lessons": [
+      {
+        "id": "u9_l1",
+        "title": { "en": "I love it here!", "es": "¡Me encanta aquí!" },
+        "focus": { "vocabulary": ["travel_vocab"], "grammar": ["this_these"] },
+        "vocabulary": {
+          "travel_vocab": [
+            { "en": "boat", "es": "bote / barco" },
+            { "en": "plane", "es": "avión" },
+            { "en": "ticket", "es": "boleto / ticket" },
+            { "en": "tour", "es": "tour / recorrido" },
+            { "en": "vacation", "es": "vacaciones" },
+            { "en": "town", "es": "pueblo / ciudad pequeña" },
+            { "en": "country (the countryside)", "es": "campo (zona rural)" },
+            { "en": "farm", "es": "granja" },
+            { "en": "ranch", "es": "rancho" }
+          ]
+        },
+        "grammar": {
+          "this_these": {
+            "title": { "en": "This and these", "es": "This y these" },
+            "rules": [
+              { "en": "Use this for one thing near you (singular).", "es": "Usa this para una cosa cerca (singular)." },
+              { "en": "Use these for more than one thing near you (plural).", "es": "Usa these para más de una cosa cerca (plural)." }
+            ],
+            "forms": {
+              "this_plus_noun": { "en": "this + singular noun", "es": "this + sustantivo singular" },
+              "these_plus_noun": { "en": "these + plural noun", "es": "these + sustantivo plural" }
+            },
+            "examples": [
+              { "en": "This city is fun.", "es": "Esta ciudad es divertida." },
+              { "en": "These birds are funny.", "es": "Estos pájaros son graciosos." },
+              { "en": "This is our hotel.", "es": "Este es nuestro hotel." },
+              { "en": "These are my friends.", "es": "Estos son mis amigos." }
+            ]
+          }
+        },
+        "practice_prompts": [
+          {
+            "type": "writing",
+            "en": "Write 2–4 sentences about a vacation photo. Use this/these (photo, bicycles, mountains, vacation).",
+            "es": "Escribe 2–4 oraciones sobre una foto de vacaciones. Usa this/these (foto, bicicletas, montañas, vacaciones)."
+          },
+          {
+            "type": "speaking",
+            "en": "Talk about a photo of a place you like. Use this and these.",
+            "es": "Habla de una foto de un lugar que te gusta. Usa this y these."
+          }
+        ]
+      },
+      {
+        "id": "u9_l2",
+        "title": { "en": "San Francisco, here we come", "es": "San Francisco, allá vamos" },
+        "focus": { "vocabulary": ["travel_arrangements"], "grammar": ["like_want_need_have_to"] },
+        "vocabulary": {
+          "travel_arrangements": [
+            { "en": "airport", "es": "aeropuerto" },
+            { "en": "arrive", "es": "llegar" },
+            { "en": "check in", "es": "registrarse / hacer check-in" },
+            { "en": "destination", "es": "destino" },
+            { "en": "flight", "es": "vuelo" },
+            { "en": "fly", "es": "volar / viajar en avión" },
+            { "en": "leave", "es": "salir / irse" },
+            { "en": "online", "es": "en línea" },
+            { "en": "stay", "es": "quedarse / alojarse" },
+            { "en": "travel", "es": "viajar" },
+            { "en": "trip", "es": "viaje" }
+          ]
+        },
+        "grammar": {
+          "like_want_need_have_to": {
+            "title": { "en": "Like to / want to / need to / have to", "es": "Like to / want to / need to / have to" },
+            "meaning": {
+              "choose": [
+                { "en": "like to = something you enjoy", "es": "like to = algo que disfrutas" },
+                { "en": "want to = something you choose/plan", "es": "want to = algo que quieres/planeas" }
+              ],
+              "necessary": [
+                { "en": "need to = necessary (strong)", "es": "need to = necesario (fuerte)" },
+                { "en": "have to = necessary (rule/plan)", "es": "have to = necesario (regla/plan)" }
+              ]
+            },
+            "rules": [
+              { "en": "Verb after to stays in base form: to buy, to go, to check in.", "es": "El verbo después de to va en forma base: to buy, to go, to check in." },
+              { "en": "With he/she/it, the first verb changes: likes/wants/needs/has to.", "es": "Con he/she/it, cambia el primer verbo: likes/wants/needs/has to." }
+            ],
+            "examples": [
+              { "en": "I like to fly, but the ticket is expensive.", "es": "Me gusta volar, pero el boleto es caro." },
+              { "en": "We want to go to San Francisco.", "es": "Queremos ir a San Francisco." },
+              { "en": "You need to buy your ticket online.", "es": "Necesitas comprar tu ticket en línea." },
+              { "en": "We have to check in two hours before the flight.", "es": "Tenemos que hacer check-in dos horas antes del vuelo." },
+              { "en": "She has to leave on Wednesday.", "es": "Ella tiene que salir el miércoles." }
+            ],
+            "templates": [
+              { "en": "I like to + verb.", "es": "I like to + verbo." },
+              { "en": "I want to + verb.", "es": "I want to + verbo." },
+              { "en": "I need to + verb.", "es": "I need to + verbo." },
+              { "en": "I have to + verb.", "es": "I have to + verbo." },
+              { "en": "He/She likes/wants/needs/has to + verb.", "es": "He/She likes/wants/needs/has to + verbo." }
+            ]
+          }
+        },
+        "practice_prompts": [
+          {
+            "type": "speaking",
+            "en": "Talk about a trip (vacation/work/family). Use like to, want to, need to, have to + travel words (airport, arrive, check in, destination, flight, online, stay).",
+            "es": "Habla de un viaje (vacaciones/trabajo/familia). Usa like to, want to, need to, have to + palabras de viaje."
+          }
+        ]
+      },
+      {
+        "id": "u9_l3",
+        "title": { "en": "They're two for $15", "es": "Son dos por $15" },
+        "focus": { "functional_language": ["asking_info_prices"], "strategy": ["repeat"], "pronunciation": ["prices"] },
+        "functional_language": {
+          "asking_info_prices": [
+            { "en": "How much is it?", "es": "¿Cuánto cuesta?" },
+            { "en": "How much are these?", "es": "¿Cuánto cuestan estos?" },
+            { "en": "It's $10.", "es": "Cuesta $10." },
+            { "en": "They're two for $15.", "es": "Son dos por $15." },
+            { "en": "Where is it?", "es": "¿Dónde está?" },
+            { "en": "What time does it start?", "es": "¿A qué hora empieza?" }
+          ]
+        },
+        "strategy": {
+          "repeat": {
+            "title": { "en": "Asking someone to repeat", "es": "Pedir que repitan" },
+            "phrases": [
+              { "en": "Sorry?", "es": "¿Perdón?" },
+              { "en": "Can you say that again, please?", "es": "¿Puedes decirlo otra vez, por favor?" },
+              { "en": "Can you repeat that, please?", "es": "¿Puedes repetir eso, por favor?" },
+              { "en": "How much is that again?", "es": "¿Cuánto es eso otra vez?" }
+            ]
+          }
+        },
+        "pronunciation": {
+          "prices": {
+            "tips": [
+              { "en": "$15 = fifteen dollars", "es": "$15 = quince dólares" },
+              { "en": "$1.50 = one dollar fifty", "es": "$1.50 = un dólar con cincuenta" },
+              { "en": "$20–$60 a night = twenty to sixty dollars a night", "es": "$20–$60 por noche" }
+            ]
+          }
+        }
+      },
+      {
+        "id": "u9_l4",
+        "title": { "en": "A great destination", "es": "Un gran destino" },
+        "focus": { "reading": ["place_description"], "writing_skill": ["imperatives"], "writing": ["place_review"] },
+        "writing_skill": {
+          "imperatives": {
+            "title": { "en": "Imperative verbs (advice)", "es": "Imperativos (consejos)" },
+            "rules": [
+              { "en": "Imperatives have no subject (no 'you').", "es": "Los imperativos no llevan sujeto (no 'you')." },
+              { "en": "Affirmative: base verb (Walk...).", "es": "Afirmativo: verbo base (Walk...)."},
+              { "en": "Negative: Don't + base verb (Don't forget...).", "es": "Negativo: Don't + verbo base (Don't forget...)."}
+            ],
+            "examples": [
+              { "en": "Walk to the top and see the view.", "es": "Camina hasta arriba y mira la vista." },
+              { "en": "Don’t take an expensive tour.", "es": "No tomes un tour caro." },
+              { "en": "Don’t forget your camera.", "es": "No olvides tu cámara." },
+              { "en": "Stay with a local family.", "es": "Quédate con una familia local." }
+            ]
+          }
+        },
+        "reading_headings": [
+          { "en": "Transportation", "es": "Transporte" },
+          { "en": "Where to stay", "es": "Dónde quedarse" },
+          { "en": "Things to do", "es": "Qué hacer" }
+        ],
+        "writing_task": {
+          "en": "Write ~100 words: review a place near your home. Include: what you can do/see, tours, transportation, buildings/nature, food. Use imperatives (advice).",
+          "es": "Escribe ~100 palabras: reseña de un lugar cerca de tu casa. Incluye: qué puedes ver/hacer, tours, transporte, edificios/naturaleza, comida. Usa imperativos."
+        },
+        "model_review": {
+          "en": "You have to visit the park near my home. It’s a really nice place to relax. You can walk under big trees and see birds and flowers. There is a small lake, and you can see ducks in the water. You can take a short guided tour on weekends, or you can walk around by yourself. You can take a bus or ride a bike to get there. Bring some food and have a picnic. Don’t forget your camera—the park is great for photos!",
+          "es": "Tienes que visitar el parque cerca de mi casa. Es un lugar muy bonito para relajarse. Puedes caminar bajo árboles grandes y ver pájaros y flores. Hay un lago pequeño y puedes ver patos en el agua. Puedes tomar un tour corto los fines de semana o caminar solo. Puedes ir en bus o en bicicleta. Lleva comida y haz un picnic. ¡No olvides tu cámara—el parque es perfecto para fotos!"
+        }
+      }
+    ]
+  },
+  "ui_screens": [
+    {
+      "id": "screen_u9_travel_vocab",
+      "title": { "en": "Travel vocabulary", "es": "Vocabulario: viajes" },
+      "data_source_path": "unit.lessons[0].vocabulary.travel_vocab",
+      "component_suggestion": "VocabularyList"
+    },
+    {
+      "id": "screen_u9_this_these",
+      "title": { "en": "Grammar: this & these", "es": "Gramática: this & these" },
+      "data_source_path": "unit.lessons[0].grammar.this_these",
+      "component_suggestion": "RuleExamples"
+    },
+    {
+      "id": "screen_u9_arrangements",
+      "title": { "en": "Travel arrangements", "es": "Arreglos de viaje" },
+      "data_source_path": "unit.lessons[1].vocabulary.travel_arrangements",
+      "component_suggestion": "VocabularyList"
+    },
+    {
+      "id": "screen_u9_to_verbs",
+      "title": { "en": "Grammar: like/want/need/have to", "es": "Gramática: like/want/need/have to" },
+      "data_source_path": "unit.lessons[1].grammar.like_want_need_have_to",
+      "component_suggestion": "GrammarCards"
+    },
+    {
+      "id": "screen_u9_prices_repeat",
+      "title": { "en": "Asking about prices + repeat", "es": "Precios + pedir repetición" },
+      "data_source_path": "unit.lessons[2]",
+      "component_suggestion": "DialoguePractice"
+    },
+    {
+      "id": "screen_u9_imperatives",
+      "title": { "en": "Writing: imperatives (advice)", "es": "Escritura: imperativos (consejos)" },
+      "data_source_path": "unit.lessons[3].writing_skill.imperatives",
+      "component_suggestion": "RuleExamples"
+    },
+    {
+      "id": "screen_u9_review_builder",
+      "title": { "en": "Write a place review", "es": "Escribe una reseña" },
+      "data_source_path": "unit.lessons[3]",
+      "component_suggestion": "WritingComposer"
+    }
+  ]
+}

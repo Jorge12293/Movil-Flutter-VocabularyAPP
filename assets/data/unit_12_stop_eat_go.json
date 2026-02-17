@@ -1,0 +1,380 @@
+{
+  "unit": {
+    "id": "unit_12_stop_eat_go",
+    "title": { "en": "Stop, eat, go", "es": "Parar, comer, ir" },
+    "overview": {
+      "themes": [
+        { "en": "Talking about finished actions with the simple past", "es": "Hablar de acciones terminadas con pasado simple" },
+        { "en": "Food vocabulary for snacks, meals, drinks, and desserts", "es": "Vocabulario de comida: snacks, comidas, bebidas y postres" },
+        { "en": "Ordering and requesting food politely", "es": "Pedir y ofrecer comida con cortesía" },
+        { "en": "Writing a short restaurant review with lists and commas", "es": "Escribir una reseña con listas y comas" }
+      ]
+    },
+    "lessons": [
+      {
+        "id": "u12_l1",
+        "title": { "en": "Backpacking and snacking", "es": "Mochileando y picando" },
+        "focus": { "vocabulary": ["snacks_small_meals"], "grammar": ["simple_past_statements"] },
+        "vocabulary": {
+          "snacks_small_meals": {
+            "fruit_vegetables": [
+              { "en": "apple", "es": "manzana" },
+              { "en": "banana", "es": "banana / plátano" },
+              { "en": "coconut", "es": "coco" },
+              { "en": "orange", "es": "naranja" },
+              { "en": "pineapple", "es": "piña" },
+              { "en": "potato", "es": "papa" },
+              { "en": "tomato", "es": "tomate" }
+            ],
+            "meat": [
+              { "en": "beef", "es": "carne de res" },
+              { "en": "chicken", "es": "pollo" },
+              { "en": "lamb", "es": "cordero" }
+            ],
+            "dairy": [
+              { "en": "butter", "es": "mantequilla" },
+              { "en": "cheese", "es": "queso" }
+            ],
+            "grains": [
+              { "en": "bread", "es": "pan" },
+              { "en": "crackers", "es": "galletas saladas" }
+            ],
+            "small_meals": [
+              { "en": "sandwich", "es": "sándwich" },
+              { "en": "soup", "es": "sopa" }
+            ]
+          },
+          "count_vs_noncount": {
+            "count_nouns": [
+              "apple",
+              "banana",
+              "coconut",
+              "cracker",
+              "orange",
+              "pineapple",
+              "potato",
+              "sandwich",
+              "tomato"
+            ],
+            "noncount_nouns": [
+              "bread",
+              "butter",
+              "beef",
+              "cheese",
+              "chicken",
+              "lamb",
+              "soup"
+            ],
+            "plural_rules": [
+              {
+                "rule_en": "Most nouns: add -s (banana → bananas).",
+                "rule_es": "La mayoría: agrega -s (banana → bananas)."
+              },
+              {
+                "rule_en": "Some nouns ending -o/-ch/-sh/-s/-x: add -es (tomato → tomatoes; sandwich → sandwiches; potato → potatoes).",
+                "rule_es": "Algunas terminadas en -o/-ch/-sh/-s/-x: agrega -es (tomato → tomatoes; sandwich → sandwiches; potato → potatoes)."
+              }
+            ]
+          }
+        },
+        "grammar": {
+          "simple_past_statements": {
+            "title": { "en": "Simple past statements", "es": "Oraciones en pasado simple" },
+            "use": [
+              { "en": "Use the simple past for finished events.", "es": "Usa pasado simple para acciones terminadas." }
+            ],
+            "affirmative": {
+              "regular": {
+                "rule_en": "Add -ed / -d (walk → walked, like → liked).",
+                "rule_es": "Agrega -ed / -d (walk → walked, like → liked).",
+                "spelling_rules": [
+                  { "en": "Most verbs: +ed (need → needed)", "es": "La mayoría: +ed (need → needed)" },
+                  { "en": "Ends in -e: +d (like → liked)", "es": "Termina en -e: +d (like → liked)" },
+                  { "en": "CVC short verbs: double last consonant (stop → stopped, drop → dropped)", "es": "CVC: duplica consonante (stop → stopped, drop → dropped)" },
+                  { "en": "Consonant + y: y → ied (carry → carried, try → tried)", "es": "Consonante + y: y → ied (carry → carried, try → tried)" }
+                ]
+              },
+              "irregular": {
+                "rule_en": "Irregular verbs change form (go → went, have → had).",
+                "rule_es": "Los irregulares cambian (go → went, have → had)."
+              }
+            },
+            "negative": {
+              "rule_en": "didn’t + base verb (I didn’t eat).",
+              "rule_es": "didn’t + verbo base (I didn’t eat).",
+              "examples": [
+                { "en": "I didn’t have lunch.", "es": "No almorcé." },
+                { "en": "We didn’t drink any coffee.", "es": "No tomamos nada de café." }
+              ]
+            }
+          },
+          "irregular_verb_list_core": [
+            { "base": "buy", "past": "bought" },
+            { "base": "do", "past": "did" },
+            { "base": "drink", "past": "drank" },
+            { "base": "drive", "past": "drove" },
+            { "base": "eat", "past": "ate" },
+            { "base": "fly", "past": "flew" },
+            { "base": "get", "past": "got" },
+            { "base": "go", "past": "went" },
+            { "base": "have", "past": "had" },
+            { "base": "leave", "past": "left" },
+            { "base": "meet", "past": "met" },
+            { "base": "read", "past": "read" },
+            { "base": "ride", "past": "rode" },
+            { "base": "run", "past": "ran" },
+            { "base": "send", "past": "sent" },
+            { "base": "sing", "past": "sang" },
+            { "base": "swim", "past": "swam" },
+            { "base": "take", "past": "took" },
+            { "base": "think", "past": "thought" },
+            { "base": "write", "past": "wrote" }
+          ]
+        },
+        "mini_practice": [
+          {
+            "type": "guided_speaking",
+            "prompt_en": "Talk about 3 snacks or meals you ate last week. Say: what you ate, where, what you liked, what you hated.",
+            "prompt_es": "Habla de 3 snacks o comidas que comiste la semana pasada: qué comiste, dónde, qué te gustó y qué odiaste.",
+            "model": {
+              "en": "Last week, I ate three different meals. On Monday, I ate a cheese sandwich at home. I liked it because it was simple. On Wednesday, I went to a café and ate cake and drank coffee. I loved the cake, but I hated the coffee because it was bitter. On Saturday, I ate chicken soup at my grandmother’s house. It was warm and delicious.",
+              "es": "La semana pasada comí tres comidas diferentes. El lunes comí un sándwich de queso en casa. Me gustó porque era simple. El miércoles fui a un café y comí pastel y tomé café. Me encantó el pastel, pero odié el café porque era amargo. El sábado comí sopa de pollo en la casa de mi abuela. Estaba rica y calentita."
+            }
+          }
+        ]
+      },
+      {
+        "id": "u12_l2",
+        "title": { "en": "What did you eat?", "es": "¿Qué comiste?" },
+        "focus": { "vocabulary": ["food_drinks_desserts"], "grammar": ["simple_past_questions", "some_any"] },
+        "vocabulary": {
+          "food_drinks_desserts": {
+            "food": [
+              { "en": "black beans", "es": "fréjoles negros" },
+              { "en": "green beans", "es": "vainitas / ejotes" },
+              { "en": "eggs", "es": "huevos" },
+              { "en": "fish", "es": "pescado" },
+              { "en": "rice", "es": "arroz" },
+              { "en": "steak", "es": "bistec" },
+              { "en": "pizza", "es": "pizza" }
+            ],
+            "drinks": [
+              { "en": "juice", "es": "jugo" },
+              { "en": "soda", "es": "gaseosa" },
+              { "en": "water", "es": "agua" }
+            ],
+            "desserts": [
+              { "en": "ice cream", "es": "helado" },
+              { "en": "chocolate cake", "es": "pastel de chocolate" }
+            ]
+          }
+        },
+        "grammar": {
+          "simple_past_questions": {
+            "title": { "en": "Simple past questions", "es": "Preguntas en pasado simple" },
+            "yes_no": {
+              "rule_en": "Did + subject + base verb …?",
+              "rule_es": "Did + sujeto + verbo base …?",
+              "examples": [
+                { "en": "Did you like the food?", "es": "¿Te gustó la comida?" },
+                { "en": "Did you have dessert?", "es": "¿Comiste postre?" }
+              ],
+              "short_answers": [
+                { "en": "Yes, I did. / No, I didn’t.", "es": "Sí. / No." }
+              ]
+            },
+            "information": {
+              "rule_en": "Question word + did + subject + base verb …?",
+              "rule_es": "Pregunta + did + sujeto + verbo base …?",
+              "examples": [
+                { "en": "What did you eat?", "es": "¿Qué comiste?" },
+                { "en": "Where did you eat?", "es": "¿Dónde comiste?" },
+                { "en": "What did you drink?", "es": "¿Qué tomaste?" },
+                { "en": "When did you go?", "es": "¿Cuándo fuiste?" }
+              ]
+            }
+          },
+          "some_any": {
+            "title": { "en": "\"Some\" and \"any\"", "es": "\"Some\" y \"any\"" },
+            "rules": [
+              { "en": "Use some in affirmative statements: I had some soup.", "es": "Usa some en afirmativas: I had some soup." },
+              { "en": "Use any in yes/no questions and negative statements: Did you have any dessert? / I didn’t have any juice.", "es": "Usa any en preguntas sí/no y negativas: Did you have any dessert? / I didn’t have any juice." }
+            ],
+            "examples": [
+              { "en": "Did you eat any vegetables?", "es": "¿Comiste algunas verduras?" },
+              { "en": "No, I didn’t eat any vegetables.", "es": "No, no comí nada de verduras." }
+            ]
+          }
+        },
+        "mini_practice": [
+          {
+            "type": "dialogue_drill",
+            "prompt_en": "Answer as if you were in a restaurant yesterday.",
+            "prompt_es": "Responde como si ayer hubieras estado en un restaurante.",
+            "items": [
+              {
+                "q_en": "Where did you eat?",
+                "a_en": "I ate at a restaurant near my home.",
+                "q_es": "¿Dónde comiste?",
+                "a_es": "Comí en un restaurante cerca de mi casa."
+              },
+              {
+                "q_en": "What did you eat?",
+                "a_en": "I had fish and rice.",
+                "q_es": "¿Qué comiste?",
+                "a_es": "Comí pescado y arroz."
+              },
+              {
+                "q_en": "Did you have any dessert?",
+                "a_en": "No, I didn’t.",
+                "q_es": "¿Comiste postre?",
+                "a_es": "No."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u12_l3",
+        "title": { "en": "Please pass the butter", "es": "Por favor, pásame la mantequilla" },
+        "focus": {
+          "functional_language": ["offering_requesting_food_drink"],
+          "strategy": ["so_really_stronger"],
+          "pronunciation": ["h_r_sounds"]
+        },
+        "functional_language": {
+          "offering_requesting_food_drink": {
+            "offers": [
+              { "en": "Do you want some …?", "es": "¿Quieres …?" },
+              { "en": "Would you like some …?", "es": "¿Te gustaría …?" },
+              { "en": "Here you go.", "es": "Aquí tienes." }
+            ],
+            "requests": [
+              { "en": "Please pass the butter.", "es": "Por favor, pásame la mantequilla." },
+              { "en": "Can I have some water, please?", "es": "¿Me da un poco de agua, por favor?" },
+              { "en": "Could I have …, please?", "es": "¿Podría darme …, por favor?" }
+            ],
+            "responses": [
+              { "en": "Sure.", "es": "Claro." },
+              { "en": "Of course.", "es": "Por supuesto." },
+              { "en": "Sorry, we don’t have any.", "es": "Perdón, no tenemos." },
+              { "en": "No, thanks.", "es": "No, gracias." }
+            ]
+          }
+        },
+        "strategy": {
+          "so_really_stronger": {
+            "rule_en": "Use so / really to make words stronger (informal speaking).",
+            "rule_es": "Usa so / really para hacer las palabras más fuertes (habla informal).",
+            "examples": [
+              { "en": "The food was really good.", "es": "La comida estuvo realmente buena." },
+              { "en": "I was so hungry!", "es": "¡Tenía tanta hambre!" }
+            ]
+          }
+        },
+        "pronunciation": {
+          "h_r_sounds": {
+            "tips": [
+              { "en": "/h/ has air (hot, hungry, hotel).", "es": "/h/ lleva aire (hot, hungry, hotel)." },
+              { "en": "/r/ is strong in English (rice, restaurant, really).", "es": "/r/ es fuerte en inglés (rice, restaurant, really)." }
+            ],
+            "practice_words": [
+              { "en": "hungry", "es": "hungry" },
+              { "en": "hotel", "es": "hotel" },
+              { "en": "rice", "es": "rice" },
+              { "en": "really", "es": "really" }
+            ]
+          }
+        }
+      },
+      {
+        "id": "u12_l4",
+        "title": { "en": "What did the reviewers say?", "es": "¿Qué dijeron los que escribieron reseñas?" },
+        "focus": {
+          "listening": ["reviews_conversations"],
+          "pronunciation": ["d_you_wanna"],
+          "writing_skills": ["commas_in_lists"],
+          "writing": ["restaurant_review"]
+        },
+        "listening_notes": {
+          "key_points": [
+            { "en": "Stars show opinions: 5 stars = very good, 1 star = very bad.", "es": "Las estrellas muestran opiniones: 5 = muy bueno, 1 = muy malo." },
+            { "en": "Dollar signs show price: $ cheap, $$$ expensive.", "es": "Los $ muestran precio: $ barato, $$$ caro." }
+          ],
+          "common_review_topics": [
+            { "en": "food", "es": "comida" },
+            { "en": "service / servers", "es": "servicio / meseros" },
+            { "en": "price", "es": "precio" },
+            { "en": "atmosphere (quiet, noisy, light)", "es": "ambiente (tranquilo, ruidoso, iluminado)" }
+          ]
+        },
+        "pronunciation": {
+          "do_you_want_to": {
+            "notes": [
+              { "en": "\"Do you\" often sounds like /dʒu/ (d’you).", "es": "\"Do you\" suena como /dʒu/." },
+              { "en": "\"Want to\" often sounds like \"wanna\" in speaking (don’t write wanna).", "es": "\"Want to\" suena como \"wanna\" al hablar (no lo escribas)." }
+            ],
+            "examples": [
+              { "en": "D’you wanna go?", "es": "¿Quieres ir? (hablado)" },
+              { "en": "Do you want to go?", "es": "¿Quieres ir? (escrito)" }
+            ]
+          }
+        },
+        "writing_skills": {
+          "commas_in_lists": {
+            "rules": [
+              { "en": "Two items: use and (no comma). Example: fish and rice.", "es": "Dos cosas: usa and (sin coma). Ej.: fish and rice." },
+              { "en": "Three+ items: commas + and before last. Example: soup, fish, and rice.", "es": "Tres o más: comas + and antes del último. Ej.: soup, fish, and rice." }
+            ]
+          }
+        },
+        "writing_task": {
+          "title": { "en": "Write a restaurant review", "es": "Escribe una reseña de restaurante" },
+          "length": { "en": "60–90 words", "es": "60–90 palabras" },
+          "include": [
+            { "en": "Where it is + price (cheap/expensive)", "es": "Dónde está + precio (barato/caro)" },
+            { "en": "What you ate/drank (use a list with commas)", "es": "Qué comiste/tomaste (usa lista con comas)" },
+            { "en": "Opinion (use really/so once)", "es": "Opinión (usa really/so una vez)" },
+            { "en": "Service + stars", "es": "Servicio + estrellas" }
+          ],
+          "model_review": {
+            "en": "I went to Fish Around last week. It isn’t expensive, and the restaurant is very light. I had vegetable soup, fish, and rice, and I drank water. The fish was really great, and the servers were very friendly. I had ice cream for dessert. I gave it four stars because the food was good and the service was fast.",
+            "es": "Fui a Fish Around la semana pasada. No es caro y el restaurante es muy iluminado. Comí sopa de verduras, pescado y arroz, y tomé agua. El pescado estuvo realmente excelente y los meseros fueron muy amables. Comí helado de postre. Le doy cuatro estrellas porque la comida fue buena y el servicio fue rápido."
+          }
+        }
+      }
+    ]
+  },
+  "ui_screens": [
+    {
+      "id": "screen_u12_vocab_snacks",
+      "title": { "en": "Snacks and small meals", "es": "Snacks y comidas pequeñas" },
+      "data_source_path": "unit.lessons[0].vocabulary.snacks_small_meals",
+      "component_suggestion": "FlashcardsWithCategories"
+    },
+    {
+      "id": "screen_u12_past_statements",
+      "title": { "en": "Grammar: Simple past statements", "es": "Gramática: Pasado simple (oraciones)" },
+      "data_source_path": "unit.lessons[0].grammar.simple_past_statements",
+      "component_suggestion": "RuleExamples"
+    },
+    {
+      "id": "screen_u12_past_questions_any",
+      "title": { "en": "Grammar: Questions + any", "es": "Gramática: Preguntas + any" },
+      "data_source_path": "unit.lessons[1].grammar",
+      "component_suggestion": "QuizAndDrills"
+    },
+    {
+      "id": "screen_u12_table_talk",
+      "title": { "en": "At the table: requests & offers", "es": "En la mesa: pedir y ofrecer" },
+      "data_source_path": "unit.lessons[2].functional_language.offering_requesting_food_drink",
+      "component_suggestion": "RoleplayCards"
+    },
+    {
+      "id": "screen_u12_review_writer",
+      "title": { "en": "Write a restaurant review", "es": "Escribe una reseña" },
+      "data_source_path": "unit.lessons[3].writing_task",
+      "component_suggestion": "WritingComposer"
+    }
+  ]
+}

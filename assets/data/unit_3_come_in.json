@@ -1,0 +1,270 @@
+{
+  "unit": {
+    "id": "unit_3_come_in",
+    "title": { "en": "Come in", "es": "Pasa" },
+    "lessons": [
+      {
+        "id": "u3_l1",
+        "title": { "en": "Welcome to my home", "es": "Bienvenido a mi casa" },
+        "focus": {
+          "vocabulary": ["rooms_in_a_home", "things_in_a_room"],
+          "grammar": ["possessive_adjectives", "possessive_s"]
+        },
+        "vocabulary": {
+          "rooms_in_a_home": [
+            { "en": "bathroom", "es": "baño" },
+            { "en": "bedroom", "es": "dormitorio" },
+            { "en": "dining room", "es": "comedor" },
+            { "en": "dining area", "es": "zona de comedor" },
+            { "en": "kitchen", "es": "cocina" },
+            { "en": "living room", "es": "sala / sala de estar" }
+          ],
+          "things_in_a_room": [
+            { "en": "nightstand", "es": "mesa de noche" },
+            { "en": "door", "es": "puerta" },
+            { "en": "floor", "es": "piso / suelo" },
+            { "en": "picture", "es": "cuadro / foto" },
+            { "en": "wall", "es": "pared" },
+            { "en": "window", "es": "ventana" },
+            { "en": "refrigerator", "es": "refrigerador / nevera" }
+          ]
+        },
+        "grammar": {
+          "possessive_adjectives": {
+            "title": { "en": "Possessive adjectives", "es": "Adjetivos posesivos" },
+            "items": [
+              { "subject": "I", "possessive": { "en": "my", "es": "mi / mis" } },
+              { "subject": "you", "possessive": { "en": "your", "es": "tu / tus / su / sus" } },
+              { "subject": "he", "possessive": { "en": "his", "es": "su (de él)" } },
+              { "subject": "she", "possessive": { "en": "her", "es": "su (de ella)" } },
+              { "subject": "it", "possessive": { "en": "its", "es": "su (de eso)" } },
+              { "subject": "we", "possessive": { "en": "our", "es": "nuestro/a/os/as" } },
+              { "subject": "they", "possessive": { "en": "their", "es": "su (de ellos/ellas)" } }
+            ],
+            "rules": [
+              {
+                "en": "Possessive adjectives go before the noun.",
+                "es": "Los adjetivos posesivos van antes del sustantivo."
+              }
+            ],
+            "examples": [
+              { "en": "This is my house.", "es": "Esta es mi casa." },
+              { "en": "This is their room.", "es": "Este es su cuarto." },
+              { "en": "Its windows are old, but its doors are new.", "es": "Sus ventanas son viejas, pero sus puertas son nuevas." }
+            ]
+          },
+          "possessive_s": {
+            "title": { "en": "Possessive 's and s'", "es": "Posesivo con 's y s'" },
+            "rules": [
+              {
+                "type": "singular",
+                "pattern": "Noun + 's + noun",
+                "en": "Use 's with singular nouns to show possession.",
+                "es": "Usa 's con sustantivos singulares para mostrar posesión."
+              },
+              {
+                "type": "plural",
+                "pattern": "Plural noun + s' + noun",
+                "en": "Use s' with plural nouns ending in s.",
+                "es": "Usa s' con plurales que terminan en s."
+              }
+            ],
+            "examples": [
+              { "en": "Sergei's room", "es": "El cuarto de Sergei" },
+              { "en": "my sister's cat", "es": "el gato de mi hermana" },
+              { "en": "my parents' room", "es": "el cuarto de mis padres" }
+            ]
+          }
+        },
+        "sentence_patterns": [
+          {
+            "id": "apartment_has",
+            "label": { "en": "Describing your home", "es": "Describir tu hogar" },
+            "templates": [
+              {
+                "en": "My apartment has a {adjective} {room}.",
+                "es": "Mi apartamento tiene un/una {room_es} {adjective_es}."
+              },
+              {
+                "en": "My apartment doesn't have a {room}.",
+                "es": "Mi apartamento no tiene {room_es}."
+              },
+              {
+                "en": "There is a {adjective} {thing} in my {room}.",
+                "es": "Hay un/una {thing_es} {adjective_es} en mi {room_es}."
+              },
+              {
+                "en": "There are {quantity} {things} in my {room}.",
+                "es": "Hay {quantity} {things_es} en mi {room_es}."
+              }
+            ]
+          }
+        ],
+        "practice_prompts": [
+          {
+            "type": "writing",
+            "en": "What rooms do you have in your house or apartment? Write a sentence.",
+            "es": "¿Qué cuartos tienes en tu casa o apartamento? Escribe una oración."
+          }
+        ],
+        "sample_answer": {
+          "en": "In my house there are three bedrooms, a bathroom, a kitchen, and a dining area.",
+          "es": "En mi casa hay tres dormitorios, un baño, una cocina y una zona de comedor."
+        }
+      },
+      {
+        "id": "u3_l2",
+        "title": { "en": "Is it really a chair?", "es": "¿De verdad es una silla?" },
+        "focus": { "vocabulary": ["furniture", "things_in_the_home"], "grammar": ["it_is"] },
+        "vocabulary": {
+          "furniture": [
+            { "en": "bed", "es": "cama" },
+            { "en": "bookcase", "es": "librero / estantería" },
+            { "en": "chair", "es": "silla" },
+            { "en": "couch", "es": "sofá" },
+            { "en": "desk", "es": "escritorio" },
+            { "en": "rug", "es": "alfombra" },
+            { "en": "table", "es": "mesa" }
+          ],
+          "things_in_the_home": [
+            { "en": "lamp", "es": "lámpara" },
+            { "en": "refrigerator", "es": "refrigerador / nevera" },
+            { "en": "shower", "es": "ducha" },
+            { "en": "sink", "es": "lavamanos / fregadero" },
+            { "en": "television", "es": "televisión" },
+            { "en": "TV", "es": "tele" }
+          ]
+        },
+        "grammar": {
+          "it_is": {
+            "title": { "en": "It is", "es": "It is (es / está para cosas)" },
+            "forms": {
+              "affirmative": { "en": "It's a chair.", "es": "Es una silla." },
+              "negative": { "en": "It isn't a bed. / It's not a bed.", "es": "No es una cama." },
+              "question": { "en": "Is it a picture?", "es": "¿Es una foto/cuadro?" },
+              "short_answers": [
+                { "en": "Yes, it is.", "es": "Sí, lo es." },
+                { "en": "No, it isn't. / No, it's not.", "es": "No, no lo es." }
+              ]
+            }
+          }
+        },
+        "sentence_patterns": [
+          {
+            "id": "there_is_are",
+            "label": { "en": "There is / There are", "es": "Hay (singular/plural)" },
+            "templates": [
+              { "en": "There is a {thing} in my {room}.", "es": "Hay un/una {thing_es} en mi {room_es}." },
+              { "en": "There are {number} {things} in my {room}.", "es": "Hay {number} {things_es} en mi {room_es}." }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u3_l4",
+        "title": { "en": "Home-share", "es": "Compartir casa" },
+        "focus": { "grammar": ["information_questions_with_be"], "writing": ["emails", "question_marks"] },
+        "grammar": {
+          "information_questions_with_be": {
+            "title": { "en": "Information questions with be", "es": "Preguntas con 'be' (información)" },
+            "question_words": [
+              { "en": "Who", "es": "Quién (personas)" },
+              { "en": "What", "es": "Qué (cosas/datos)" },
+              { "en": "Where", "es": "Dónde (lugares)" },
+              { "en": "How old", "es": "Qué edad" },
+              { "en": "When", "es": "Cuándo" },
+              { "en": "How many", "es": "Cuántos/as" }
+            ],
+            "rules": [
+              { "en": "Question word goes before be.", "es": "La palabra de pregunta va antes de 'be'." },
+              { "en": "Use is for one thing/person; are for plural.", "es": "Usa is para singular; are para plural." }
+            ],
+            "examples": [
+              { "en": "Where is it?", "es": "¿Dónde está?" },
+              { "en": "How many bathrooms are in the house?", "es": "¿Cuántos baños hay en la casa?" },
+              { "en": "Who are they?", "es": "¿Quiénes son?" }
+            ]
+          }
+        },
+        "writing": {
+          "email_basics": {
+            "formal_greeting": {
+              "en": "Dear Mr. / Ms. + last name,",
+              "es": "Dear Mr. / Ms. + apellido,"
+            },
+            "subject_line": { "en": "Subject: House-share", "es": "Asunto: Compartir casa" },
+            "openers": [
+              { "en": "This email is about your home-share in Burnaby.", "es": "Este correo es sobre tu home-share en Burnaby." }
+            ],
+            "endings": [
+              { "en": "Thank you,", "es": "Gracias," },
+              { "en": "Sincerely,", "es": "Atentamente," }
+            ],
+            "punctuation_rules": [
+              { "en": "Use a question mark (?) at the end of questions.", "es": "Usa ? al final de las preguntas." },
+              { "en": "No space before the question mark.", "es": "No dejes espacio antes del ?." }
+            ]
+          }
+        },
+        "dialogue": {
+          "title": { "en": "Welcome to our apartment", "es": "Bienvenido a nuestro apartamento" },
+          "lines": [
+            {
+              "speaker": "Alina",
+              "en": "Hi! Welcome to my new home. We live in an apartment, not a house.",
+              "es": "¡Hola! Bienvenido a mi nuevo hogar. Vivimos en un apartamento, no en una casa."
+            },
+            {
+              "speaker": "Alina",
+              "en": "This is the living room, with my mom's favorite picture on the wall.",
+              "es": "Esta es la sala, con el cuadro favorito de mi mamá en la pared."
+            },
+            {
+              "speaker": "Alina",
+              "en": "This is my parents' bedroom, and this is my bedroom.",
+              "es": "Este es el dormitorio de mis padres y este es mi dormitorio."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ui_screens": [
+    {
+      "id": "screen_vocab_rooms",
+      "title": { "en": "Rooms in a home", "es": "Cuartos en una casa" },
+      "data_source_path": "unit.lessons[0].vocabulary.rooms_in_a_home",
+      "component_suggestion": "VocabularyList"
+    },
+    {
+      "id": "screen_vocab_furniture",
+      "title": { "en": "Furniture", "es": "Muebles" },
+      "data_source_path": "unit.lessons[1].vocabulary.furniture",
+      "component_suggestion": "VocabularyList"
+    },
+    {
+      "id": "screen_grammar_possessives",
+      "title": { "en": "Possessives", "es": "Posesivos" },
+      "data_source_path": "unit.lessons[0].grammar",
+      "component_suggestion": "GrammarCards"
+    },
+    {
+      "id": "screen_grammar_it_is",
+      "title": { "en": "It is", "es": "It is" },
+      "data_source_path": "unit.lessons[1].grammar.it_is",
+      "component_suggestion": "GrammarCards"
+    },
+    {
+      "id": "screen_practice_prompts",
+      "title": { "en": "Practice", "es": "Práctica" },
+      "data_source_path": "unit.lessons[0].practice_prompts",
+      "component_suggestion": "PromptCards"
+    },
+    {
+      "id": "screen_dialogue",
+      "title": { "en": "Dialogue", "es": "Diálogo" },
+      "data_source_path": "unit.lessons[2].dialogue.lines",
+      "component_suggestion": "DialoguePlayer"
+    }
+  ]
+}

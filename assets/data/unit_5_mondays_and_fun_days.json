@@ -1,0 +1,348 @@
+{
+  "unit": {
+    "id": "unit_5_mondays_and_fun_days",
+    "title": { "en": "Mondays and fun days", "es": "Lunes y días divertidos" },
+    "overview": {
+      "goals": [
+        { "en": "Talk about weekday and weekend activities.", "es": "Hablar de actividades entre semana y fin de semana." },
+        { "en": "Tell the time and talk about routines.", "es": "Decir la hora y hablar de rutinas." },
+        { "en": "Show you agree and have things in common.", "es": "Mostrar acuerdo y cosas en común." },
+        { "en": "Write a report about your activities and routines.", "es": "Escribir un reporte sobre tus actividades y rutinas." }
+      ]
+    },
+    "lessons": [
+      {
+        "id": "u5_l1",
+        "title": { "en": "Play or fast-forward?", "es": "¿Jugar o adelantar rápido?" },
+        "focus": {
+          "vocabulary": ["days", "times_of_day", "everyday_activities", "adverbs_of_frequency"],
+          "grammar": ["simple_present_statements_he_she_they"]
+        },
+        "vocabulary": {
+          "days": [
+            { "en": "Monday", "es": "lunes" },
+            { "en": "Tuesday", "es": "martes" },
+            { "en": "Wednesday", "es": "miércoles" },
+            { "en": "Thursday", "es": "jueves" },
+            { "en": "Friday", "es": "viernes" },
+            { "en": "Saturday", "es": "sábado" },
+            { "en": "Sunday", "es": "domingo" },
+            { "en": "on weekdays", "es": "entre semana" },
+            { "en": "on the weekend", "es": "el fin de semana" }
+          ],
+          "times_of_day": [
+            { "en": "in the morning", "es": "en la mañana" },
+            { "en": "in the afternoon", "es": "en la tarde" },
+            { "en": "in the evening", "es": "en la noche (tarde-noche)" },
+            { "en": "at night", "es": "por la noche (noche tarde)" }
+          ],
+          "everyday_activities": [
+            { "en": "go out", "es": "salir" },
+            { "en": "play soccer", "es": "jugar fútbol" },
+            { "en": "run", "es": "correr" },
+            { "en": "study", "es": "estudiar" },
+            { "en": "work", "es": "trabajar" }
+          ],
+          "adverbs_of_frequency": [
+            { "en": "always", "es": "siempre" },
+            { "en": "usually", "es": "normalmente / usualmente" },
+            { "en": "often", "es": "a menudo" },
+            { "en": "sometimes", "es": "a veces" },
+            { "en": "hardly ever", "es": "casi nunca" },
+            { "en": "never", "es": "nunca" }
+          ]
+        },
+        "grammar": {
+          "simple_present_statements_he_she_they": {
+            "title": {
+              "en": "Simple present statements with he, she, they",
+              "es": "Presente simple (afirmaciones) con he, she, they"
+            },
+            "rules": [
+              {
+                "en": "With he/she, add -s to most verbs.",
+                "es": "Con he/she, agrega -s a la mayoría de verbos."
+              },
+              {
+                "en": "Add -es to verbs ending in -s, -ch, -sh, -x.",
+                "es": "Agrega -es a verbos que terminan en -s, -ch, -sh, -x."
+              },
+              {
+                "en": "If a verb ends in consonant + y, change y to -ies.",
+                "es": "Si termina en consonante + y, cambia y por -ies."
+              },
+              {
+                "en": "With they, do not add -s or -es.",
+                "es": "Con they, no agregues -s ni -es."
+              },
+              {
+                "en": "Negative: he/she doesn't + base verb; they don't + base verb.",
+                "es": "Negativo: he/she doesn't + verbo base; they don't + verbo base."
+              }
+            ],
+            "irregular_verbs": [
+              { "verb": "go", "he_she_it": "goes", "es": "ir" },
+              { "verb": "have", "he_she_it": "has", "es": "tener" }
+            ],
+            "examples": {
+              "affirmative": [
+                { "en": "She cleans in the morning.", "es": "Ella limpia en la mañana." },
+                { "en": "He watches TV.", "es": "Él mira TV." },
+                { "en": "She studies a lot.", "es": "Ella estudia mucho." },
+                { "en": "They take classes during the week.", "es": "Ellos toman clases durante la semana." }
+              ],
+              "negative": [
+                { "en": "She doesn't watch TV.", "es": "Ella no mira TV." },
+                { "en": "They don't go out every night.", "es": "Ellos no salen todas las noches." }
+              ]
+            }
+          },
+          "adverbs_position": {
+            "title": { "en": "Adverbs of frequency position", "es": "Posición de adverbios de frecuencia" },
+            "rules": [
+              { "en": "Put the adverb before the main verb.", "es": "Pon el adverbio antes del verbo principal." },
+              { "en": "With be, put the adverb after be.", "es": "Con be, pon el adverbio después de be." }
+            ],
+            "examples": [
+              { "en": "She sometimes works on Saturday.", "es": "Ella a veces trabaja los sábados." },
+              { "en": "I'm usually at home in the evening.", "es": "Normalmente estoy en casa en la noche." }
+            ]
+          }
+        },
+        "sentence_patterns": [
+          {
+            "id": "schedule_patterns",
+            "label": { "en": "Talking about routines", "es": "Hablar de rutinas" },
+            "templates": [
+              { "en": "On {day}, I {activity}.", "es": "El/Los {day_es}, yo {actividad}." },
+              { "en": "On weekdays, I {activity}.", "es": "Entre semana, yo {actividad}." },
+              { "en": "On the weekend, I {activity}.", "es": "El fin de semana, yo {actividad}." },
+              { "en": "In the {time_of_day}, I {activity}.", "es": "En la {time_of_day_es}, yo {actividad}." },
+              { "en": "I {adverb} {activity}.", "es": "Yo {adverb_es} {actividad}." }
+            ]
+          }
+        ],
+        "practice_prompts": [
+          {
+            "type": "writing",
+            "en": "Complete: On Monday, I… / On the weekend, I… / On weekdays, I… / On Sunday afternoons, I…",
+            "es": "Completa: On Monday, I… / On the weekend, I… / On weekdays, I… / On Sunday afternoons, I…"
+          }
+        ],
+        "reading": {
+          "title": { "en": "Play or fast-forward?", "es": "¿Jugar o adelantar rápido?" },
+          "characters": ["Sam", "Justine"],
+          "summary": {
+            "en": "Sam mixes work and fun every day. Justine works on weekdays and relaxes on weekends.",
+            "es": "Sam mezcla trabajo y diversión todos los días. Justine trabaja entre semana y descansa el fin de semana."
+          }
+        }
+      },
+      {
+        "id": "u5_l2",
+        "title": { "en": "Listen to your body clock", "es": "Escucha tu reloj biológico" },
+        "focus": {
+          "vocabulary": ["telling_the_time", "everyday_activities_routine"],
+          "grammar": ["questions_simple_present"]
+        },
+        "vocabulary": {
+          "telling_the_time": [
+            { "time": "8:00", "en": "It's eight o'clock.", "es": "Son las ocho en punto." },
+            { "time": "5:15", "en": "It's five-fifteen. / It's (a) quarter after five.", "es": "Son las cinco y quince. / Son y cuarto." },
+            { "time": "3:30", "en": "It's three-thirty. / It's half past three.", "es": "Son las tres y treinta. / Son y media." },
+            { "time": "10:45", "en": "It's ten forty-five. / It's (a) quarter to eleven.", "es": "Son las diez y cuarenta y cinco. / Son las once menos cuarto." },
+            { "time": "9:05", "en": "It's nine-oh-five. / It's five after nine.", "es": "Son las nueve y cinco." },
+            { "time": "6:50", "en": "It's six fifty. / It's ten to seven.", "es": "Son las seis y cincuenta. / Son las siete menos diez." },
+            { "time": "12:00", "en": "It's twelve p.m. / It's noon.", "es": "Son las doce p.m. / Es mediodía." },
+            { "time": "00:00", "en": "It's 12:00 a.m. / It's midnight.", "es": "Son las doce a.m. / Es medianoche." }
+          ],
+          "am_pm": [
+            { "en": "a.m. = after midnight and before noon", "es": "a.m. = después de medianoche y antes del mediodía" },
+            { "en": "p.m. = after noon and before midnight", "es": "p.m. = después del mediodía y antes de medianoche" }
+          ],
+          "everyday_activities_routine": [
+            { "en": "get up", "es": "levantarse" },
+            { "en": "drink coffee", "es": "tomar café" },
+            { "en": "eat / have breakfast", "es": "desayunar" },
+            { "en": "eat / have lunch", "es": "almorzar" },
+            { "en": "eat / have dinner", "es": "cenar" },
+            { "en": "go to bed", "es": "acostarse" },
+            { "en": "go to work / class", "es": "ir al trabajo / a clase" }
+          ]
+        },
+        "grammar": {
+          "questions_simple_present": {
+            "title": { "en": "Questions in the simple present", "es": "Preguntas en presente simple" },
+            "rules": [
+              { "en": "Use do with I/you/we/they.", "es": "Usa do con I/you/we/they." },
+              { "en": "Use does with he/she/it.", "es": "Usa does con he/she/it." },
+              { "en": "In information questions, put the question word before do/does.", "es": "En preguntas de información, la palabra (what/when/where) va antes de do/does." }
+            ],
+            "formula": {
+              "yes_no_question": "Do/Does + subject + base verb?",
+              "short_answers": "Yes, subject do/does. / No, subject don't/doesn't.",
+              "wh_question": "Wh-word + do/does + subject + base verb?"
+            },
+            "examples": [
+              { "en": "Do you eat breakfast?", "es": "¿Desayunas?" },
+              { "en": "Yes, I do. / No, I don't.", "es": "Sí. / No." },
+              { "en": "Does your best friend study with you?", "es": "¿Tu mejor amigo/a estudia contigo?" },
+              { "en": "What do you eat for lunch?", "es": "¿Qué comes para el almuerzo?" }
+            ],
+            "common_error": {
+              "incorrect_en": "What you eat for lunch?",
+              "correct_en": "What do you eat for lunch?",
+              "es": "Recuerda usar do/does en preguntas de información."
+            }
+          }
+        },
+        "dialogue": {
+          "title": { "en": "Doctor and Alex", "es": "El doctor y Alex" },
+          "lines": [
+            { "speaker": "Doctor", "en": "What time do you get up?", "es": "¿A qué hora te levantas?" },
+            { "speaker": "Alex", "en": "On weekdays, I usually get up at 7:45.", "es": "Entre semana, normalmente me levanto a las 7:45." },
+            { "speaker": "Doctor", "en": "Do you eat breakfast?", "es": "¿Desayunas?" },
+            { "speaker": "Alex", "en": "No, I don't. But I drink coffee.", "es": "No. Pero tomo café." }
+          ]
+        },
+        "practice_prompts": [
+          {
+            "type": "writing",
+            "en": "Answer: What time do you usually get up? What time do you have lunch? What time do you usually go to bed?",
+            "es": "Responde: ¿A qué hora te levantas? ¿A qué hora almuerzas? ¿A qué hora te acuestas?"
+          }
+        ]
+      },
+      {
+        "id": "u5_l3",
+        "title": { "en": "Me, too", "es": "Yo también" },
+        "focus": {
+          "functional_language": ["agree", "in_common"],
+          "strategy": ["short_answers_with_frequency_adverbs"],
+          "pronunciation": ["syllables"]
+        },
+        "functional_language": {
+          "showing_you_agree": [
+            { "en": "I agree.", "es": "Estoy de acuerdo." },
+            { "en": "That's true.", "es": "Es verdad." },
+            { "en": "That's right.", "es": "Exacto." },
+            { "en": "Yeah, I know.", "es": "Sí, ya sé." }
+          ],
+          "showing_things_in_common": [
+            { "en": "Me, too.", "es": "Yo también." },
+            { "en": "Me, neither.", "es": "Yo tampoco." }
+          ]
+        },
+        "strategy": {
+          "short_answers_with_adverbs": [
+            {
+              "q": { "en": "Do you always run at lunch?", "es": "¿Siempre corres al almuerzo?" },
+              "a": { "en": "Usually.", "es": "Normalmente." }
+            },
+            {
+              "q": { "en": "Do you play basketball?", "es": "¿Juegas básquet?" },
+              "a": { "en": "Hardly ever.", "es": "Casi nunca." }
+            }
+          ]
+        },
+        "practice_prompts": [
+          {
+            "type": "responses",
+            "en": "Respond using: Me, too / Me, neither / That's true / Usually / Hardly ever",
+            "es": "Responde usando: Me, too / Me, neither / That's true / Usually / Hardly ever"
+          }
+        ]
+      },
+      {
+        "id": "u5_l4",
+        "title": { "en": "A happy life", "es": "Una vida feliz" },
+        "focus": {
+          "reading": ["work_rest_play_article"],
+          "writing_skills": ["headings", "lists"],
+          "writing": ["routines_report"]
+        },
+        "writing_skills": {
+          "headings_and_lists": {
+            "rules": [
+              { "en": "Use headings to organize your report.", "es": "Usa títulos para organizar tu reporte." },
+              { "en": "Use numbered lists to list activities.", "es": "Usa listas numeradas para enumerar actividades." }
+            ],
+            "example_report": {
+              "title": { "en": "The \"Good for You\" Report", "es": "Reporte \"Bueno para ti\"" },
+              "sections": [
+                {
+                  "heading": { "en": "Yes! Great for you!", "es": "¡Sí! ¡Genial para ti!" },
+                  "items": [
+                    { "en": "I eat fruit every day.", "es": "Como fruta todos los días." },
+                    { "en": "I run four days a week.", "es": "Corro cuatro días a la semana." }
+                  ]
+                },
+                {
+                  "heading": { "en": "OK. Not good, but not bad", "es": "Ok. No está mal, pero tampoco perfecto" },
+                  "items": [
+                    { "en": "I work at my desk six or seven hours a day.", "es": "Trabajo en mi escritorio seis o siete horas al día." }
+                  ]
+                },
+                {
+                  "heading": { "en": "No! Really bad for you!", "es": "¡No! ¡Muy malo para ti!" },
+                  "items": [
+                    { "en": "I sleep only four hours a night.", "es": "Duermo solo cuatro horas por noche." }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "writing_task": {
+          "prompt": {
+            "en": "Write about your routines. Use headings and numbered lists.",
+            "es": "Escribe sobre tus rutinas. Usa títulos y listas numeradas."
+          },
+          "planning_questions": [
+            { "en": "How many hours do you work or study every day?", "es": "¿Cuántas horas trabajas o estudias cada día?" },
+            { "en": "What do you usually do on Saturdays?", "es": "¿Qué sueles hacer los sábados?" },
+            { "en": "Do you go out with friends on the weekend?", "es": "¿Sales con amigos el fin de semana?" }
+          ]
+        }
+      }
+    ]
+  },
+  "ui_screens": [
+    {
+      "id": "screen_u5_vocab_days_times",
+      "title": { "en": "Days & Times of day", "es": "Días y momentos del día" },
+      "data_source_path": "unit.lessons[0].vocabulary",
+      "component_suggestion": "TabbedVocabulary"
+    },
+    {
+      "id": "screen_u5_grammar_he_she_they",
+      "title": { "en": "Present simple: he/she/they", "es": "Presente simple: he/she/they" },
+      "data_source_path": "unit.lessons[0].grammar.simple_present_statements_he_she_they",
+      "component_suggestion": "GrammarCards"
+    },
+    {
+      "id": "screen_u5_time_telling",
+      "title": { "en": "Telling the time", "es": "Decir la hora" },
+      "data_source_path": "unit.lessons[1].vocabulary.telling_the_time",
+      "component_suggestion": "TimeCards"
+    },
+    {
+      "id": "screen_u5_grammar_questions",
+      "title": { "en": "Questions in simple present", "es": "Preguntas en presente simple" },
+      "data_source_path": "unit.lessons[1].grammar.questions_simple_present",
+      "component_suggestion": "GrammarCards"
+    },
+    {
+      "id": "screen_u5_me_too",
+      "title": { "en": "Me, too", "es": "Yo también" },
+      "data_source_path": "unit.lessons[2].functional_language",
+      "component_suggestion": "ChipsAndExamples"
+    },
+    {
+      "id": "screen_u5_report_writer",
+      "title": { "en": "Write your routine report", "es": "Escribe tu reporte de rutina" },
+      "data_source_path": "unit.lessons[3].writing_skills.headings_and_lists",
+      "component_suggestion": "ReportBuilder"
+    }
+  ]
+}

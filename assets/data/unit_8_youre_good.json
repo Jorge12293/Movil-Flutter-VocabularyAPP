@@ -1,0 +1,276 @@
+{
+  "unit": {
+    "id": "unit_8_youre_good",
+    "title": { "en": "You're good!", "es": "¡Eres bueno/a!" },
+    "overview": {
+      "goals": [
+        { "en": "Talk about abilities (skills) with can/can't and well.", "es": "Hablar de habilidades con can/can't y well." },
+        { "en": "Talk about possibility (what is/isn't allowed or possible) with can/can't.", "es": "Hablar de posibilidad (lo que se puede/no se puede) con can/can't." },
+        { "en": "Ask for and give opinions, and explain ideas (I mean).", "es": "Pedir y dar opiniones, y explicar ideas (I mean)." },
+        { "en": "Write an online comment using quotations.", "es": "Escribir un comentario en línea usando citas (quotations)." }
+      ]
+    },
+    "lessons": [
+      {
+        "id": "u8_l1",
+        "title": {
+          "en": "She likes music, but she can't dance!",
+          "es": "¡A ella le gusta la música, pero no puede bailar!"
+        },
+        "focus": {
+          "vocabulary": ["skills_verbs"],
+          "grammar": ["can_cant_ability", "well_adverb"]
+        },
+        "vocabulary": {
+          "skills_verbs": [
+            { "en": "dance", "es": "bailar" },
+            { "en": "draw", "es": "dibujar" },
+            { "en": "fix things", "es": "arreglar cosas" },
+            { "en": "paint", "es": "pintar" },
+            { "en": "play the guitar", "es": "tocar la guitarra" },
+            { "en": "read music", "es": "leer música (partituras)" },
+            { "en": "sing", "es": "cantar" },
+            { "en": "skateboard", "es": "hacer skate / patinar en tabla" },
+            { "en": "snowboard", "es": "hacer snowboard" },
+            { "en": "speak two languages", "es": "hablar dos idiomas" },
+            { "en": "surf", "es": "surfear" },
+            { "en": "swim", "es": "nadar" }
+          ]
+        },
+        "grammar": {
+          "can_cant_ability": {
+            "title": { "en": "Can / can't for ability", "es": "Can / can't para habilidad" },
+            "rules": [
+              {
+                "en": "Use can to talk about things you know how to do (skills).",
+                "es": "Usa can para hablar de cosas que sabes hacer (habilidades)."
+              },
+              {
+                "en": "Use can't to talk about things you don't know how to do.",
+                "es": "Usa can't para hablar de cosas que no sabes hacer."
+              },
+              {
+                "en": "After can/can't, use the base verb (no -s, no to).",
+                "es": "Después de can/can't usa el verbo base (sin -s y sin to)."
+              }
+            ],
+            "forms": {
+              "affirmative": { "en": "Subject + can + base verb", "es": "Sujeto + can + verbo base" },
+              "negative": { "en": "Subject + can't + base verb", "es": "Sujeto + can't + verbo base" },
+              "question": { "en": "Can + subject + base verb?", "es": "Can + sujeto + verbo base?" },
+              "short_answers": {
+                "en": "Yes, I/you/he/she/they can. / No, I/you/he/she/they can't.",
+                "es": "Yes, I/you/he/she/they can. / No, I/you/he/she/they can't."
+              }
+            },
+            "examples": [
+              { "en": "I can swim.", "es": "Yo puedo nadar." },
+              { "en": "She can't dance.", "es": "Ella no puede bailar." },
+              { "en": "Can you surf?", "es": "¿Puedes surfear?" },
+              { "en": "Yes, I can. / No, I can't.", "es": "Sí, puedo. / No, no puedo." }
+            ]
+          },
+          "well_adverb": {
+            "title": { "en": "Well (adverb of good)", "es": "Well (adverbio de good)" },
+            "rules": [
+              { "en": "Well describes how you do an action.", "es": "Well describe cómo haces una acción." },
+              { "en": "Use (really) well / not very well to show level.", "es": "Usa (really) well / not very well para el nivel." }
+            ],
+            "examples": [
+              { "en": "She can sing well.", "es": "Ella puede cantar bien." },
+              { "en": "I can't dance well.", "es": "Yo no puedo bailar bien." },
+              { "en": "He can play the guitar really well.", "es": "Él puede tocar la guitarra muy bien." },
+              { "en": "I can swim, but not very well.", "es": "Puedo nadar, pero no muy bien." }
+            ]
+          }
+        },
+        "sentence_patterns": [
+          {
+            "id": "ability_statements",
+            "label": { "en": "Talking about abilities", "es": "Hablar de habilidades" },
+            "templates": [
+              { "en": "I can {skill} (really) well.", "es": "Yo puedo {habilidad} (muy) bien." },
+              { "en": "I can't {skill} (very) well.", "es": "Yo no puedo {habilidad} (muy) bien." },
+              { "en": "He/She can {skill}.", "es": "Él/Ella puede {habilidad}." },
+              { "en": "He/She can't {skill}.", "es": "Él/Ella no puede {habilidad}." }
+            ]
+          }
+        ],
+        "practice_prompts": [
+          {
+            "type": "speaking",
+            "en": "Talk about two people you know and what they can and can't do.",
+            "es": "Habla de dos personas que conoces y lo que pueden y no pueden hacer."
+          }
+        ]
+      },
+      {
+        "id": "u8_l2",
+        "title": {
+          "en": "Happy workers are great workers",
+          "es": "Trabajadores felices son grandes trabajadores"
+        },
+        "focus": {
+          "vocabulary": ["work_vocab"],
+          "grammar": ["can_cant_possibility"]
+        },
+        "vocabulary": {
+          "work_vocab": [
+            { "en": "company", "es": "empresa" },
+            { "en": "coworkers", "es": "compañeros de trabajo" },
+            { "en": "have a meeting", "es": "tener una reunión" },
+            { "en": "office", "es": "oficina" },
+            { "en": "take a break", "es": "tomar un descanso" },
+            { "en": "think (of an idea / about a topic)", "es": "pensar (en una idea / sobre un tema)" },
+            { "en": "work hard", "es": "trabajar duro" },
+            { "en": "workers", "es": "trabajadores" }
+          ]
+        },
+        "grammar": {
+          "can_cant_possibility": {
+            "title": { "en": "Can / can't for possibility", "es": "Can / can't para posibilidad" },
+            "use": [
+              { "en": "Use can to talk about what is possible / allowed.", "es": "Usa can para lo que es posible / permitido." },
+              { "en": "Use can't to talk about what is not possible / not allowed.", "es": "Usa can't para lo que no es posible / no permitido." }
+            ],
+            "examples": [
+              { "en": "We can take breaks in my office.", "es": "Podemos tomar descansos en mi oficina." },
+              { "en": "I can't bring my dog to the office.", "es": "No puedo llevar mi perro a la oficina." },
+              { "en": "Can you leave work early?", "es": "¿Puedes salir temprano del trabajo?" },
+              { "en": "What can I bring?", "es": "¿Qué puedo llevar?" }
+            ],
+            "question_words": [
+              { "en": "What can...?", "es": "¿Qué puedo/puede...?" },
+              { "en": "Where can...?", "es": "¿Dónde puedo/puede...?" },
+              { "en": "When can...?", "es": "¿Cuándo puedo/puede...?" },
+              { "en": "How can...?", "es": "¿Cómo puedo/puede...?" },
+              { "en": "Who can...?", "es": "¿Quién puede...?" }
+            ]
+          }
+        },
+        "writing_task": {
+          "en": "Write 60–80 words about your place of work/study using can/can't.",
+          "es": "Escribe 60–80 palabras sobre tu lugar de trabajo/estudio usando can/can't."
+        }
+      },
+      {
+        "id": "u8_l3",
+        "title": { "en": "Are you the right person?", "es": "¿Eres la persona correcta?" },
+        "focus": {
+          "functional_language": ["opinions"],
+          "strategy": ["explain_more"],
+          "pronunciation": ["groups_of_words"]
+        },
+        "functional_language": {
+          "opinions": [
+            { "en": "What do you think?", "es": "¿Qué piensas?" },
+            { "en": "I think...", "es": "Yo pienso que..." },
+            { "en": "In my opinion, ...", "es": "En mi opinión, ..." },
+            { "en": "I agree.", "es": "Estoy de acuerdo." },
+            { "en": "I don't agree.", "es": "No estoy de acuerdo." }
+          ]
+        },
+        "strategy": {
+          "explain_more": {
+            "phrases": [
+              { "en": "I mean, ...", "es": "O sea, ..." },
+              { "en": "For example, ...", "es": "Por ejemplo, ..." }
+            ],
+            "note": {
+              "en": "Use these to explain your idea or give more details.",
+              "es": "Úsalas para explicar tu idea o dar más detalles."
+            }
+          }
+        }
+      },
+      {
+        "id": "u8_l4",
+        "title": { "en": "Computers and our jobs", "es": "Las computadoras y nuestros trabajos" },
+        "focus": {
+          "listening": ["podcast_computers_jobs"],
+          "pronunciation": ["can_vs_cant"],
+          "writing_skill": ["quotations"],
+          "writing": ["online_comment_opinion"]
+        },
+        "writing_skill": {
+          "quotations": {
+            "title": { "en": "Quotations (quotation marks)", "es": "Citas (comillas)" },
+            "rules": [
+              { "en": "Use quotation marks \" \" around another person's words.", "es": "Usa comillas \" \" para palabras de otra persona." },
+              { "en": "Put a comma after says.", "es": "Pon coma después de says." },
+              { "en": "Start the quotation with a capital letter.", "es": "Empieza la cita con mayúscula." },
+              { "en": "The period (.) goes before the quotation marks.", "es": "El punto (.) va antes de las comillas." }
+            ],
+            "examples": [
+              { "en": "Joanna says, \"People make computers.\"", "es": "Joanna dice: \"People make computers.\"" },
+              { "en": "She says, \"They are taking some of our jobs.\"", "es": "Ella dice: \"They are taking some of our jobs.\"" }
+            ]
+          }
+        },
+        "key_quotes_for_use": [
+          { "speaker": "Joanna", "en": "Computers can't think today.", "es": "Las computadoras no pueden pensar hoy." },
+          { "speaker": "Joanna", "en": "They are taking some of our jobs.", "es": "Están tomando algunos de nuestros trabajos." },
+          { "speaker": "Joanna", "en": "There are a lot of new jobs, too.", "es": "También hay muchos trabajos nuevos." }
+        ],
+        "writing_task": {
+          "en": "Write an online comment (~60 words) giving your opinion about computers and jobs. Quote Joanna.",
+          "es": "Escribe un comentario en línea (~60 palabras) con tu opinión sobre computadoras y trabajos. Cita a Joanna."
+        },
+        "model_comment": {
+          "en": "I agree with Joanna Ramos. She says, \"Computers can't think today,\" and I think that's true. Computers can do many jobs, but not everything. They are taking some jobs, but they are also creating new ones. People still make computers and control them, so computers are not a big problem for me.",
+          "es": "Estoy de acuerdo con Joanna Ramos. Ella dice, \"Computers can't think today,\" y creo que eso es verdad. Las computadoras pueden hacer muchos trabajos, pero no todo. Están tomando algunos trabajos, pero también están creando nuevos. La gente todavía hace y controla las computadoras, así que no es un gran problema para mí."
+        }
+      }
+    ]
+  },
+  "ui_screens": [
+    {
+      "id": "screen_u8_skills_vocab",
+      "title": { "en": "Skills: verbs", "es": "Habilidades: verbos" },
+      "data_source_path": "unit.lessons[0].vocabulary.skills_verbs",
+      "component_suggestion": "VocabularyList"
+    },
+    {
+      "id": "screen_u8_can_ability",
+      "title": { "en": "Grammar: can/can't (ability)", "es": "Gramática: can/can't (habilidad)" },
+      "data_source_path": "unit.lessons[0].grammar.can_cant_ability",
+      "component_suggestion": "GrammarCards"
+    },
+    {
+      "id": "screen_u8_well",
+      "title": { "en": "Grammar: well", "es": "Gramática: well" },
+      "data_source_path": "unit.lessons[0].grammar.well_adverb",
+      "component_suggestion": "RuleExamples"
+    },
+    {
+      "id": "screen_u8_work_vocab",
+      "title": { "en": "Work vocabulary", "es": "Vocabulario: trabajo" },
+      "data_source_path": "unit.lessons[1].vocabulary.work_vocab",
+      "component_suggestion": "VocabularyList"
+    },
+    {
+      "id": "screen_u8_can_possibility",
+      "title": { "en": "Grammar: can/can't (possibility)", "es": "Gramática: can/can't (posibilidad)" },
+      "data_source_path": "unit.lessons[1].grammar.can_cant_possibility",
+      "component_suggestion": "GrammarCards"
+    },
+    {
+      "id": "screen_u8_opinions",
+      "title": { "en": "Speaking: opinions", "es": "Hablar: opiniones" },
+      "data_source_path": "unit.lessons[2].functional_language.opinions",
+      "component_suggestion": "ConversationPhrases"
+    },
+    {
+      "id": "screen_u8_quotations",
+      "title": { "en": "Writing: quotations", "es": "Escritura: comillas" },
+      "data_source_path": "unit.lessons[3].writing_skill.quotations",
+      "component_suggestion": "RuleExamples"
+    },
+    {
+      "id": "screen_u8_comment_builder",
+      "title": { "en": "Online comment builder", "es": "Creador de comentario" },
+      "data_source_path": "unit.lessons[3]",
+      "component_suggestion": "WritingComposer"
+    }
+  ]
+}

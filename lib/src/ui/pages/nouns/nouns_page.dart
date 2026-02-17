@@ -38,7 +38,7 @@ class _NounsPageState extends State<NounsPage> {
   @override
   void dispose() {
     final duration = DateTime.now().difference(_startTime);
-    StatisticsManager().saveStudyTime(duration.inSeconds);
+    StatisticsManager().saveStudySession('Nouns', duration.inSeconds);
     searchController.dispose();
     super.dispose();
   }

@@ -1,0 +1,196 @@
+{
+  "englishTenses": [
+    {
+      "time": "present",
+      "aspect": "simple",
+      "tense": { "en": "Present Simple", "es": "Presente simple" },
+      "formula": {
+        "affirmative": "Subject + base verb (+ s/es)",
+        "negative": "Subject + do/does not + base verb",
+        "question": "Do/Does + subject + base verb?"
+      },
+      "keywords": ["routine", "habits", "facts", "always", "usually", "every day"],
+      "examples": {
+        "affirmative": { "en": "She works every day.", "es": "Ella trabaja todos los días." },
+        "negative": { "en": "She doesn't work on Sundays.", "es": "Ella no trabaja los domingos." },
+        "question": { "en": "Does she work every day?", "es": "¿Ella trabaja todos los días?" }
+      }
+    },
+    {
+      "time": "present",
+      "aspect": "continuous",
+      "tense": { "en": "Present Continuous", "es": "Presente continuo" },
+      "formula": {
+        "affirmative": "Subject + am/is/are + verb-ing",
+        "negative": "Subject + am/is/are not + verb-ing",
+        "question": "Am/Is/Are + subject + verb-ing?"
+      },
+      "keywords": ["now", "right now", "at the moment", "temporary", "today"],
+      "examples": {
+        "affirmative": { "en": "She is working now.", "es": "Ella está trabajando ahora." },
+        "negative": { "en": "She isn't working right now.", "es": "Ella no está trabajando ahora." },
+        "question": { "en": "Is she working now?", "es": "¿Ella está trabajando ahora?" }
+      }
+    },
+    {
+      "time": "present",
+      "aspect": "perfect",
+      "tense": { "en": "Present Perfect", "es": "Presente perfecto" },
+      "formula": {
+        "affirmative": "Subject + have/has + past participle",
+        "negative": "Subject + have/has not + past participle",
+        "question": "Have/Has + subject + past participle?"
+      },
+      "keywords": ["already", "yet", "just", "ever", "never", "since", "for"],
+      "examples": {
+        "affirmative": { "en": "She has finished her work.", "es": "Ella ha terminado su trabajo." },
+        "negative": { "en": "She hasn't finished her work yet.", "es": "Ella no ha terminado su trabajo todavía." },
+        "question": { "en": "Has she finished her work?", "es": "¿Ella ha terminado su trabajo?" }
+      }
+    },
+    {
+      "time": "present",
+      "aspect": "perfect_continuous",
+      "tense": { "en": "Present Perfect Continuous", "es": "Presente perfecto continuo" },
+      "formula": {
+        "affirmative": "Subject + have/has been + verb-ing",
+        "negative": "Subject + have/has not been + verb-ing",
+        "question": "Have/Has + subject + been + verb-ing?"
+      },
+      "keywords": ["for", "since", "all day", "recently", "lately"],
+      "examples": {
+        "affirmative": { "en": "She has been working all morning.", "es": "Ella ha estado trabajando toda la mañana." },
+        "negative": { "en": "She hasn't been working lately.", "es": "Ella no ha estado trabajando últimamente." },
+        "question": { "en": "Has she been working all morning?", "es": "¿Ella ha estado trabajando toda la mañana?" }
+      }
+    },
+    {
+      "time": "past",
+      "aspect": "simple",
+      "tense": { "en": "Past Simple", "es": "Pasado simple" },
+      "formula": {
+        "affirmative": "Subject + past verb",
+        "negative": "Subject + did not + base verb",
+        "question": "Did + subject + base verb?"
+      },
+      "keywords": ["yesterday", "last week", "ago", "in 2010", "then"],
+      "examples": {
+        "affirmative": { "en": "She worked yesterday.", "es": "Ella trabajó ayer." },
+        "negative": { "en": "She didn't work yesterday.", "es": "Ella no trabajó ayer." },
+        "question": { "en": "Did she work yesterday?", "es": "¿Ella trabajó ayer?" }
+      }
+    },
+    {
+      "time": "past",
+      "aspect": "continuous",
+      "tense": { "en": "Past Continuous", "es": "Pasado continuo" },
+      "formula": {
+        "affirmative": "Subject + was/were + verb-ing",
+        "negative": "Subject + was/were not + verb-ing",
+        "question": "Was/Were + subject + verb-ing?"
+      },
+      "keywords": ["while", "when", "at 8 PM", "all night"],
+      "examples": {
+        "affirmative": { "en": "She was working at 8 PM.", "es": "Ella estaba trabajando a las 8 PM." },
+        "negative": { "en": "She wasn't working at 8 PM.", "es": "Ella no estaba trabajando a las 8 PM." },
+        "question": { "en": "Was she working at 8 PM?", "es": "¿Ella estaba trabajando a las 8 PM?" }
+      }
+    },
+    {
+      "time": "past",
+      "aspect": "perfect",
+      "tense": { "en": "Past Perfect", "es": "Pasado perfecto" },
+      "formula": {
+        "affirmative": "Subject + had + past participle",
+        "negative": "Subject + had not + past participle",
+        "question": "Had + subject + past participle?"
+      },
+      "keywords": ["before", "after", "by the time", "already"],
+      "examples": {
+        "affirmative": { "en": "She had finished before dinner.", "es": "Ella había terminado antes de la cena." },
+        "negative": { "en": "She hadn't finished before dinner.", "es": "Ella no había terminado antes de la cena." },
+        "question": { "en": "Had she finished before dinner?", "es": "¿Ella había terminado antes de la cena?" }
+      }
+    },
+    {
+      "time": "past",
+      "aspect": "perfect_continuous",
+      "tense": { "en": "Past Perfect Continuous", "es": "Pasado perfecto continuo" },
+      "formula": {
+        "affirmative": "Subject + had been + verb-ing",
+        "negative": "Subject + had not been + verb-ing",
+        "question": "Had + subject + been + verb-ing?"
+      },
+      "keywords": ["for", "since", "before", "by the time"],
+      "examples": {
+        "affirmative": { "en": "She had been working for hours.", "es": "Ella había estado trabajando por horas." },
+        "negative": { "en": "She hadn't been working for long.", "es": "Ella no había estado trabajando por mucho tiempo." },
+        "question": { "en": "Had she been working for hours?", "es": "¿Ella había estado trabajando por horas?" }
+      }
+    },
+    {
+      "time": "future",
+      "aspect": "simple",
+      "tense": { "en": "Future Simple", "es": "Futuro simple" },
+      "formula": {
+        "affirmative": "Subject + will + base verb",
+        "negative": "Subject + will not + base verb",
+        "question": "Will + subject + base verb?"
+      },
+      "keywords": ["tomorrow", "next week", "later", "I think", "probably"],
+      "examples": {
+        "affirmative": { "en": "She will work tomorrow.", "es": "Ella trabajará mañana." },
+        "negative": { "en": "She won't work tomorrow.", "es": "Ella no trabajará mañana." },
+        "question": { "en": "Will she work tomorrow?", "es": "¿Ella trabajará mañana?" }
+      }
+    },
+    {
+      "time": "future",
+      "aspect": "continuous",
+      "tense": { "en": "Future Continuous", "es": "Futuro continuo" },
+      "formula": {
+        "affirmative": "Subject + will be + verb-ing",
+        "negative": "Subject + will not be + verb-ing",
+        "question": "Will + subject + be + verb-ing?"
+      },
+      "keywords": ["at 8 PM tomorrow", "this time next week", "during"],
+      "examples": {
+        "affirmative": { "en": "She will be working at 8 PM.", "es": "Ella estará trabajando a las 8 PM." },
+        "negative": { "en": "She won't be working at 8 PM.", "es": "Ella no estará trabajando a las 8 PM." },
+        "question": { "en": "Will she be working at 8 PM?", "es": "¿Ella estará trabajando a las 8 PM?" }
+      }
+    },
+    {
+      "time": "future",
+      "aspect": "perfect",
+      "tense": { "en": "Future Perfect", "es": "Futuro perfecto" },
+      "formula": {
+        "affirmative": "Subject + will have + past participle",
+        "negative": "Subject + will not have + past participle",
+        "question": "Will + subject + have + past participle?"
+      },
+      "keywords": ["by", "before", "by tomorrow", "by next year"],
+      "examples": {
+        "affirmative": { "en": "She will have finished by tomorrow.", "es": "Ella habrá terminado para mañana." },
+        "negative": { "en": "She won't have finished by tomorrow.", "es": "Ella no habrá terminado para mañana." },
+        "question": { "en": "Will she have finished by tomorrow?", "es": "¿Ella habrá terminado para mañana?" }
+      }
+    },
+    {
+      "time": "future",
+      "aspect": "perfect_continuous",
+      "tense": { "en": "Future Perfect Continuous", "es": "Futuro perfecto continuo" },
+      "formula": {
+        "affirmative": "Subject + will have been + verb-ing",
+        "negative": "Subject + will not have been + verb-ing",
+        "question": "Will + subject + have been + verb-ing?"
+      },
+      "keywords": ["for", "since", "by the time", "by next month"],
+      "examples": {
+        "affirmative": { "en": "She will have been working for 5 hours.", "es": "Ella habrá estado trabajando por 5 horas." },
+        "negative": { "en": "She won't have been working for long.", "es": "Ella no habrá estado trabajando por mucho tiempo." },
+        "question": { "en": "Will she have been working for 5 hours?", "es": "¿Ella habrá estado trabajando por 5 horas?" }
+      }
+    }
+  ]
+}

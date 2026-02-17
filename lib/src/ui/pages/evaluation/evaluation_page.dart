@@ -4,6 +4,7 @@ import 'package:appbasicvocabulary/src/domain/class/adverb_frequency.dart';
 import 'package:appbasicvocabulary/src/domain/class/nouns_class.dart';
 import 'package:appbasicvocabulary/src/domain/class/questions_class.dart';
 import 'package:appbasicvocabulary/src/domain/class/verbs_class.dart';
+import 'package:appbasicvocabulary/src/domain/class/unit_class.dart';
 import 'package:appbasicvocabulary/src/helpers/utils/enums.dart';
 import 'package:appbasicvocabulary/src/helpers/utils/statistics_manager.dart';
 import 'package:flutter/material.dart';
@@ -13,11 +14,13 @@ class EvaluationPage extends StatefulWidget {
   final EvaluationType type;
   final int? id;
   final String title;
+  final List<dynamic>? preLoadedData;
 
   const EvaluationPage({
     required this.type,
     required this.title,
     this.id,
+    this.preLoadedData,
     super.key,
   });
 
@@ -47,19 +50,29 @@ class _EvaluationPageState extends State<EvaluationPage> {
   Future<void> loadData() async {
     setState(() => loading = true);
     
-    switch (widget.type) {
-      case EvaluationType.verb:
-        dataList = await LocalJson.getListVerbs(widget.id ?? 1);
-        break;
-      case EvaluationType.noun:
-        dataList = await LocalJson.getListNouns(widget.id ?? 3);
-        break;
-      case EvaluationType.question:
-        dataList = await LocalJson.getListQuestions();
-        break;
-      case EvaluationType.adverb:
-        dataList = await LocalJson.getListAdverbFrequency();
-        break;
+    if (widget.preLoadedData != null && widget.preLoadedData!.isNotEmpty) {
+      dataList = List.from(widget.preLoadedData!);
+    } else {
+      switch (widget.type) {
+        case EvaluationType.verb:
+          dataList = await LocalJson.getListVerbs(widget.id ?? 1);
+          break;
+        case EvaluationType.noun:
+          dataList = await LocalJson.getListNouns(widget.id ?? 3);
+          break;
+        case EvaluationType.question:
+          dataList = await LocalJson.getListQuestions();
+          break;
+        case EvaluationType.adverb:
+          dataList = await LocalJson.getListAdverbFrequency();
+          break;
+        case EvaluationType.mixed:
+           // Fallback if no preLoadedData is passed for mixed
+           final verbs = await LocalJson.getListVerbs(1);
+           final nouns = await LocalJson.getListNouns(3);
+           dataList = [...verbs, ...nouns];
+           break;
+      }
     }
 
     if (dataList.isNotEmpty) {
@@ -91,11 +104,13 @@ class _EvaluationPageState extends State<EvaluationPage> {
 
     // Add 3 wrong answers
     List<dynamic> allData = List.from(dataList);
+    // Add extra diversity for wrong options if dealing with mixed/small sets
+    // In a real app we might want to fetch more "distractors"
     allData.shuffle();
     for (var item in allData) {
       if (options.length >= 4) break;
       String option = getCorrectAnswer(item);
-      if (!options.contains(option)) {
+      if (!options.contains(option) && option.isNotEmpty) {
         options.add(option);
       }
     }
@@ -109,29 +124,23 @@ class _EvaluationPageState extends State<EvaluationPage> {
   }
 
   String getQuestionText(dynamic item) {
-    switch (widget.type) {
-      case EvaluationType.verb:
-        return (item as Verb).infinitive ?? '';
-      case EvaluationType.noun:
-        return (item as Noun).noun ?? '';
-      case EvaluationType.question:
-        return (item as Questions).interrogativePronoun ?? '';
-      case EvaluationType.adverb:
-        return (item as AdverbFrequency).adverb.en;
-    }
+    if (item is Verb) return item.infinitive ?? '';
+    if (item is Noun) return item.noun ?? '';
+    if (item is Questions) return item.interrogativePronoun ?? '';
+    if (item is AdverbFrequency) return item.adverb.en;
+    if (item is VocabularyItem) return item.en;
+    
+    return '';
   }
 
   String getCorrectAnswer(dynamic item) {
-    switch (widget.type) {
-      case EvaluationType.verb:
-        return (item as Verb).translation ?? '';
-      case EvaluationType.noun:
-        return (item as Noun).translation ?? '';
-      case EvaluationType.question:
-        return (item as Questions).meaning ?? '';
-      case EvaluationType.adverb:
-        return (item as AdverbFrequency).adverb.es;
-    }
+    if (item is Verb) return item.translation ?? '';
+    if (item is Noun) return item.translation ?? '';
+    if (item is Questions) return item.meaning ?? '';
+    if (item is AdverbFrequency) return item.adverb.es;
+    if (item is VocabularyItem) return item.es;
+
+    return '';
   }
 
   void checkAnswer(String option) {

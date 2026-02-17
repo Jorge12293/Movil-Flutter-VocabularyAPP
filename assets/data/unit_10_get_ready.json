@@ -1,0 +1,297 @@
+{
+  "unit": {
+    "id": "unit_10_get_ready",
+    "title": { "en": "Get ready", "es": "Prepárate" },
+    "overview": {
+      "goals": [
+        { "en": "Talk about plans for the future using be going to (statements).", "es": "Hablar de planes futuros usando be going to (afirmaciones/negaciones)." },
+        { "en": "Ask questions about future plans using be going to.", "es": "Hacer preguntas sobre planes futuros con be going to." },
+        { "en": "Make, accept, and refuse suggestions (and say why you can’t).", "es": "Hacer, aceptar y rechazar sugerencias (y decir por qué no puedes)." },
+        { "en": "Write an informal online invitation using contractions.", "es": "Escribir una invitación informal usando contracciones." }
+      ]
+    },
+    "lessons": [
+      {
+        "id": "u10_l1",
+        "title": { "en": "White nights", "es": "Noches blancas" },
+        "focus": { "vocabulary": ["going_out"], "grammar": ["going_to_statements"] },
+        "vocabulary": {
+          "going_out": [
+            { "en": "eat outside", "es": "comer afuera" },
+            { "en": "get together (with friends)", "es": "reunirse (con amigos)" },
+            { "en": "go shopping", "es": "ir de compras" },
+            { "en": "have a picnic", "es": "hacer un picnic" },
+            { "en": "look at (art)", "es": "ver / mirar (arte)" },
+            { "en": "meet (someone at the airport/station)", "es": "encontrarse con alguien (en el aeropuerto/estación)" },
+            { "en": "take a walk", "es": "dar un paseo / caminar" },
+            { "en": "take (someone) out (to dinner/coffee)", "es": "invitar a alguien (a cenar/a tomar café)" }
+          ]
+        },
+        "grammar": {
+          "going_to_statements": {
+            "title": { "en": "Statements with be going to", "es": "Oraciones con be going to" },
+            "use": [
+              { "en": "Use be going to to talk about future plans.", "es": "Usa be going to para hablar de planes futuros." }
+            ],
+            "forms": {
+              "affirmative": {
+                "pattern": "am/is/are + going to + base verb",
+                "examples": [
+                  { "en": "I’m going to meet you at the airport.", "es": "Te voy a encontrar en el aeropuerto." },
+                  { "en": "We’re going to eat outside.", "es": "Vamos a comer afuera." }
+                ]
+              },
+              "negative": {
+                "pattern": "am/is/are + not + going to + base verb",
+                "examples": [
+                  { "en": "I’m not going to be home tonight.", "es": "No voy a estar en casa esta noche." },
+                  { "en": "They aren’t going to travel next weekend.", "es": "Ellos no van a viajar el próximo fin de semana." }
+                ]
+              }
+            },
+            "time_expressions": [
+              "tomorrow",
+              "tonight",
+              "next week / next weekend / next month",
+              "this evening / this week / this weekend",
+              "on Monday / next Monday"
+            ]
+          }
+        },
+        "mini_practice": [
+          {
+            "type": "fill_in",
+            "items": [
+              { "en": "On Friday, I ___ going to meet my friend.", "answer": "am" },
+              { "en": "We ___ going to have a picnic.", "answer": "are" },
+              { "en": "She ___ not going to go shopping.", "answer": "is" }
+            ]
+          },
+          {
+            "type": "speaking_script",
+            "en": "This weekend, I’m going to meet a friend. We’re going to eat outside and take a walk. I’m not going to stay home on Saturday.",
+            "es": "Este fin de semana, voy a encontrarme con un amigo. Vamos a comer afuera y a caminar. No voy a quedarme en casa el sábado."
+          }
+        ]
+      },
+      {
+        "id": "u10_l2",
+        "title": { "en": "But it's summer there!", "es": "¡Pero allá es verano!" },
+        "focus": { "vocabulary": ["seasons", "clothes"], "grammar": ["going_to_questions"] },
+        "vocabulary": {
+          "seasons": [
+            { "en": "spring", "es": "primavera" },
+            { "en": "summer", "es": "verano" },
+            { "en": "fall", "es": "otoño" },
+            { "en": "winter", "es": "invierno" },
+            { "en": "dry season", "es": "estación seca" },
+            { "en": "rainy season", "es": "estación lluviosa" }
+          ],
+          "clothes": [
+            { "en": "boots", "es": "botas" },
+            { "en": "coat", "es": "abrigo" },
+            { "en": "dress", "es": "vestido" },
+            { "en": "hat", "es": "sombrero / gorra" },
+            { "en": "jeans", "es": "jeans" },
+            { "en": "pants", "es": "pantalones" },
+            { "en": "shirt", "es": "camisa" },
+            { "en": "shoes", "es": "zapatos" },
+            { "en": "skirt", "es": "falda" },
+            { "en": "shorts", "es": "shorts" },
+            { "en": "sweater", "es": "suéter" },
+            { "en": "T-shirt", "es": "camiseta" }
+          ]
+        },
+        "grammar": {
+          "going_to_questions": {
+            "title": { "en": "Questions with be going to", "es": "Preguntas con be going to" },
+            "rules": [
+              { "en": "In questions, am/is/are goes before the subject.", "es": "En preguntas, am/is/are va antes del sujeto." },
+              { "en": "Don’t repeat going to in short answers.", "es": "No repitas going to en respuestas cortas." }
+            ],
+            "yes_no": {
+              "patterns": [
+                "Am I going to + verb...?",
+                "Is he/she/it going to + verb...?",
+                "Are you/we/they going to + verb...?"
+              ],
+              "examples": [
+                { "en": "Are you going to take a trip this weekend?", "es": "¿Vas a hacer un viaje este fin de semana?" },
+                { "en": "Is he going to wear a hat?", "es": "¿Él va a usar sombrero/gorra?" }
+              ],
+              "short_answers": [
+                { "en": "Yes, I am. / No, I’m not.", "es": "Sí. / No." },
+                { "en": "Yes, he is. / No, he isn’t.", "es": "Sí. / No." },
+                { "en": "Yes, they are. / No, they aren’t.", "es": "Sí. / No." }
+              ]
+            },
+            "information_questions": {
+              "pattern": "Question word + am/is/are + subject + going to + verb...?",
+              "examples": [
+                { "en": "Where are you going to go?", "es": "¿A dónde vas a ir?" },
+                { "en": "What are you going to wear?", "es": "¿Qué vas a ponerte?" },
+                { "en": "When are you going to leave?", "es": "¿Cuándo vas a salir?" },
+                { "en": "Who are you going to meet?", "es": "¿A quién vas a ver?" }
+              ]
+            }
+          }
+        },
+        "mini_practice": [
+          {
+            "type": "q_and_a",
+            "items": [
+              { "q": "Are you going to travel this weekend?", "a": "No, I’m not. I’m going to work." },
+              { "q": "What are you going to wear in winter?", "a": "I’m going to wear a coat and boots." }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u10_l3",
+        "title": { "en": "Let’s meet at the hotel.", "es": "Reunámonos en el hotel." },
+        "focus": {
+          "functional_language": ["suggestions"],
+          "strategy": ["say_why_cant"],
+          "pronunciation": ["letter_s"]
+        },
+        "functional_language": {
+          "suggestions": {
+            "make": [
+              { "en": "Let’s meet at the hotel.", "es": "Reunámonos en el hotel." },
+              { "en": "Why don’t we eat outside?", "es": "¿Por qué no comemos afuera?" },
+              { "en": "How about a picnic?", "es": "¿Qué tal un picnic?" },
+              { "en": "Do you want to go shopping?", "es": "¿Quieres ir de compras?" }
+            ],
+            "accept": [
+              { "en": "Sounds good.", "es": "Suena bien." },
+              { "en": "Great idea!", "es": "¡Buena idea!" },
+              { "en": "Yes, let’s do that.", "es": "Sí, hagámoslo." }
+            ],
+            "refuse_politely": [
+              { "en": "Sorry, I can’t.", "es": "Lo siento, no puedo." },
+              { "en": "I’d like to, but I can’t.", "es": "Me gustaría, pero no puedo." },
+              { "en": "I’m sorry—I’m busy.", "es": "Lo siento, estoy ocupado/a." }
+            ]
+          }
+        },
+        "strategy": {
+          "say_why_cant": {
+            "title": { "en": "Say why you can’t", "es": "Di por qué no puedes" },
+            "patterns": [
+              { "en": "I can’t because I have to ____.", "es": "No puedo porque tengo que ____." },
+              { "en": "I can’t. I’m going to ____.", "es": "No puedo. Voy a ____." },
+              { "en": "I can’t—I need to ____.", "es": "No puedo—necesito ____." }
+            ],
+            "examples": [
+              { "en": "I’d like to, but I can’t. I have to work.", "es": "Me gustaría, pero no puedo. Tengo que trabajar." },
+              { "en": "Sorry, I can’t. I’m going to meet my family.", "es": "Lo siento, no puedo. Voy a ver a mi familia." }
+            ]
+          }
+        },
+        "pronunciation": {
+          "letter_s": {
+            "note": {
+              "en": "In English, 's' can sound like /s/ or /z/ depending on the word.",
+              "es": "En inglés, la 's' puede sonar /s/ o /z/ según la palabra."
+            }
+          }
+        }
+      },
+      {
+        "id": "u10_l4",
+        "title": { "en": "A 24-hour city", "es": "Una ciudad 24 horas" },
+        "focus": {
+          "listening": ["details_examples"],
+          "pronunciation": ["going_to_gonna"],
+          "writing_skill": ["contractions"],
+          "writing": ["online_invitation"]
+        },
+        "listening_terms": [
+          { "en": "day-and-night city", "es": "ciudad activa día y noche" },
+          { "en": "neighborhood", "es": "barrio / zona" },
+          { "en": "tour", "es": "tour / recorrido" }
+        ],
+        "pronunciation": {
+          "going_to_gonna": {
+            "note": {
+              "en": "In informal speech, people often say 'gonna' for 'going to'.",
+              "es": "En conversaciones informales, muchas personas dicen 'gonna' por 'going to'."
+            },
+            "examples": [
+              { "en": "We’re gonna walk around the Old City.", "es": "Vamos a caminar por el centro histórico." },
+              { "en": "We’re going to go out tonight.", "es": "Vamos a salir esta noche." }
+            ]
+          }
+        },
+        "writing_skill": {
+          "contractions": {
+            "title": { "en": "Contractions (informal)", "es": "Contracciones (informal)" },
+            "pairs": [
+              { "full": "we are", "contracted": "we’re" },
+              { "full": "it is", "contracted": "it’s" },
+              { "full": "you are", "contracted": "you’re" },
+              { "full": "do not", "contracted": "don’t" },
+              { "full": "he is not", "contracted": "he isn’t / he’s not" },
+              { "full": "you are not", "contracted": "you aren’t / you’re not" }
+            ],
+            "rule": {
+              "en": "Use contractions in informal writing (messages, invitations). Use full forms in formal writing.",
+              "es": "Usa contracciones en escritura informal (mensajes, invitaciones). En formal, usa formas completas."
+            }
+          }
+        },
+        "writing_task": {
+          "title": { "en": "Online invitation", "es": "Invitación en línea" },
+          "must_include": [
+            { "en": "Event name + host", "es": "Nombre del evento + anfitrión" },
+            { "en": "When / Where / Meet time & place", "es": "Cuándo / Dónde / Hora y lugar de encuentro" },
+            { "en": "Plans using be going to", "es": "Planes usando be going to" },
+            { "en": "Use contractions (we’re, it’s, don’t, you’re)", "es": "Usar contracciones (we’re, it’s, don’t, you’re)" }
+          ],
+          "model_invitation": {
+            "en": "Montevideo Nights! It’s a city that never sleeps. We’re going to meet at Hotel Central on Friday at 9:30 p.m. Don’t be late! We’re going to eat at a nice restaurant, then we’re going to go dancing. In the morning, we’re going to watch the sunrise and take a walk by the ocean. You’re going to love it!",
+            "es": "¡Noches en Montevideo! Es una ciudad que nunca duerme. Vamos a reunirnos en el Hotel Central el viernes a las 9:30 p.m. ¡No llegues tarde! Vamos a comer en un buen restaurante y luego vamos a ir a bailar. En la mañana, vamos a ver el amanecer y a caminar junto al océano. ¡Te va a encantar!"
+          }
+        }
+      }
+    ]
+  },
+  "ui_screens": [
+    {
+      "id": "screen_u10_going_out_vocab",
+      "title": { "en": "Going out vocabulary", "es": "Vocabulario: salir" },
+      "data_source_path": "unit.lessons[0].vocabulary.going_out",
+      "component_suggestion": "VocabularyList"
+    },
+    {
+      "id": "screen_u10_going_to_statements",
+      "title": { "en": "Grammar: be going to (statements)", "es": "Gramática: be going to (oraciones)" },
+      "data_source_path": "unit.lessons[0].grammar.going_to_statements",
+      "component_suggestion": "RuleExamples"
+    },
+    {
+      "id": "screen_u10_seasons_clothes",
+      "title": { "en": "Seasons & clothes", "es": "Estaciones y ropa" },
+      "data_source_path": "unit.lessons[1].vocabulary",
+      "component_suggestion": "TabbedVocabulary"
+    },
+    {
+      "id": "screen_u10_going_to_questions",
+      "title": { "en": "Grammar: be going to (questions)", "es": "Gramática: be going to (preguntas)" },
+      "data_source_path": "unit.lessons[1].grammar.going_to_questions",
+      "component_suggestion": "GrammarCards"
+    },
+    {
+      "id": "screen_u10_suggestions",
+      "title": { "en": "Make & respond to suggestions", "es": "Hacer y responder sugerencias" },
+      "data_source_path": "unit.lessons[2].functional_language.suggestions",
+      "component_suggestion": "DialoguePractice"
+    },
+    {
+      "id": "screen_u10_contractions_invite",
+      "title": { "en": "Contractions + Invitation builder", "es": "Contracciones + Creador de invitación" },
+      "data_source_path": "unit.lessons[3]",
+      "component_suggestion": "WritingComposer"
+    }
+  ]
+}

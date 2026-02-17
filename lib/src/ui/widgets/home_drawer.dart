@@ -6,6 +6,18 @@ import 'package:appbasicvocabulary/src/ui/pages/adverb_frequency/adverb_frequenc
 import 'package:appbasicvocabulary/src/ui/pages/nouns/nouns_page.dart';
 import 'package:appbasicvocabulary/src/ui/pages/profile/profile_page.dart';
 import 'package:appbasicvocabulary/src/ui/pages/questions/questions_page.dart';
+import 'package:appbasicvocabulary/src/ui/pages/tenses/tenses_page.dart';
+import 'package:appbasicvocabulary/src/ui/pages/unit/unit_12_stop_eat_go_page.dart';
+import 'package:appbasicvocabulary/src/ui/pages/unit/unit_11_colorful_memories_page.dart';
+import 'package:appbasicvocabulary/src/ui/pages/unit/unit_10_get_ready_page.dart';
+import 'package:appbasicvocabulary/src/ui/pages/unit/unit_9_places_to_go_page.dart';
+import 'package:appbasicvocabulary/src/ui/pages/unit/unit_8_youre_good_page.dart';
+import 'package:appbasicvocabulary/src/ui/pages/unit/unit_7_now_is_good_page.dart';
+import 'package:appbasicvocabulary/src/ui/pages/unit/unit_6_zoom_in_zoom_out_page.dart';
+import 'package:appbasicvocabulary/src/ui/pages/unit/unit_5_mondays_and_fun_days_page.dart';
+import 'package:appbasicvocabulary/src/ui/pages/unit/unit_4_i_love_it_page.dart';
+import 'package:appbasicvocabulary/src/ui/pages/unit/unit_3_come_in_page.dart';
+
 import 'package:appbasicvocabulary/src/ui/pages/verbs/verbs_page.dart';
 import 'package:appbasicvocabulary/src/ui/pages/login/login_page.dart';
 import 'package:flutter/material.dart';
@@ -58,6 +70,71 @@ class _HomeDrawerState extends State<HomeDrawer> {
       Navigator.push(
         context,
         MaterialPageRoute(builder: (context) => AdverbFrequencyPage(title: title)),
+      );
+    } else if (id == 7) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => TensesPage(title: title)),
+      );
+    } else if (id == 8) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+            builder: (context) => Unit3ComeInPage(title: title)),
+      );
+    } else if (id == 9) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+            builder: (context) => Unit4ILoveItPage(title: title)),
+      );
+    } else if (id == 10) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+            builder: (context) => Unit5MondaysAndFunDaysPage(title: title)),
+      );
+    } else if (id == 11) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+            builder: (context) => Unit6ZoomInZoomOutPage(title: title)),
+      );
+    } else if (id == 12) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+            builder: (context) => Unit7NowIsGoodPage(title: title)),
+      );
+    } else if (id == 13) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+            builder: (context) => Unit8YoureGoodPage(title: title)),
+      );
+    } else if (id == 14) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+            builder: (context) => Unit9PlacesToGoPage(title: title)),
+      );
+    } else if (id == 15) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+            builder: (context) => Unit10GetReadyPage(title: title)),
+      );
+    } else if (id == 16) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+            builder: (context) => Unit11ColorfulMemoriesPage(title: title)),
+      );
+    } else if (id == 17) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+            builder: (context) => Unit12StopEatGoPage(title: title)),
       );
     }
   }
@@ -149,35 +226,73 @@ class _HomeDrawerState extends State<HomeDrawer> {
             ),
           ),
           Expanded(
-            child: ListView.builder(
+            child: ListView(
               padding: EdgeInsets.zero,
-              itemCount: MenuOptions.list.length,
-              itemBuilder: (context, index) {
-                final option = MenuOptions.list[index];
-                return FadeInLeft(
-                  delay: Duration(milliseconds: index * 200),
-                  duration: const Duration(milliseconds: 500),
-                  child: ListTile(
-                    leading: Icon(
-                      option['icon'] as IconData,
-                      color: option['color'] as Color,
+              children: [
+                ExpansionTile(
+                  leading: Icon(Icons.category, color: theme.primaryColor),
+                  title: Text(
+                    'Temas',
+                    style: GoogleFonts.poppins(
+                      fontWeight: FontWeight.w600,
+                      color: theme.textTheme.bodyLarge?.color,
                     ),
-                    title: Text(
-                      option['title'] as String,
-                      style: GoogleFonts.poppins(
-                        fontWeight: FontWeight.w500,
-                        color: theme.textTheme.bodyLarge?.color,
-                      ),
-                    ),
-                    onTap: () => _navigateToPage(context, option['id'], option['title']),
                   ),
-                );
-              },
+                  children: MenuOptions.topics.map((option) {
+                    return ListTile(
+                      contentPadding: const EdgeInsets.only(left: 32, right: 16),
+                      leading: Icon(
+                        option['icon'] as IconData,
+                        color: option['color'] as Color,
+                        size: 20,
+                      ),
+                      title: Text(
+                        option['title'] as String,
+                        style: GoogleFonts.poppins(
+                          fontSize: 14,
+                          color: theme.textTheme.bodyMedium?.color,
+                        ),
+                      ),
+                      onTap: () => _navigateToPage(
+                          context, option['id'], option['title']),
+                    );
+                  }).toList(),
+                ),
+                ExpansionTile(
+                  leading: Icon(Icons.school, color: theme.primaryColor),
+                  title: Text(
+                    'Unidades',
+                    style: GoogleFonts.poppins(
+                      fontWeight: FontWeight.w600,
+                      color: theme.textTheme.bodyLarge?.color,
+                    ),
+                  ),
+                  children: MenuOptions.units.map((option) {
+                    return ListTile(
+                      contentPadding: const EdgeInsets.only(left: 32, right: 16),
+                      leading: Icon(
+                        option['icon'] as IconData,
+                        color: option['color'] as Color,
+                        size: 20,
+                      ),
+                      title: Text(
+                        option['title'] as String,
+                        style: GoogleFonts.poppins(
+                          fontSize: 14,
+                          color: theme.textTheme.bodyMedium?.color,
+                        ),
+                      ),
+                      onTap: () => _navigateToPage(
+                          context, option['id'], option['title']),
+                    );
+                  }).toList(),
+                ),
+              ],
             ),
           ),
           Divider(color: theme.dividerColor),
-          FadeInLeft(
-            delay: Duration(milliseconds: MenuOptions.list.length * 200),
+          FadeInUp(
+            delay: const Duration(milliseconds: 200),
             duration: const Duration(milliseconds: 500),
             child: ListTile(
               leading: Icon(Icons.settings, color: theme.primaryColor),
@@ -197,8 +312,8 @@ class _HomeDrawerState extends State<HomeDrawer> {
               },
             ),
           ),
-          FadeInLeft(
-            delay: Duration(milliseconds: (MenuOptions.list.length + 1) * 200),
+          FadeInUp(
+            delay: const Duration(milliseconds: 400),
             duration: const Duration(milliseconds: 500),
             child: ListTile(
               leading: Icon(Icons.exit_to_app, color: theme.iconTheme.color),

@@ -41,7 +41,7 @@ class _QuestionsPageState extends State<QuestionsPage> {
   @override
   void dispose() {
     final duration = DateTime.now().difference(_startTime);
-    StatisticsManager().saveStudyTime(duration.inSeconds);
+    StatisticsManager().saveStudySession('Questions', duration.inSeconds);
     super.dispose();
   }
 

@@ -1,6 +1,8 @@
 
+import '../../domain/class/english_tense_class.dart';
 import '../../domain/class/nouns_class.dart';
 import '../../domain/class/questions_class.dart';
+import '../../domain/class/unit_class.dart';
 import '../../domain/class/verbs_class.dart';
 import '../../domain/class/adverb_frequency.dart';
 
@@ -51,5 +53,71 @@ class LocalJson {
     String responseJson = await rootBundle.loadString('assets/data/adverb_frequency.json');
     listAdverbFrequency = apiAdverbFrequencyFromJson(responseJson).listAdverbFrequency;
     return listAdverbFrequency;
+  }
+
+  static Future<List<EnglishTense>> getListEnglishTenses() async {
+    String responseJson = await rootBundle.loadString('assets/data/english_tenses.json');
+    ApiEnglishTenses apiTenses = apiEnglishTensesFromJson(responseJson);
+    return apiTenses.englishTenses;
+  }
+
+  static Future<ApiUnit> getUnit3ComeIn() async {
+    String responseJson = await rootBundle.loadString('assets/data/unit_3_come_in.json');
+    ApiUnit apiUnit = apiUnitFromJson(responseJson);
+    return apiUnit;
+  }
+
+  static Future<ApiUnit> getUnit4ILoveIt() async {
+    String responseJson = await rootBundle.loadString('assets/data/unit_4_i_love_it.json');
+    ApiUnit apiUnit = apiUnitFromJson(responseJson);
+    return apiUnit;
+  }
+
+  static Future<ApiUnit> getUnit5MondaysAndFunDays() async {
+    String responseJson = await rootBundle.loadString('assets/data/unit_5_mondays_and_fun_days.json');
+    ApiUnit apiUnit = apiUnitFromJson(responseJson);
+    return apiUnit;
+  }
+
+  static Future<ApiUnit> getUnit6ZoomInZoomOut() async {
+    String responseJson = await rootBundle.loadString('assets/data/unit_6_zoom_in_zoom_out.json');
+    ApiUnit apiUnit = apiUnitFromJson(responseJson);
+    return apiUnit;
+  }
+
+  static Future<ApiUnit> getUnit7NowIsGood() async {
+    String responseJson = await rootBundle.loadString('assets/data/unit_7_now_is_good.json');
+    ApiUnit apiUnit = apiUnitFromJson(responseJson);
+    return apiUnit;
+  }
+
+  static Future<ApiUnit> getUnit8YoureGood() async {
+    String responseJson = await rootBundle.loadString('assets/data/unit_8_youre_good.json');
+    ApiUnit apiUnit = apiUnitFromJson(responseJson);
+    return apiUnit;
+  }
+
+  static Future<ApiUnit> getUnit9PlacesToGo() async {
+    String responseJson = await rootBundle.loadString('assets/data/unit_9_places_to_go.json');
+    ApiUnit apiUnit = apiUnitFromJson(responseJson);
+    return apiUnit;
+  }
+
+  static Future<ApiUnit> getUnit10GetReady() async {
+    String responseJson = await rootBundle.loadString('assets/data/unit_10_get_ready.json');
+    ApiUnit apiUnit = apiUnitFromJson(responseJson);
+    return apiUnit;
+  }
+
+  static Future<ApiUnit> getUnit11ColorfulMemories() async {
+    String responseJson = await rootBundle.loadString('assets/data/unit_11_colorful_memories.json');
+    ApiUnit apiUnit = apiUnitFromJson(responseJson);
+    return apiUnit;
+  }
+
+  static Future<ApiUnit> getUnit12StopEatGo() async {
+    String responseJson = await rootBundle.loadString('assets/data/unit_12_stop_eat_go.json');
+    ApiUnit apiUnit = apiUnitFromJson(responseJson);
+    return apiUnit;
   }
 }

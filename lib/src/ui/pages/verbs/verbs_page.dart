@@ -39,7 +39,7 @@ class _VerbsPageState extends State<VerbsPage> {
   @override
   void dispose() {
     final duration = DateTime.now().difference(_startTime);
-    StatisticsManager().saveStudyTime(duration.inSeconds);
+    StatisticsManager().saveStudySession('Verbs', duration.inSeconds);
     searchController.dispose();
     super.dispose();
   }

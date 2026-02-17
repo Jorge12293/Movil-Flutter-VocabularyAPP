@@ -1,0 +1,295 @@
+{
+  "unit": {
+    "id": "unit_7_now_is_good",
+    "title": { "en": "Now is good", "es": "Ahora está bien" },
+    "overview": {
+      "goals": [
+        { "en": "Talk about things happening now.", "es": "Hablar de cosas que están pasando ahora." },
+        { "en": "Use the present continuous in statements and questions.", "es": "Usar el presente continuo en afirmaciones y preguntas." },
+        { "en": "Talk about transportation while you’re moving.", "es": "Hablar de transporte mientras te mueves." },
+        { "en": "Write a short blog post about what’s happening now (also/too).", "es": "Escribir un blog corto sobre lo que pasa ahora (also/too)." }
+      ]
+    },
+    "lessons": [
+      {
+        "id": "u7_l1",
+        "title": { "en": "A good time to call", "es": "Un buen momento para llamar" },
+        "focus": {
+          "vocabulary": ["activities_around_the_house"],
+          "grammar": ["present_continuous_statements", "spelling_ing_rules"]
+        },
+        "vocabulary": {
+          "activities_around_the_house": [
+            { "en": "brush my hair", "es": "cepillarme el cabello" },
+            { "en": "brush my teeth", "es": "cepillarme los dientes" },
+            { "en": "clean the kitchen", "es": "limpiar la cocina" },
+            { "en": "clean my room", "es": "limpiar mi cuarto" },
+            { "en": "cook breakfast", "es": "cocinar el desayuno" },
+            { "en": "cook dinner", "es": "cocinar la cena" },
+            { "en": "do the dishes", "es": "lavar los platos" },
+            { "en": "do my homework", "es": "hacer mi tarea" },
+            { "en": "help somebody with something", "es": "ayudar a alguien con algo" },
+            { "en": "take a bath", "es": "tomar un baño" },
+            { "en": "take a shower", "es": "tomar una ducha" },
+            { "en": "wash my hair", "es": "lavarme el cabello" }
+          ]
+        },
+        "grammar": {
+          "present_continuous_statements": {
+            "title": { "en": "Present continuous statements", "es": "Afirmaciones en presente continuo" },
+            "use": [
+              {
+                "en": "Use it for things happening right now.",
+                "es": "Úsalo para cosas que están pasando ahora mismo."
+              },
+              {
+                "en": "Use it for things happening around now (these days / this year).",
+                "es": "Úsalo para cosas que están pasando “por estos días” (este año / estos días)."
+              }
+            ],
+            "form": {
+              "affirmative": { "en": "am/is/are + verb-ing", "es": "am/is/are + verbo-ing" },
+              "negative": { "en": "am/is/are + not + verb-ing", "es": "am/is/are + not + verbo-ing" }
+            },
+            "examples": [
+              { "en": "I'm cooking breakfast right now.", "es": "Estoy cocinando el desayuno ahora mismo." },
+              { "en": "They're not doing the dishes.", "es": "Ellos no están lavando los platos." },
+              { "en": "I'm learning a lot of English this year.", "es": "Estoy aprendiendo mucho inglés este año." }
+            ]
+          },
+          "spelling_ing_rules": {
+            "title": { "en": "Spelling changes with -ing", "es": "Cambios de ortografía con -ing" },
+            "rules": [
+              {
+                "en": "CVC (one syllable): double the last consonant + -ing (stop → stopping).",
+                "es": "CVC (una sílaba): duplica la última consonante + -ing (stop → stopping)."
+              },
+              {
+                "en": "Ends in -e: drop -e + -ing (take → taking).",
+                "es": "Termina en -e: quita la -e + -ing (take → taking)."
+              }
+            ],
+            "examples": [
+              { "en": "put → putting", "es": "put → putting" },
+              { "en": "stop → stopping", "es": "stop → stopping" },
+              { "en": "come → coming", "es": "come → coming" },
+              { "en": "take → taking", "es": "take → taking" }
+            ]
+          }
+        },
+        "sentence_patterns": [
+          {
+            "id": "present_continuous_house",
+            "label": { "en": "Talking about what people are doing now", "es": "Decir qué están haciendo ahora" },
+            "templates": [
+              { "en": "I'm {verb_ing} right now.", "es": "Estoy {verbo_ando_endo} ahora mismo." },
+              { "en": "He/She is {verb_ing}.", "es": "Él/Ella está {verbo_ando_endo}." },
+              { "en": "They are {verb_ing}.", "es": "Ellos/Ellas están {verbo_ando_endo}." },
+              { "en": "I'm not {verb_ing}.", "es": "No estoy {verbo_ando_endo}." },
+              { "en": "He/She isn't {verb_ing}.", "es": "Él/Ella no está {verbo_ando_endo}." },
+              { "en": "They aren't {verb_ing}.", "es": "Ellos/Ellas no están {verbo_ando_endo}." }
+            ]
+          }
+        ],
+        "practice_prompts": [
+          {
+            "type": "speaking",
+            "en": "Imagine your family is at home and busy. Say what everyone is doing now.",
+            "es": "Imagina que tu familia está en casa y ocupada. Di qué está haciendo cada uno ahora."
+          }
+        ]
+      },
+      {
+        "id": "u7_l2",
+        "title": { "en": "Texting on the run", "es": "Mensajes mientras vas en camino" },
+        "focus": {
+          "vocabulary": ["transportation"],
+          "grammar": ["present_continuous_questions"]
+        },
+        "vocabulary": {
+          "transportation": [
+            { "en": "bus", "es": "autobús / bus" },
+            { "en": "subway", "es": "metro" },
+            { "en": "train", "es": "tren" },
+            { "en": "be at the bus stop", "es": "estar en la parada de bus" },
+            { "en": "be at the train station", "es": "estar en la estación de tren" },
+            { "en": "be at the subway station", "es": "estar en la estación de metro" },
+            { "en": "be on the bus", "es": "estar en el bus" },
+            { "en": "be on the train", "es": "estar en el tren" },
+            { "en": "be on the subway", "es": "estar en el metro" },
+            { "en": "take the bus", "es": "tomar el bus" },
+            { "en": "take the train", "es": "tomar el tren" },
+            { "en": "take the subway", "es": "tomar el metro" },
+            { "en": "carry (a bag / your books)", "es": "cargar / llevar (una bolsa / tus libros)" },
+            { "en": "drive (your car)", "es": "conducir (tu carro)" },
+            { "en": "go (to work / to a friend's house)", "es": "ir (al trabajo / a la casa de un amigo)" },
+            { "en": "ride a bike", "es": "ir en bicicleta / montar bicicleta" },
+            { "en": "wait (for the bus)", "es": "esperar (el bus)" },
+            { "en": "walk", "es": "caminar" }
+          ]
+        },
+        "grammar": {
+          "present_continuous_questions": {
+            "title": { "en": "Present continuous questions", "es": "Preguntas en presente continuo" },
+            "yes_no_form": [
+              { "en": "Are + you/we/they + verb-ing?", "es": "Are + you/we/they + verbo-ing?" },
+              { "en": "Is + he/she/it + verb-ing?", "es": "Is + he/she/it + verbo-ing?" },
+              { "en": "Am + I + verb-ing?", "es": "Am + I + verbo-ing?" }
+            ],
+            "wh_form": [
+              {
+                "en": "Question word + am/is/are + subject + verb-ing?",
+                "es": "Palabra pregunta + am/is/are + sujeto + verbo-ing?"
+              }
+            ],
+            "short_answers": [
+              { "en": "Yes, I am. / No, I'm not.", "es": "Sí, sí. / No, no." },
+              { "en": "Yes, he is. / No, he isn't.", "es": "Sí, él sí. / No, él no." },
+              { "en": "Yes, they are. / No, they aren't.", "es": "Sí, ellos sí. / No, ellos no." }
+            ],
+            "examples": [
+              { "en": "Are you waiting inside?", "es": "¿Estás esperando adentro?" },
+              { "en": "Is she working late again?", "es": "¿Ella está trabajando tarde otra vez?" },
+              { "en": "Am I at the right movie theater?", "es": "¿Estoy en el cine correcto?" },
+              { "en": "Where is Mom meeting us?", "es": "¿Dónde nos está encontrando mamá?" }
+            ]
+          }
+        },
+        "conversation_templates": [
+          {
+            "id": "text_conversation_where_are_you",
+            "label": { "en": "Text messages: Where are you?", "es": "Mensajes: ¿Dónde estás?" },
+            "turns": [
+              { "en": "Where are you right now?", "es": "¿Dónde estás ahora mismo?" },
+              { "en": "I'm at the {place}.", "es": "Estoy en {place_es}." },
+              { "en": "What are you doing?", "es": "¿Qué estás haciendo?" },
+              { "en": "I'm {verb_ing}.", "es": "Estoy {verbo_ando_endo}." },
+              { "en": "Where are you going?", "es": "¿A dónde vas?" },
+              { "en": "I'm going to {destination}.", "es": "Estoy yendo a {destino}." }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "u7_l3",
+        "title": { "en": "A new life", "es": "Una nueva vida" },
+        "focus": {
+          "functional_language": ["sharing_news_on_phone"],
+          "strategy": ["reacting_to_news"],
+          "pronunciation": ["ing_ending"]
+        },
+        "functional_language": {
+          "sharing_news_on_phone": [
+            { "en": "I have news.", "es": "Tengo noticias." },
+            { "en": "Guess what?", "es": "¿Adivina qué?" },
+            { "en": "I'm calling to tell you something.", "es": "Te llamo para contarte algo." },
+            { "en": "Are you busy? Is this a good time to call?", "es": "¿Estás ocupado/a? ¿Es buen momento para llamar?" }
+          ],
+          "reacting_to_news": [
+            { "en": "Really?", "es": "¿En serio?" },
+            { "en": "Wow!", "es": "¡Guau!" },
+            { "en": "That's great!", "es": "¡Qué bien!" },
+            { "en": "Oh no!", "es": "¡Oh no!" },
+            { "en": "Congratulations!", "es": "¡Felicidades!" }
+          ]
+        }
+      },
+      {
+        "id": "u7_l4",
+        "title": { "en": "Chaos!", "es": "¡Caos!" },
+        "focus": {
+          "reading": ["blog_post"],
+          "writing_skill": ["also_too"],
+          "writing": ["blog_about_now"]
+        },
+        "writing_skill": {
+          "also_too": {
+            "title": { "en": "Also and too", "es": "Also y too" },
+            "rules": [
+              { "en": "Use also at the beginning of a sentence.", "es": "Usa also al inicio de la oración." },
+              { "en": "Use too at the end of a sentence.", "es": "Usa too al final de la oración." },
+              { "en": "Use a comma (,) after also.", "es": "Usa coma (,) después de also." },
+              { "en": "Use a comma (,) before too.", "es": "Usa coma (,) antes de too." }
+            ],
+            "examples": [
+              { "en": "Also, the children are eating cookies.", "es": "Además, los niños están comiendo galletas." },
+              { "en": "They’re busy, too.", "es": "Ellos están ocupados, también." }
+            ]
+          }
+        },
+        "blog_examples": [
+          {
+            "id": "jamies_blog",
+            "title": { "en": "Jamie's blog (summary)", "es": "Blog de Jamie (resumen)" },
+            "key_sentences": [
+              { "en": "I'm writing from my living room.", "es": "Estoy escribiendo desde mi sala." },
+              { "en": "My brother's playing soccer.", "es": "Mi hermano está jugando fútbol." },
+              { "en": "My sister's doing her homework.", "es": "Mi hermana está haciendo su tarea." },
+              { "en": "My mom's talking on the phone.", "es": "Mi mamá está hablando por teléfono." },
+              { "en": "The cat is walking on my laptop!", "es": "¡El gato está caminando sobre mi laptop!" }
+            ]
+          },
+          {
+            "id": "jodis_blog",
+            "title": { "en": "Jodi's blog (summary)", "es": "Blog de Jodi (resumen)" },
+            "key_sentences": [
+              { "en": "I'm writing my blog on a school bus.", "es": "Estoy escribiendo mi blog en un bus escolar." },
+              { "en": "Some kids are listening to music.", "es": "Algunos niños están escuchando música." },
+              { "en": "Three boys are playing games on a tablet.", "es": "Tres niños están jugando en una tablet." },
+              { "en": "Also, the children are eating cookies.", "es": "Además, los niños están comiendo galletas." },
+              { "en": "The teacher is happy, too.", "es": "La profesora está feliz, también." }
+            ]
+          }
+        ],
+        "writing_prompt": {
+          "en": "Write a short blog post about a busy place. Describe at least five people/groups and what they're doing now. Use also and too.",
+          "es": "Escribe un blog corto sobre un lugar muy ocupado. Describe al menos cinco personas/grupos y qué están haciendo ahora. Usa also y too."
+        }
+      }
+    ]
+  },
+  "ui_screens": [
+    {
+      "id": "screen_u7_house_vocab",
+      "title": { "en": "House activities", "es": "Actividades en casa" },
+      "data_source_path": "unit.lessons[0].vocabulary.activities_around_the_house",
+      "component_suggestion": "VocabularyList"
+    },
+    {
+      "id": "screen_u7_present_continuous_statements",
+      "title": { "en": "Present continuous: statements", "es": "Presente continuo: afirmaciones" },
+      "data_source_path": "unit.lessons[0].grammar.present_continuous_statements",
+      "component_suggestion": "GrammarCards"
+    },
+    {
+      "id": "screen_u7_transport_vocab",
+      "title": { "en": "Transportation", "es": "Transporte" },
+      "data_source_path": "unit.lessons[1].vocabulary.transportation",
+      "component_suggestion": "VocabularyList"
+    },
+    {
+      "id": "screen_u7_present_continuous_questions",
+      "title": { "en": "Present continuous: questions", "es": "Presente continuo: preguntas" },
+      "data_source_path": "unit.lessons[1].grammar.present_continuous_questions",
+      "component_suggestion": "GrammarCards"
+    },
+    {
+      "id": "screen_u7_phone_news",
+      "title": { "en": "Sharing news on the phone", "es": "Compartir noticias por teléfono" },
+      "data_source_path": "unit.lessons[2].functional_language",
+      "component_suggestion": "DialogueBuilder"
+    },
+    {
+      "id": "screen_u7_blog_also_too",
+      "title": { "en": "Writing: also & too", "es": "Escritura: also & too" },
+      "data_source_path": "unit.lessons[3].writing_skill.also_too",
+      "component_suggestion": "RuleExamples"
+    },
+    {
+      "id": "screen_u7_blog_builder",
+      "title": { "en": "Blog builder", "es": "Creador de blog" },
+      "data_source_path": "unit.lessons[3].writing_prompt",
+      "component_suggestion": "WritingComposer"
+    }
+  ]
+}
